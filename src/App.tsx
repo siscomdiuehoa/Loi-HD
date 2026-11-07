@@ -8,8 +8,11 @@ import { LiquidSensorScreen } from './screens/LiquidSensorScreen';
 import { LiquidBottomSheet } from './components/liquid/LiquidBottomSheet';
 import { LiquidThemeModal } from './components/liquid/LiquidThemeModal';
 import { useThemeStore } from './store/useThemeStore';
+import { WelcomeScreen } from './screens/WelcomeScreen';
+import { SettingsScreen } from './screens/SettingsScreen';
 
 export function App() {
+  const [hasEntered, setHasEntered] = useState(() => localStorage.getItem('hvac_guest_entered') === 'yes');
   const [activeTab, setActiveTab] = useState<LiquidTab>('home');
   const [selectedBrand, setSelectedBrand] = useState<Brand | null>(null);
   const { themeMode, bgGradient, isDarkMode, setThemeMode } = useThemeStore();
@@ -48,6 +51,8 @@ export function App() {
     }
 
     switch (activeTab) {
+      case 'settings':
+        return <SettingsScreen onBack={() => setActiveTab('home')} />;
       case 'sensor':
         return <LiquidSensorScreen />;
       case 'bookmarks':
@@ -55,7 +60,7 @@ export function App() {
       case 'search':
       case 'home':
       default:
-        return <LiquidHomeScreen onSelectBrand={handleSelectBrand} />;
+        return <LiquidHomeScreen onSelectBrand={handleSelectBrand} onSettings={() => handleTabChange('settings')} />;
     }
   };
 
@@ -105,6 +110,7 @@ export function App() {
             : 'bg-white/30 backdrop-blur-xl sm:border-[6px] sm:border-white/50 shadow-[0_25px_70px_rgba(28,78,125,0.25)] ring-1 ring-white/60'
         }`}
       >
+        {!hasEntered ? <WelcomeScreen onContinue={() => { localStorage.setItem('hvac_guest_entered', 'yes'); setHasEntered(true); }} /> : <>
         {/* Active Screen Content */}
         <main className="flex-1 overflow-y-auto no-scrollbar">
           {renderActiveScreen()}
@@ -115,6 +121,8 @@ export function App() {
           activeTab={activeTab}
           onTabChange={handleTabChange}
         />
+
+        </>}
 
         {/* Liquid Glass Bottom Sheet Modal */}
         <LiquidBottomSheet />
@@ -127,4 +135,5 @@ export function App() {
 }
 
 export default App;
+
 

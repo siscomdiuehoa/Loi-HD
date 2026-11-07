@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Search, X, Mic, MicOff, Sparkles } from 'lucide-react';
+import { Search, X, Mic, MicOff } from 'lucide-react';
 import { useErrorStore } from '../../store/useErrorStore';
 import { triggerHaptic } from '../../utils/haptics';
 
@@ -127,8 +127,7 @@ export const LiquidSearchBar: React.FC = () => {
 
       {/* 2. Liquid Glass Pill Tags (Horizontal Scroll) */}
       <div className="flex items-center space-x-2 overflow-x-auto no-scrollbar py-1 select-none">
-        <div className="flex items-center text-sky-700 dark:text-cyan-300 font-black whitespace-nowrap text-[11px] mr-0.5">
-          <Sparkles className="w-3 h-3 text-sky-500 dark:text-cyan-400 mr-1 flex-shrink-0 animate-pulse" />
+        <div className="flex items-center text-sky-700 dark:text-cyan-300 font-black whitespace-nowrap text-xs mr-0.5">
           Gợi ý:
         </div>
         {suggestedTags.map((tag) => {

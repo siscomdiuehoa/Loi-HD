@@ -7,11 +7,11 @@ import { LiquidErrorCard } from '../components/liquid/LiquidErrorCard';
 import { useErrorStore } from '../store/useErrorStore';
 import { Search } from 'lucide-react';
 
-interface Props { onSelectBrand?: (brand: Brand) => void }
-export const LiquidHomeScreen: React.FC<Props> = ({ onSelectBrand }) => {
+interface Props { onSelectBrand?: (brand: Brand) => void; onSettings?: () => void }
+export const LiquidHomeScreen: React.FC<Props> = ({ onSelectBrand, onSettings }) => {
   const { brands, searchResults, searchQuery, clearSearch } = useErrorStore();
   return <div className="min-h-full">
-    <LiquidHeader />
+    <LiquidHeader onSettings={onSettings} />
     <div className="px-5 pb-10 space-y-7 max-w-md mx-auto w-full">
       <section className="space-y-3" id="search-section">
         <div><p className="section-kicker">TÌM KIẾM NHANH</p><h2 className="section-title">Bạn đang gặp lỗi gì?</h2></div>

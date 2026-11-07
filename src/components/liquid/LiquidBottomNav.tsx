@@ -1,9 +1,9 @@
 import React from 'react';
-import { Home, Search, Cpu, Bookmark } from 'lucide-react';
+import { Home, Search, Cpu, Bookmark, Settings } from 'lucide-react';
 import { useErrorStore } from '../../store/useErrorStore';
 import { triggerHaptic } from '../../utils/haptics';
 
-export type LiquidTab = 'home' | 'search' | 'sensor' | 'bookmarks';
+export type LiquidTab = 'home' | 'search' | 'sensor' | 'bookmarks' | 'settings';
 
 interface LiquidBottomNavProps {
   activeTab: LiquidTab;
@@ -31,6 +31,7 @@ export const LiquidBottomNav: React.FC<LiquidBottomNavProps> = ({
       icon: Bookmark,
       badge: bookmarkedIds.length,
     },
+    { id: 'settings' as LiquidTab, label: 'Cài đặt', icon: Settings },
   ];
 
   return (
@@ -46,7 +47,7 @@ export const LiquidBottomNav: React.FC<LiquidBottomNavProps> = ({
               key={item.id}
               type="button"
               onClick={() => handleTabClick(item.id)}
-              className={`flex-1 flex flex-col items-center justify-center py-2 px-2 rounded-2xl transition-all duration-300 relative active:scale-90 cursor-pointer ${
+              className={`flex-1 flex flex-col items-center justify-center py-2 px-1 rounded-2xl transition-all duration-300 relative active:scale-90 cursor-pointer ${
                 isActive
                   ? 'bg-sky-500/15 dark:bg-cyan-500/25 text-sky-700 dark:text-cyan-300 border border-sky-400/40 dark:border-cyan-400/50 shadow-sm backdrop-blur-xl'
                   : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'

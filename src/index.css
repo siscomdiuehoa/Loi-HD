@@ -256,3 +256,21 @@ nav .liquid-glass { border-radius:28px; }
 .brand-info { padding:8px 2px 7px; }
 .brand-card-footer { padding-top:7px; }
 #search-section { padding-top:8px; }
+.header-app-icon { width:38px; height:38px; border-radius:12px; object-fit:cover; box-shadow:0 5px 12px rgba(8,103,188,.25); }
+.welcome-screen { flex:1; overflow-y:auto; padding: max(28px,env(safe-area-inset-top)) 24px max(24px,env(safe-area-inset-bottom)); }
+.welcome-content { max-width:380px; min-height:100%; margin:auto; display:flex; flex-direction:column; justify-content:center; gap:26px; }
+.welcome-brand { display:flex; align-items:center; gap:10px; color:#17648a; font-size:11px; font-weight:800; letter-spacing:.16em; }
+.dark .welcome-brand { color:#abedff; }
+.welcome-brand img { width:66px; height:66px; border-radius:20px; box-shadow:0 10px 25px rgba(9,88,167,.25); }
+.welcome-content h1 { color:#16324d; font-size:32px; line-height:1.14; letter-spacing:-.045em; font-weight:850; }
+.dark .welcome-content h1 { color:#f1f9ff; }
+.welcome-content h1 span { color:#087eae; }.dark .welcome-content h1 span { color:#90e6ff; }
+.welcome-copy { margin-top:12px; max-width:290px; font-size:13px; line-height:1.6; color:#536d80; }.dark .welcome-copy {color:#c3d6e7;}
+.welcome-panel { padding:20px; border-radius:28px; }.welcome-panel h2 { font-size:17px; font-weight:800; color:#18344e; }.dark .welcome-panel h2 {color:#fff;}
+.welcome-panel > p { font-size:12px; color:#617a8b; margin:5px 0 16px; }.dark .welcome-panel > p {color:#c5d6e5;}
+.welcome-provider { width:100%; min-height:48px; margin-bottom:9px; display:flex; align-items:center; gap:12px; padding:0 13px; border-radius:16px; border:1px solid rgba(255,255,255,.8); background:rgba(255,255,255,.52); color:#44596a; font-size:13px; font-weight:700; opacity:.72; }
+.dark .welcome-provider {background:rgba(255,255,255,.1); color:#e4f4ff; border-color:rgba(255,255,255,.18);}.provider-google {font-size:20px;color:#4285f4;font-weight:900}.provider-apple {font-size:18px}.provider-soon {margin-left:auto;font-size:10px;color:#71879a}.welcome-panel .welcome-note {margin:1px 0 0;font-size:11px;}
+.welcome-divider {position:relative;text-align:center;margin:16px 0;color:#7990a0;font-size:11px}.welcome-divider:before {content:'';position:absolute;left:0;right:0;top:50%;height:1px;background:rgba(76,113,144,.17)}.welcome-divider span {position:relative;padding:0 8px;background:rgba(231,244,252,.8);border-radius:8px}.dark .welcome-divider span {background:#263d55;}
+.welcome-guest {width:100%;min-height:48px;display:flex;align-items:center;justify-content:center;gap:10px;border-radius:16px;background:linear-gradient(110deg,#078fcd,#3459c4);color:#fff;font-size:13px;font-weight:800;box-shadow:0 8px 18px rgba(20,101,182,.24)}
+.welcome-benefits {display:flex;justify-content:center;gap:20px;flex-wrap:wrap;color:#4f7187;font-size:11px;font-weight:700}.welcome-benefits span {display:flex;align-items:center;gap:6px}.dark .welcome-benefits {color:#c8e2ef}.welcome-credit {text-align:center;color:#688297;font-size:10px}.dark .welcome-credit {color:#b3cad9}
+.settings-page {max-width:448px;margin:auto;padding:max(20px,env(safe-area-inset-top)) 20px 30px}.settings-top {display:flex;align-items:center;gap:13px;margin-bottom:28px}.settings-back {width:44px;height:44px;display:grid;place-items:center}.settings-label {font-size:10px;letter-spacing:.12em;font-weight:800;color:#1689bd;margin:24px 0 10px}.settings-card {border-radius:25px;padding:4px 14px}.settings-row {width:100%;display:flex;align-items:center;gap:12px;text-align:left;padding:14px 0;color:#19384f}.dark .settings-row {color:#edfaff}.settings-row+.settings-row {border-top:1px solid rgba(100,135,160,.16)}.settings-row>span:nth-child(2) {flex:1;min-width:0}.settings-row strong,.settings-row small {display:block}.settings-row strong {font-size:13px}.settings-row small {font-size:11px;line-height:1.4;color:#647f90;margin-top:3px}.dark .settings-row small {color:#b4cad9}.settings-icon {width:40px;height:40px;border-radius:14px;background:rgba(54,169,224,.14);display:grid;place-items:center;color:#1689bd;flex-shrink:0}
