@@ -1,0 +1,30 @@
+[
+  {
+    "id": "saiver_e01",
+    "code": "E01",
+    "brandId": "saiver",
+    "brandName": "Saiver",
+    "title": "Lỗi áp suất cao hệ thống lạnh AHU / Chiller (High Pressure Trip)",
+    "description": "Rơ le áp suất cao (HP Switch) ngắt do áp suất ngưng tụ phía đẩy máy nén vượt quá 28 bar.",
+    "severity": "critical",
+    "causes": [
+      "Bơm nước giải nhiệt tháp giải nhiệt (Cooling Tower) dừng hoặc lưu lượng nước kém.",
+      "Cáu cặn bám trong bình ngưng ống chùm (Condenser tube fouling).",
+      "Quạt tháp giải nhiệt bị hỏng hoặc dây curoa bị đứt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra bơm nước giải nhiệt",
+        "detail": "Kiểm tra áp suất hút/đẩy của bơm giải nhiệt và trạng thái van mở."
+      },
+      {
+        "step": 2,
+        "action": "Tẩy rửa cáu cặn bình ngưng",
+        "detail": "Vệ sinh bình ngưng bằng hóa chất chuyên dụng và thông cơ học."
+      }
+    ],
+    "modelTypes": ["AHU Packaged", "Air Cooled Chiller", "Water Cooled Chiller"],
+    "tags": ["e01", "saiver", "ap suat cao", "ahu", "chiller", "cooling tower"]
+  }
+]

@@ -1,0 +1,5742 @@
+[
+  {
+    "id": "daikin_8h",
+    "code": "8H",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Nhiệt độ nước nóng cao bất thường",
+    "description": "Nhiệt độ nước nóng cao bất thường. Nước đầu ra sưởi quá nóng, hỏng van ba ngả hoặc hỏng cảm biến.",
+    "severity": "warning",
+    "causes": [
+      "Nước đầu ra sưởi quá nóng, hỏng van ba ngả hoặc hỏng cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "8h",
+      "nhiệt",
+      "độ",
+      "nước",
+      "nóng",
+      "cao",
+      "bất",
+      "thường",
+      "đầu",
+      "ra",
+      "sưởi",
+      "quá",
+      "hỏng",
+      "van",
+      "ba",
+      "ngả",
+      "hoặc",
+      "cảm",
+      "biến",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "8h",
+      "daikin 8h",
+      "mã lỗi 8h"
+    ]
+  },
+  {
+    "id": "daikin_60",
+    "code": "60",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Kích hoạt thiết bị bảo vệ ngoại vi (Bộ thông gió thu hồi nhiệt)",
+    "description": "Kích hoạt thiết bị bảo vệ ngoại vi (Bộ thông gió thu hồi nhiệt). Lỗi rơ le bảo vệ bên ngoài của bộ lọc hoặc bộ thu hồi nhiệt.",
+    "severity": "warning",
+    "causes": [
+      "Lỗi rơ le bảo vệ bên ngoài của bộ lọc hoặc bộ thu hồi nhiệt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "60",
+      "kích",
+      "hoạt",
+      "thiết",
+      "bị",
+      "bảo",
+      "vệ",
+      "ngoại",
+      "vi",
+      "bộ",
+      "thông",
+      "gió",
+      "thu",
+      "hồi",
+      "nhiệt",
+      "lỗi",
+      "rơ",
+      "le",
+      "bên",
+      "ngoài",
+      "của",
+      "lọc",
+      "hoặc",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "60",
+      "daikin 60"
+    ]
+  },
+  {
+    "id": "daikin_71",
+    "code": "71",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ 2: Quá dòng máy nén",
+    "description": "Hệ 2: Quá dòng máy nén. Hệ thống máy nén số 2 gặp lỗi quá dòng, thiếu gas hoặc kẹt cơ.",
+    "severity": "critical",
+    "causes": [
+      "Hệ thống máy nén số 2 gặp lỗi quá dòng, thiếu gas hoặc kẹt cơ."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.5 - 2.0Ω) và kiểm tra cách điện với vỏ (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra module công suất Inverter (IPM)",
+        "detail": "Đo diode 6 nhánh của module công suất biến tần trên bo dàn nóng. Kiểm tra lớp keo tản nhiệt và quạt làm mát."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra điện áp DC Bus và tải hệ thống",
+        "detail": "Đo điện áp tụ lọc nguồn DC Bus và kiểm tra áp suất gas xem hệ thống có bị quá tải không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "71",
+      "hệ",
+      "quá",
+      "dòng",
+      "máy",
+      "nén",
+      "thống",
+      "số",
+      "gặp",
+      "lỗi",
+      "thiếu",
+      "gas",
+      "hoặc",
+      "kẹt",
+      "cơ",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "71",
+      "daikin 71",
+      "mã lỗi 71"
+    ]
+  },
+  {
+    "id": "daikin_72",
+    "code": "72",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ 2: Quá dòng động cơ quạt",
+    "description": "Hệ 2: Quá dòng động cơ quạt. Động cơ quạt dàn nóng hệ số 2 bị kẹt hoặc cháy cuộn dây.",
+    "severity": "critical",
+    "causes": [
+      "Động cơ quạt dàn nóng hệ số 2 bị kẹt hoặc cháy cuộn dây."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "72",
+      "hệ",
+      "quá",
+      "dòng",
+      "động",
+      "cơ",
+      "quạt",
+      "dàn",
+      "nóng",
+      "số",
+      "bị",
+      "kẹt",
+      "hoặc",
+      "cháy",
+      "cuộn",
+      "dây",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "72",
+      "daikin 72",
+      "mã lỗi 72"
+    ]
+  },
+  {
+    "id": "daikin_73",
+    "code": "73",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ 2: Kích hoạt công tắc cao áp",
+    "description": "Hệ 2: Kích hoạt công tắc cao áp. Áp suất cao vượt mức an toàn ở hệ số 2, dàn bẩn hoặc thiếu nước giải nhiệt.",
+    "severity": "warning",
+    "causes": [
+      "Áp suất cao vượt mức an toàn ở hệ số 2, dàn bẩn hoặc thiếu nước giải nhiệt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Cảm biến / Công tắc áp suất cao (High Pressure Switch)"
+    ],
+    "tags": [
+      "73",
+      "hệ",
+      "kích",
+      "hoạt",
+      "công",
+      "tắc",
+      "cao",
+      "áp",
+      "suất",
+      "vượt",
+      "mức",
+      "an",
+      "toàn",
+      "số",
+      "dàn",
+      "bẩn",
+      "hoặc",
+      "thiếu",
+      "nước",
+      "giải",
+      "nhiệt",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "73",
+      "daikin 73",
+      "mã lỗi 73"
+    ]
+  },
+  {
+    "id": "daikin_81",
+    "code": "81",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ nước ra",
+    "description": "Lỗi cảm biến nhiệt độ nước ra. Cảm biến nhiệt độ nước lạnh ra của Chiller bị hỏng hoặc lỗi đầu kết nối.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ nước lạnh ra của Chiller bị hỏng hoặc lỗi đầu kết nối."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "81",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "nước",
+      "ra",
+      "lạnh",
+      "của",
+      "chiller",
+      "bị",
+      "hỏng",
+      "hoặc",
+      "đầu",
+      "kết",
+      "nối",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "81",
+      "daikin 81",
+      "mã lỗi 81"
+    ]
+  },
+  {
+    "id": "daikin_82",
+    "code": "82",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ 1: Lỗi cảm biến nhiệt môi chất lạnh",
+    "description": "Hệ 1: Lỗi cảm biến nhiệt môi chất lạnh. Cảm biến nhiệt độ đường ống môi chất hệ 1 bị hỏng.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ đường ống môi chất hệ 1 bị hỏng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "82",
+      "hệ",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "môi",
+      "chất",
+      "lạnh",
+      "độ",
+      "đường",
+      "ống",
+      "bị",
+      "hỏng",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "82",
+      "daikin 82",
+      "mã lỗi 82"
+    ]
+  },
+  {
+    "id": "daikin_83",
+    "code": "83",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ 2: Lỗi cảm biến nhiệt môi chất lạnh",
+    "description": "Hệ 2: Lỗi cảm biến nhiệt môi chất lạnh. Cảm biến nhiệt độ đường ống môi chất hệ 2 bị hỏng.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ đường ống môi chất hệ 2 bị hỏng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "83",
+      "hệ",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "môi",
+      "chất",
+      "lạnh",
+      "độ",
+      "đường",
+      "ống",
+      "bị",
+      "hỏng",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "83",
+      "daikin 83",
+      "mã lỗi 83"
+    ]
+  },
+  {
+    "id": "daikin_84",
+    "code": "84",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ 1: Lỗi cảm biến nhiệt dàn trao đổi nhiệt",
+    "description": "Hệ 1: Lỗi cảm biến nhiệt dàn trao đổi nhiệt. Cảm biến nhiệt dàn ngưng tụ hệ 1 bị hỏng hoặc đo sai.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt dàn ngưng tụ hệ 1 bị hỏng hoặc đo sai."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "84",
+      "hệ",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "dàn",
+      "trao",
+      "đổi",
+      "ngưng",
+      "tụ",
+      "bị",
+      "hỏng",
+      "hoặc",
+      "đo",
+      "sai",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "84",
+      "daikin 84",
+      "mã lỗi 84"
+    ]
+  },
+  {
+    "id": "daikin_90",
+    "code": "90",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lưu lượng nước lạnh bất thường",
+    "description": "Lưu lượng nước lạnh bất thường. Lưu lượng nước giải nhiệt chạy qua Chiller quá thấp, kiểm tra bơm nước hoặc tắc đường ống.",
+    "severity": "warning",
+    "causes": [
+      "Lưu lượng nước giải nhiệt chạy qua Chiller quá thấp, kiểm tra bơm nước hoặc tắc đường ống."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường ống xả và máng nước ngưng",
+        "detail": "Vệ sinh sạch máng nước, kiểm tra đường ống thoát nước có bị nghẹt rêu cặn hoặc dốc ngược không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra công tắc phao chống tràn",
+        "detail": "Đo kiểm thông mạch tiếp điểm phao xem có đóng/ngắt dứt khoát khi nâng hạ phao không."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra motor bơm nước xả",
+        "detail": "Cấp điện kiểm tra bơm nước ngưng có chạy hút xả nước tốt ra ngoài không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "90",
+      "lưu",
+      "lượng",
+      "nước",
+      "lạnh",
+      "bất",
+      "thường",
+      "giải",
+      "nhiệt",
+      "chạy",
+      "qua",
+      "chiller",
+      "quá",
+      "thấp",
+      "kiểm",
+      "tra",
+      "bơm",
+      "hoặc",
+      "tắc",
+      "đường",
+      "ống",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "90",
+      "daikin 90",
+      "mã lỗi 90"
+    ]
+  },
+  {
+    "id": "daikin_94",
+    "code": "94",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi truyền tín hiệu giữa bộ thông gió và quạt",
+    "description": "Lỗi truyền tín hiệu giữa bộ thông gió và quạt. Hỏng đường cáp truyền tín hiệu, hỏng bo mạch quạt của bộ thu hồi nhiệt.",
+    "severity": "warning",
+    "causes": [
+      "Hỏng đường cáp truyền tín hiệu, hỏng bo mạch quạt của bộ thu hồi nhiệt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "94",
+      "lỗi",
+      "truyền",
+      "tín",
+      "hiệu",
+      "giữa",
+      "bộ",
+      "thông",
+      "gió",
+      "và",
+      "quạt",
+      "hỏng",
+      "đường",
+      "cáp",
+      "bo",
+      "mạch",
+      "của",
+      "thu",
+      "hồi",
+      "nhiệt",
+      "chiller",
+      "khác",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "94",
+      "daikin 94",
+      "mã lỗi 94"
+    ]
+  },
+  {
+    "id": "daikin_a0",
+    "code": "A0",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Kích hoạt thiết bị bảo vệ ngoại vi",
+    "description": "Kích hoạt thiết bị bảo vệ ngoại vi. Lỗi kết nối từ thiết bị an toàn bên ngoài; kiểm tra các cảm biến ngoại vi kết nối với dàn lạnh.",
+    "severity": "warning",
+    "causes": [
+      "Lỗi kết nối từ thiết bị an toàn bên ngoài; kiểm tra các cảm biến ngoại vi kết nối với dàn lạnh."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "a0",
+      "kích",
+      "hoạt",
+      "thiết",
+      "bị",
+      "bảo",
+      "vệ",
+      "ngoại",
+      "vi",
+      "lỗi",
+      "kết",
+      "nối",
+      "từ",
+      "an",
+      "toàn",
+      "bên",
+      "ngoài",
+      "kiểm",
+      "tra",
+      "các",
+      "cảm",
+      "biến",
+      "với",
+      "dàn",
+      "lạnh",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "a0",
+      "daikin a0"
+    ]
+  },
+  {
+    "id": "daikin_a1",
+    "code": "A1",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi bo mạch dàn lạnh",
+    "description": "Lỗi bo mạch dàn lạnh. Bo mạch điều khiển dàn lạnh bị hư hỏng hoặc gặp sự cố phần cứng, cần kiểm tra hoặc thay thế bo mạch mới.",
+    "severity": "warning",
+    "causes": [
+      "Bo mạch điều khiển dàn lạnh bị hư hỏng hoặc gặp sự cố phần cứng, cần kiểm tra hoặc thay thế bo mạch mới."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "a1",
+      "lỗi",
+      "bo",
+      "mạch",
+      "dàn",
+      "lạnh",
+      "điều",
+      "khiển",
+      "bị",
+      "hư",
+      "hỏng",
+      "hoặc",
+      "gặp",
+      "sự",
+      "cố",
+      "phần",
+      "cứng",
+      "cần",
+      "kiểm",
+      "tra",
+      "thay",
+      "thế",
+      "mới",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "a1",
+      "daikin a1",
+      "mã lỗi a1"
+    ]
+  },
+  {
+    "id": "daikin_a3",
+    "code": "A3",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi hệ thống nước xả dàn lạnh",
+    "description": "Lỗi hệ thống nước xả dàn lạnh. Cảm biến mực nước ngưng lỗi, bơm nước xả bị hỏng, tắc nghẽn đường ống xả nước ngưng.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến mực nước ngưng lỗi, bơm nước xả bị hỏng, tắc nghẽn đường ống xả nước ngưng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Phao nước chống tràn & Bơm thoát nước xả ngưng"
+    ],
+    "tags": [
+      "a3",
+      "lỗi",
+      "hệ",
+      "thống",
+      "nước",
+      "xả",
+      "dàn",
+      "lạnh",
+      "cảm",
+      "biến",
+      "mực",
+      "ngưng",
+      "bơm",
+      "bị",
+      "hỏng",
+      "tắc",
+      "nghẽn",
+      "đường",
+      "ống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "a3",
+      "daikin a3",
+      "mã lỗi a3"
+    ]
+  },
+  {
+    "id": "daikin_a4",
+    "code": "A4",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi về bảo vệ chống bám đá",
+    "description": "Lỗi về bảo vệ chống bám đá. Hệ thống bảo vệ đóng băng đường ống kích hoạt; kiểm tra lưu lượng gió, quạt dàn lạnh và phin lọc bụi.",
+    "severity": "warning",
+    "causes": [
+      "Hệ thống bảo vệ đóng băng đường ống kích hoạt; kiểm tra lưu lượng gió, quạt dàn lạnh và phin lọc bụi."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "a4",
+      "lỗi",
+      "về",
+      "bảo",
+      "vệ",
+      "chống",
+      "bám",
+      "đá",
+      "hệ",
+      "thống",
+      "đóng",
+      "băng",
+      "đường",
+      "ống",
+      "kích",
+      "hoạt",
+      "kiểm",
+      "tra",
+      "lưu",
+      "lượng",
+      "gió",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "và",
+      "phin",
+      "lọc",
+      "bụi",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi"
+    ]
+  },
+  {
+    "id": "daikin_a5",
+    "code": "A5",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Kiểm soát bảo vệ bám đá trong chế độ lạnh / nhiệt độ sưởi bất thường",
+    "description": "Kiểm soát bảo vệ bám đá trong chế độ lạnh / nhiệt độ sưởi bất thường. Kiểm soát áp suất cao trong sưởi, hoặc nhiệt độ trao đổi nhiệt quá thấp ở chế độ lạnh. Kiểm tra lượng gas.",
+    "severity": "warning",
+    "causes": [
+      "Kiểm soát áp suất cao trong sưởi, hoặc nhiệt độ trao đổi nhiệt quá thấp ở chế độ lạnh. Kiểm tra lượng gas."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Cảm biến / Công tắc áp suất cao (High Pressure Switch)"
+    ],
+    "tags": [
+      "a5",
+      "kiểm",
+      "soát",
+      "bảo",
+      "vệ",
+      "bám",
+      "đá",
+      "trong",
+      "chế",
+      "độ",
+      "lạnh",
+      "nhiệt",
+      "sưởi",
+      "bất",
+      "thường",
+      "áp",
+      "suất",
+      "cao",
+      "hoặc",
+      "trao",
+      "đổi",
+      "quá",
+      "thấp",
+      "tra",
+      "lượng",
+      "gas",
+      "dàn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin"
+    ]
+  },
+  {
+    "id": "daikin_a6",
+    "code": "A6",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi động cơ quạt dàn lạnh",
+    "description": "Lỗi động cơ quạt dàn lạnh. Đứt dây, ngắn mạch, lỏng kết nối động cơ quạt. Động cơ quạt bị kẹt cơ hoặc hư hỏng cuộn dây.",
+    "severity": "warning",
+    "causes": [
+      "Đứt dây, ngắn mạch, lỏng kết nối động cơ quạt. Động cơ quạt bị kẹt cơ hoặc hư hỏng cuộn dây."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "a6",
+      "lỗi",
+      "động",
+      "cơ",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "đứt",
+      "dây",
+      "ngắn",
+      "mạch",
+      "lỏng",
+      "kết",
+      "nối",
+      "bị",
+      "kẹt",
+      "hoặc",
+      "hư",
+      "hỏng",
+      "cuộn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "a6",
+      "daikin a6",
+      "mã lỗi a6"
+    ]
+  },
+  {
+    "id": "daikin_a7",
+    "code": "A7",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi động cơ cánh đảo gió (mô tơ đảo gió)",
+    "description": "Lỗi động cơ cánh đảo gió (mô tơ đảo gió). Mô tơ đảo gió hỏng, lỏng dây kết nối, bộ cơ cấu cánh đảo gió bị kẹt hoặc hỏng bo mạch dàn lạnh.",
+    "severity": "warning",
+    "causes": [
+      "Mô tơ đảo gió hỏng, lỏng dây kết nối, bộ cơ cấu cánh đảo gió bị kẹt hoặc hỏng bo mạch dàn lạnh."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "a7",
+      "lỗi",
+      "động",
+      "cơ",
+      "cánh",
+      "đảo",
+      "gió",
+      "mô",
+      "tơ",
+      "hỏng",
+      "lỏng",
+      "dây",
+      "kết",
+      "nối",
+      "bộ",
+      "cấu",
+      "bị",
+      "kẹt",
+      "hoặc",
+      "bo",
+      "mạch",
+      "dàn",
+      "lạnh",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "a7",
+      "daikin a7",
+      "mã lỗi a7"
+    ]
+  },
+  {
+    "id": "daikin_a8",
+    "code": "A8",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi về điện áp hoặc quá dòng đầu vào AC",
+    "description": "Lỗi về điện áp hoặc quá dòng đầu vào AC. Điện áp nguồn cấp không ổn định, lỗi đường truyền dây tín hiệu, kết nối dây cấp nguồn bị lỏng.",
+    "severity": "critical",
+    "causes": [
+      "Điện áp nguồn cấp không ổn định, lỗi đường truyền dây tín hiệu, kết nối dây cấp nguồn bị lỏng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "a8",
+      "lỗi",
+      "về",
+      "điện",
+      "áp",
+      "hoặc",
+      "quá",
+      "dòng",
+      "đầu",
+      "vào",
+      "ac",
+      "nguồn",
+      "cấp",
+      "không",
+      "ổn",
+      "định",
+      "đường",
+      "truyền",
+      "dây",
+      "tín",
+      "hiệu",
+      "kết",
+      "nối",
+      "bị",
+      "lỏng",
+      "dàn",
+      "lạnh",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin"
+    ]
+  },
+  {
+    "id": "daikin_a9",
+    "code": "A9",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi van tiết lưu điện từ dàn lạnh",
+    "description": "Lỗi van tiết lưu điện từ dàn lạnh. Cuộn dây van tiết lưu điện từ dàn lạnh bị lỗi (hỏng/đứt cuộn), lỗi kết nối cáp rơ le, hỏng bo dàn lạnh.",
+    "severity": "warning",
+    "causes": [
+      "Cuộn dây van tiết lưu điện từ dàn lạnh bị lỗi (hỏng/đứt cuộn), lỗi kết nối cáp rơ le, hỏng bo dàn lạnh."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "a9",
+      "lỗi",
+      "van",
+      "tiết",
+      "lưu",
+      "điện",
+      "từ",
+      "dàn",
+      "lạnh",
+      "cuộn",
+      "dây",
+      "bị",
+      "hỏng",
+      "đứt",
+      "kết",
+      "nối",
+      "cáp",
+      "rơ",
+      "le",
+      "bo",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "a9",
+      "daikin a9",
+      "mã lỗi a9"
+    ]
+  },
+  {
+    "id": "daikin_aa",
+    "code": "AA",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ thống sưởi bị quá nhiệt",
+    "description": "Hệ thống sưởi bị quá nhiệt. Thiết bị bảo vệ nhiệt 26WH được kích hoạt, nhiệt độ giàn nóng/lạnh sưởi quá cao.",
+    "severity": "warning",
+    "causes": [
+      "Thiết bị bảo vệ nhiệt 26WH được kích hoạt, nhiệt độ giàn nóng/lạnh sưởi quá cao."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "aa",
+      "hệ",
+      "thống",
+      "sưởi",
+      "bị",
+      "quá",
+      "nhiệt",
+      "thiết",
+      "bảo",
+      "vệ",
+      "26wh",
+      "được",
+      "kích",
+      "hoạt",
+      "độ",
+      "giàn",
+      "nóng",
+      "lạnh",
+      "cao",
+      "dàn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "aa",
+      "daikin aa",
+      "mã lỗi aa"
+    ]
+  },
+  {
+    "id": "daikin_af",
+    "code": "AF",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi hệ thống nước xả / tạo ẩm",
+    "description": "Lỗi hệ thống nước xả / tạo ẩm. Rò rỉ nước từ thiết bị tạo độ ẩm, đường ống xả nước ngưng không đủ độ dốc, hoặc bo dàn lạnh lỗi.",
+    "severity": "warning",
+    "causes": [
+      "Rò rỉ nước từ thiết bị tạo độ ẩm, đường ống xả nước ngưng không đủ độ dốc, hoặc bo dàn lạnh lỗi."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường ống xả và máng nước ngưng",
+        "detail": "Vệ sinh sạch máng nước, kiểm tra đường ống thoát nước có bị nghẹt rêu cặn hoặc dốc ngược không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra công tắc phao chống tràn",
+        "detail": "Đo kiểm thông mạch tiếp điểm phao xem có đóng/ngắt dứt khoát khi nâng hạ phao không."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra motor bơm nước xả",
+        "detail": "Cấp điện kiểm tra bơm nước ngưng có chạy hút xả nước tốt ra ngoài không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Phao nước chống tràn & Bơm thoát nước xả ngưng"
+    ],
+    "tags": [
+      "af",
+      "lỗi",
+      "hệ",
+      "thống",
+      "nước",
+      "xả",
+      "tạo",
+      "ẩm",
+      "rò",
+      "rỉ",
+      "từ",
+      "thiết",
+      "bị",
+      "độ",
+      "đường",
+      "ống",
+      "ngưng",
+      "không",
+      "đủ",
+      "dốc",
+      "hoặc",
+      "bo",
+      "dàn",
+      "lạnh",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "af",
+      "daikin af",
+      "mã lỗi af"
+    ]
+  },
+  {
+    "id": "daikin_ah",
+    "code": "AH",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi bộ phận thu bụi của phin lọc khí",
+    "description": "Lỗi bộ phận thu bụi của phin lọc khí. Lỗi bộ phận thu bụi tĩnh điện, phần cách điện bị rỉ sét, điện áp cao không ổn định hoặc bo dàn lạnh lỗi.",
+    "severity": "warning",
+    "causes": [
+      "Lỗi bộ phận thu bụi tĩnh điện, phần cách điện bị rỉ sét, điện áp cao không ổn định hoặc bo dàn lạnh lỗi."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "ah",
+      "lỗi",
+      "bộ",
+      "phận",
+      "thu",
+      "bụi",
+      "của",
+      "phin",
+      "lọc",
+      "khí",
+      "tĩnh",
+      "điện",
+      "phần",
+      "cách",
+      "bị",
+      "rỉ",
+      "sét",
+      "áp",
+      "cao",
+      "không",
+      "ổn",
+      "định",
+      "hoặc",
+      "bo",
+      "dàn",
+      "lạnh",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "ah"
+    ]
+  },
+  {
+    "id": "daikin_aj",
+    "code": "AJ",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi thiết lập công suất bo mạch dàn lạnh",
+    "description": "Lỗi thiết lập công suất bo mạch dàn lạnh. Chưa lắp đặt đầu cắm cài đặt công suất (capacity setting) khi thay bo mạch mới, hoặc cài sai công suất.",
+    "severity": "warning",
+    "causes": [
+      "Chưa lắp đặt đầu cắm cài đặt công suất (capacity setting) khi thay bo mạch mới, hoặc cài sai công suất."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "aj",
+      "lỗi",
+      "thiết",
+      "lập",
+      "công",
+      "suất",
+      "bo",
+      "mạch",
+      "dàn",
+      "lạnh",
+      "chưa",
+      "lắp",
+      "đặt",
+      "đầu",
+      "cắm",
+      "cài",
+      "capacity",
+      "setting",
+      "khi",
+      "thay",
+      "mới",
+      "hoặc",
+      "sai",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "aj",
+      "daikin aj",
+      "mã lỗi aj"
+    ]
+  },
+  {
+    "id": "daikin_c1",
+    "code": "C1",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi tín hiệu kết nối bo mạch chính và bo mạch phụ",
+    "description": "Lỗi tín hiệu kết nối bo mạch chính và bo mạch phụ. Kết nối dây tín hiệu giữa các bo mạch trong dàn lạnh bị lỗi hoặc lỏng giắc cắm.",
+    "severity": "warning",
+    "causes": [
+      "Kết nối dây tín hiệu giữa các bo mạch trong dàn lạnh bị lỗi hoặc lỏng giắc cắm."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "c1",
+      "lỗi",
+      "tín",
+      "hiệu",
+      "kết",
+      "nối",
+      "bo",
+      "mạch",
+      "chính",
+      "và",
+      "phụ",
+      "dây",
+      "giữa",
+      "các",
+      "trong",
+      "dàn",
+      "lạnh",
+      "bị",
+      "hoặc",
+      "lỏng",
+      "giắc",
+      "cắm",
+      "cảm",
+      "biến",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "c1",
+      "daikin c1",
+      "mã lỗi c1"
+    ]
+  },
+  {
+    "id": "daikin_c4",
+    "code": "C4",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ đường gas lỏng",
+    "description": "Lỗi cảm biến nhiệt độ đường gas lỏng. Cảm biến nhiệt độ đường ống gas lỏng dàn lạnh bị hỏng, lỏng giắc cắm hoặc hỏng bo điều khiển.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ đường ống gas lỏng dàn lạnh bị hỏng, lỏng giắc cắm hoặc hỏng bo điều khiển."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "c4",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "đường",
+      "gas",
+      "lỏng",
+      "ống",
+      "dàn",
+      "lạnh",
+      "bị",
+      "hỏng",
+      "giắc",
+      "cắm",
+      "hoặc",
+      "bo",
+      "điều",
+      "khiển",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "c4",
+      "daikin c4",
+      "mã lỗi c4"
+    ]
+  },
+  {
+    "id": "daikin_c5",
+    "code": "C5",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ đường gas hơi",
+    "description": "Lỗi cảm biến nhiệt độ đường gas hơi. Cảm biến nhiệt độ đường ống gas hơi dàn lạnh bị hỏng, lỏng kết nối hoặc lỗi bo dàn lạnh.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ đường ống gas hơi dàn lạnh bị hỏng, lỏng kết nối hoặc lỗi bo dàn lạnh."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "c5",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "đường",
+      "gas",
+      "hơi",
+      "ống",
+      "dàn",
+      "lạnh",
+      "bị",
+      "hỏng",
+      "lỏng",
+      "kết",
+      "nối",
+      "hoặc",
+      "bo",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "c5",
+      "daikin c5",
+      "mã lỗi c5"
+    ]
+  },
+  {
+    "id": "daikin_c6",
+    "code": "C6",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến động cơ quạt hoặc điều khiển quạt",
+    "description": "Lỗi cảm biến động cơ quạt hoặc điều khiển quạt. Bo mạch điều khiển quạt bị hư, lỏng kết nối điện trở công suất hoặc cài đặt cấu hình sai.",
+    "severity": "warning",
+    "causes": [
+      "Bo mạch điều khiển quạt bị hư, lỏng kết nối điện trở công suất hoặc cài đặt cấu hình sai."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "c6",
+      "lỗi",
+      "cảm",
+      "biến",
+      "động",
+      "cơ",
+      "quạt",
+      "hoặc",
+      "điều",
+      "khiển",
+      "bo",
+      "mạch",
+      "bị",
+      "hư",
+      "lỏng",
+      "kết",
+      "nối",
+      "điện",
+      "trở",
+      "công",
+      "suất",
+      "cài",
+      "đặt",
+      "cấu",
+      "hình",
+      "sai",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "c6"
+    ]
+  },
+  {
+    "id": "daikin_c7",
+    "code": "C7",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi mô tơ đảo gió, công tắc giới hạn",
+    "description": "Lỗi mô tơ đảo gió, công tắc giới hạn. Lỗi công tắc hành trình đảo gió, lỗi cơ cấu mô tơ cánh vẫy.",
+    "severity": "warning",
+    "causes": [
+      "Lỗi công tắc hành trình đảo gió, lỗi cơ cấu mô tơ cánh vẫy."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "c7",
+      "lỗi",
+      "mô",
+      "tơ",
+      "đảo",
+      "gió",
+      "công",
+      "tắc",
+      "giới",
+      "hạn",
+      "hành",
+      "trình",
+      "cơ",
+      "cấu",
+      "cánh",
+      "vẫy",
+      "cảm",
+      "biến",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "c7",
+      "daikin c7",
+      "mã lỗi c7"
+    ]
+  },
+  {
+    "id": "daikin_c9",
+    "code": "C9",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ gió hồi",
+    "description": "Lỗi cảm biến nhiệt độ gió hồi. Cảm biến nhiệt độ phòng gió hồi (thermistor) bị hỏng, ngắn mạch, hở mạch hoặc lỗi bo dàn lạnh.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ phòng gió hồi (thermistor) bị hỏng, ngắn mạch, hở mạch hoặc lỗi bo dàn lạnh."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Thermistor ~20kΩ)",
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "c9",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "gió",
+      "hồi",
+      "phòng",
+      "thermistor",
+      "bị",
+      "hỏng",
+      "ngắn",
+      "mạch",
+      "hở",
+      "hoặc",
+      "bo",
+      "dàn",
+      "lạnh",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "c9",
+      "daikin c9",
+      "mã lỗi c9"
+    ]
+  },
+  {
+    "id": "daikin_ca",
+    "code": "CA",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ gió ra",
+    "description": "Lỗi cảm biến nhiệt độ gió ra. Cảm biến nhiệt độ gió cấp (gió ra) dàn lạnh bị hỏng, hở mạch hoặc lỏng giắc cắm.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ gió cấp (gió ra) dàn lạnh bị hỏng, hở mạch hoặc lỏng giắc cắm."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "ca",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "gió",
+      "ra",
+      "cấp",
+      "dàn",
+      "lạnh",
+      "bị",
+      "hỏng",
+      "hở",
+      "mạch",
+      "hoặc",
+      "lỏng",
+      "giắc",
+      "cắm",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "ca",
+      "daikin ca",
+      "mã lỗi ca"
+    ]
+  },
+  {
+    "id": "daikin_cc",
+    "code": "CC",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến độ ẩm",
+    "description": "Lỗi cảm biến độ ẩm. Cảm biến độ ẩm không khí bị hỏng hoặc lỗi kết nối giắc cắm.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến độ ẩm không khí bị hỏng hoặc lỗi kết nối giắc cắm."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "cc",
+      "lỗi",
+      "cảm",
+      "biến",
+      "độ",
+      "ẩm",
+      "không",
+      "khí",
+      "bị",
+      "hỏng",
+      "hoặc",
+      "kết",
+      "nối",
+      "giắc",
+      "cắm",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "cc",
+      "daikin cc",
+      "mã lỗi cc"
+    ]
+  },
+  {
+    "id": "daikin_cj",
+    "code": "CJ",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ tại điều khiển từ xa",
+    "description": "Lỗi cảm biến nhiệt độ tại điều khiển từ xa. Cảm biến nhiệt độ tích hợp trong điều khiển bị hỏng hoặc bo mạch của bộ điều khiển từ xa lỗi.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ tích hợp trong điều khiển bị hỏng hoặc bo mạch của bộ điều khiển từ xa lỗi."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "cj",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "tại",
+      "điều",
+      "khiển",
+      "từ",
+      "xa",
+      "tích",
+      "hợp",
+      "trong",
+      "bị",
+      "hỏng",
+      "hoặc",
+      "bo",
+      "mạch",
+      "của",
+      "bộ",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "cj",
+      "daikin cj",
+      "mã lỗi cj"
+    ]
+  },
+  {
+    "id": "daikin_e0",
+    "code": "E0",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Kích hoạt thiết bị bảo vệ ngoại vi dàn nóng",
+    "description": "Kích hoạt thiết bị bảo vệ ngoại vi dàn nóng. Thiết bị bảo vệ bên ngoài kết nối với dàn nóng bị tác động, lỏng đầu kết nối an toàn.",
+    "severity": "warning",
+    "causes": [
+      "Thiết bị bảo vệ bên ngoài kết nối với dàn nóng bị tác động, lỏng đầu kết nối an toàn."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "e0",
+      "kích",
+      "hoạt",
+      "thiết",
+      "bị",
+      "bảo",
+      "vệ",
+      "ngoại",
+      "vi",
+      "dàn",
+      "nóng",
+      "bên",
+      "ngoài",
+      "kết",
+      "nối",
+      "với",
+      "tác",
+      "động",
+      "lỏng",
+      "đầu",
+      "an",
+      "toàn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e0",
+      "daikin e0",
+      "mã lỗi e0"
+    ]
+  },
+  {
+    "id": "daikin_e1",
+    "code": "E1",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi bo mạch dàn nóng",
+    "description": "Lỗi bo mạch dàn nóng. Bo mạch điều khiển dàn nóng bị hỏng, lỗi vi xử lý hoặc mạch nguồn chính.",
+    "severity": "critical",
+    "causes": [
+      "Bo mạch điều khiển dàn nóng bị hỏng, lỗi vi xử lý hoặc mạch nguồn chính."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "e1",
+      "lỗi",
+      "bo",
+      "mạch",
+      "dàn",
+      "nóng",
+      "điều",
+      "khiển",
+      "bị",
+      "hỏng",
+      "vi",
+      "xử",
+      "lý",
+      "hoặc",
+      "nguồn",
+      "chính",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e1",
+      "daikin e1",
+      "mã lỗi e1"
+    ]
+  },
+  {
+    "id": "daikin_e3",
+    "code": "E3",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Kích hoạt công tắc áp suất cao (HPS)",
+    "description": "Kích hoạt công tắc áp suất cao (HPS). Bộ trao đổi nhiệt dàn nóng quá bẩn, tắc nghẽn đường ống gas, thừa gas, hoặc công tắc cao áp hỏng.",
+    "severity": "critical",
+    "causes": [
+      "Bộ trao đổi nhiệt dàn nóng quá bẩn, tắc nghẽn đường ống gas, thừa gas, hoặc công tắc cao áp hỏng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Cảm biến / Công tắc áp suất cao (High Pressure Switch)"
+    ],
+    "tags": [
+      "e3",
+      "kích",
+      "hoạt",
+      "công",
+      "tắc",
+      "áp",
+      "suất",
+      "cao",
+      "hps",
+      "bộ",
+      "trao",
+      "đổi",
+      "nhiệt",
+      "dàn",
+      "nóng",
+      "quá",
+      "bẩn",
+      "nghẽn",
+      "đường",
+      "ống",
+      "gas",
+      "thừa",
+      "hoặc",
+      "hỏng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e3",
+      "daikin e3",
+      "mã lỗi e3"
+    ]
+  },
+  {
+    "id": "daikin_e4",
+    "code": "E4",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Kích hoạt công tắc áp suất thấp (LPS)",
+    "description": "Kích hoạt công tắc áp suất thấp (LPS). Áp suất thấp giảm bất thường do thiếu môi chất lạnh (rò rỉ gas), tắc đường ống gas hoặc hỏng cảm biến.",
+    "severity": "critical",
+    "causes": [
+      "Áp suất thấp giảm bất thường do thiếu môi chất lạnh (rò rỉ gas), tắc đường ống gas hoặc hỏng cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Cảm biến / Công tắc áp suất thấp (Low Pressure Switch)"
+    ],
+    "tags": [
+      "e4",
+      "kích",
+      "hoạt",
+      "công",
+      "tắc",
+      "áp",
+      "suất",
+      "thấp",
+      "lps",
+      "giảm",
+      "bất",
+      "thường",
+      "do",
+      "thiếu",
+      "môi",
+      "chất",
+      "lạnh",
+      "rò",
+      "rỉ",
+      "gas",
+      "đường",
+      "ống",
+      "hoặc",
+      "hỏng",
+      "cảm",
+      "biến",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi"
+    ]
+  },
+  {
+    "id": "daikin_e5",
+    "code": "E5",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Quá tải máy nén biến tần (Inverter)",
+    "description": "Quá tải máy nén biến tần (Inverter). Máy nén Inverter bị kẹt cơ, lệch pha, quá nhiệt hoặc hỏng bo mạch biến tần.",
+    "severity": "critical",
+    "causes": [
+      "Máy nén Inverter bị kẹt cơ, lệch pha, quá nhiệt hoặc hỏng bo mạch biến tần."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.5 - 2.0Ω) và kiểm tra cách điện với vỏ (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra module công suất Inverter (IPM)",
+        "detail": "Đo diode 6 nhánh của module công suất biến tần trên bo dàn nóng. Kiểm tra lớp keo tản nhiệt và quạt làm mát."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra điện áp DC Bus và tải hệ thống",
+        "detail": "Đo điện áp tụ lọc nguồn DC Bus và kiểm tra áp suất gas xem hệ thống có bị quá tải không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "e5",
+      "quá",
+      "tải",
+      "máy",
+      "nén",
+      "biến",
+      "tần",
+      "inverter",
+      "bị",
+      "kẹt",
+      "cơ",
+      "lệch",
+      "pha",
+      "nhiệt",
+      "hoặc",
+      "hỏng",
+      "bo",
+      "mạch",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e5",
+      "daikin e5",
+      "mã lỗi e5"
+    ]
+  },
+  {
+    "id": "daikin_e6",
+    "code": "E6",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Quá dòng máy nén thường (STD)",
+    "description": "Quá dòng máy nén thường (STD). Máy nén thường bị kẹt cơ, lỗi bo mạch bảo vệ dòng hoặc chưa mở van chặn.",
+    "severity": "critical",
+    "causes": [
+      "Máy nén thường bị kẹt cơ, lỗi bo mạch bảo vệ dòng hoặc chưa mở van chặn."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.5 - 2.0Ω) và kiểm tra cách điện với vỏ (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra module công suất Inverter (IPM)",
+        "detail": "Đo diode 6 nhánh của module công suất biến tần trên bo dàn nóng. Kiểm tra lớp keo tản nhiệt và quạt làm mát."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra điện áp DC Bus và tải hệ thống",
+        "detail": "Đo điện áp tụ lọc nguồn DC Bus và kiểm tra áp suất gas xem hệ thống có bị quá tải không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "e6",
+      "quá",
+      "dòng",
+      "máy",
+      "nén",
+      "thường",
+      "std",
+      "bị",
+      "kẹt",
+      "cơ",
+      "lỗi",
+      "bo",
+      "mạch",
+      "bảo",
+      "vệ",
+      "hoặc",
+      "chưa",
+      "mở",
+      "van",
+      "chặn",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e6",
+      "daikin e6",
+      "mã lỗi e6"
+    ]
+  },
+  {
+    "id": "daikin_e7",
+    "code": "E7",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi động cơ quạt dàn nóng",
+    "description": "Lỗi động cơ quạt dàn nóng. Động cơ quạt dàn nóng bị cháy, kẹt cánh quạt, hoặc lỏng kết nối cáp nguồn quạt.",
+    "severity": "critical",
+    "causes": [
+      "Động cơ quạt dàn nóng bị cháy, kẹt cánh quạt, hoặc lỏng kết nối cáp nguồn quạt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "e7",
+      "lỗi",
+      "động",
+      "cơ",
+      "quạt",
+      "dàn",
+      "nóng",
+      "bị",
+      "cháy",
+      "kẹt",
+      "cánh",
+      "hoặc",
+      "lỏng",
+      "kết",
+      "nối",
+      "cáp",
+      "nguồn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e7",
+      "daikin e7",
+      "mã lỗi e7"
+    ]
+  },
+  {
+    "id": "daikin_e8",
+    "code": "E8",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Quá dòng máy nén biến tần",
+    "description": "Quá dòng máy nén biến tần. Quá tải dòng điện đầu vào biến tần, hỏng máy nén hoặc lỗi transistor công suất (IGBT/Power Transistor).",
+    "severity": "critical",
+    "causes": [
+      "Quá tải dòng điện đầu vào biến tần, hỏng máy nén hoặc lỗi transistor công suất (IGBT/Power Transistor)."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.5 - 2.0Ω) và kiểm tra cách điện với vỏ (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra module công suất Inverter (IPM)",
+        "detail": "Đo diode 6 nhánh của module công suất biến tần trên bo dàn nóng. Kiểm tra lớp keo tản nhiệt và quạt làm mát."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra điện áp DC Bus và tải hệ thống",
+        "detail": "Đo điện áp tụ lọc nguồn DC Bus và kiểm tra áp suất gas xem hệ thống có bị quá tải không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "e8",
+      "quá",
+      "dòng",
+      "máy",
+      "nén",
+      "biến",
+      "tần",
+      "tải",
+      "điện",
+      "đầu",
+      "vào",
+      "hỏng",
+      "hoặc",
+      "lỗi",
+      "transistor",
+      "công",
+      "suất",
+      "igbt",
+      "power",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e8",
+      "daikin e8",
+      "mã lỗi e8"
+    ]
+  },
+  {
+    "id": "daikin_e9",
+    "code": "E9",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi van tiết lưu điện tử dàn nóng",
+    "description": "Lỗi van tiết lưu điện tử dàn nóng. Cuộn dây van tiết lưu điện tử dàn nóng bị cháy/lỗi, hỏng bo mạch dàn nóng hoặc kẹt cơ van.",
+    "severity": "warning",
+    "causes": [
+      "Cuộn dây van tiết lưu điện tử dàn nóng bị cháy/lỗi, hỏng bo mạch dàn nóng hoặc kẹt cơ van."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "e9",
+      "lỗi",
+      "van",
+      "tiết",
+      "lưu",
+      "điện",
+      "tử",
+      "dàn",
+      "nóng",
+      "cuộn",
+      "dây",
+      "bị",
+      "cháy",
+      "hỏng",
+      "bo",
+      "mạch",
+      "hoặc",
+      "kẹt",
+      "cơ",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "e9",
+      "daikin e9",
+      "mã lỗi e9"
+    ]
+  },
+  {
+    "id": "daikin_ea",
+    "code": "EA",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi van bốn ngả (van đảo chiều) hoặc công tắc nóng/lạnh",
+    "description": "Lỗi van bốn ngả (van đảo chiều) hoặc công tắc nóng/lạnh. Van bốn ngả bị lỗi kẹt, hỏng cuộn coil đảo chiều, thiếu gas hoặc lỗi cảm biến nhiệt độ.",
+    "severity": "warning",
+    "causes": [
+      "Van bốn ngả bị lỗi kẹt, hỏng cuộn coil đảo chiều, thiếu gas hoặc lỗi cảm biến nhiệt độ."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "ea",
+      "lỗi",
+      "van",
+      "bốn",
+      "ngả",
+      "đảo",
+      "chiều",
+      "hoặc",
+      "công",
+      "tắc",
+      "nóng",
+      "lạnh",
+      "bị",
+      "kẹt",
+      "hỏng",
+      "cuộn",
+      "coil",
+      "thiếu",
+      "gas",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "ea",
+      "daikin ea",
+      "mã lỗi ea"
+    ]
+  },
+  {
+    "id": "daikin_ec",
+    "code": "EC",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Nhiệt độ nước vào dàn nóng bất thường",
+    "description": "Nhiệt độ nước vào dàn nóng bất thường. Lưu lượng nước giải nhiệt yếu hoặc nhiệt độ nước quá cao, lỗi bo dàn nóng hoặc cảm biến nhiệt.",
+    "severity": "warning",
+    "causes": [
+      "Lưu lượng nước giải nhiệt yếu hoặc nhiệt độ nước quá cao, lỗi bo dàn nóng hoặc cảm biến nhiệt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "ec",
+      "nhiệt",
+      "độ",
+      "nước",
+      "vào",
+      "dàn",
+      "nóng",
+      "bất",
+      "thường",
+      "lưu",
+      "lượng",
+      "giải",
+      "yếu",
+      "hoặc",
+      "quá",
+      "cao",
+      "lỗi",
+      "bo",
+      "cảm",
+      "biến",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "ec",
+      "daikin ec",
+      "mã lỗi ec"
+    ]
+  },
+  {
+    "id": "daikin_f3",
+    "code": "F3",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Nhiệt độ đường ống đẩy máy nén bất thường",
+    "description": "Nhiệt độ đường ống đẩy máy nén bất thường. Nhiệt độ đầu đẩy quá cao do thiếu gas nghiêm trọng, tắc van tiết lưu hoặc kẹt cơ máy nén.",
+    "severity": "critical",
+    "causes": [
+      "Nhiệt độ đầu đẩy quá cao do thiếu gas nghiêm trọng, tắc van tiết lưu hoặc kẹt cơ máy nén."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.5 - 2.0Ω) và kiểm tra cách điện với vỏ (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra module công suất Inverter (IPM)",
+        "detail": "Đo diode 6 nhánh của module công suất biến tần trên bo dàn nóng. Kiểm tra lớp keo tản nhiệt và quạt làm mát."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra điện áp DC Bus và tải hệ thống",
+        "detail": "Đo điện áp tụ lọc nguồn DC Bus và kiểm tra áp suất gas xem hệ thống có bị quá tải không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "f3",
+      "nhiệt",
+      "độ",
+      "đường",
+      "ống",
+      "đẩy",
+      "máy",
+      "nén",
+      "bất",
+      "thường",
+      "đầu",
+      "quá",
+      "cao",
+      "do",
+      "thiếu",
+      "gas",
+      "nghiêm",
+      "trọng",
+      "tắc",
+      "van",
+      "tiết",
+      "lưu",
+      "hoặc",
+      "kẹt",
+      "cơ",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin"
+    ]
+  },
+  {
+    "id": "daikin_f6",
+    "code": "F6",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Áp suất cao bất thường hoặc nạp dư môi chất",
+    "description": "Áp suất cao bất thường hoặc nạp dư môi chất. Hệ thống bị nạp thừa gas, quạt dàn nóng không chạy hoặc tắc nghẽn dàn trao đổi nhiệt.",
+    "severity": "warning",
+    "causes": [
+      "Hệ thống bị nạp thừa gas, quạt dàn nóng không chạy hoặc tắc nghẽn dàn trao đổi nhiệt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Cảm biến / Công tắc áp suất cao (High Pressure Switch)",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "f6",
+      "áp",
+      "suất",
+      "cao",
+      "bất",
+      "thường",
+      "hoặc",
+      "nạp",
+      "dư",
+      "môi",
+      "chất",
+      "hệ",
+      "thống",
+      "bị",
+      "thừa",
+      "gas",
+      "quạt",
+      "dàn",
+      "nóng",
+      "không",
+      "chạy",
+      "tắc",
+      "nghẽn",
+      "trao",
+      "đổi",
+      "nhiệt",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "f6"
+    ]
+  },
+  {
+    "id": "daikin_h3",
+    "code": "H3",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi công tắc cao áp (HPS)",
+    "description": "Lỗi công tắc cao áp (HPS). Hỏng bản thân công tắc áp suất cao hoặc lỏng kết nối dây dẫn tới bo mạch dàn nóng.",
+    "severity": "warning",
+    "causes": [
+      "Hỏng bản thân công tắc áp suất cao hoặc lỏng kết nối dây dẫn tới bo mạch dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Cảm biến / Công tắc áp suất cao (High Pressure Switch)"
+    ],
+    "tags": [
+      "h3",
+      "lỗi",
+      "công",
+      "tắc",
+      "cao",
+      "áp",
+      "hps",
+      "hỏng",
+      "bản",
+      "thân",
+      "suất",
+      "hoặc",
+      "lỏng",
+      "kết",
+      "nối",
+      "dây",
+      "dẫn",
+      "tới",
+      "bo",
+      "mạch",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "h3",
+      "daikin h3",
+      "mã lỗi h3"
+    ]
+  },
+  {
+    "id": "daikin_h5",
+    "code": "H5",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến quá tải động cơ máy nén",
+    "description": "Lỗi cảm biến quá tải động cơ máy nén. Cảm biến nhiệt bảo vệ máy nén bị hỏng, hở mạch hoặc lỗi kết nối.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến nhiệt bảo vệ máy nén bị hỏng, hở mạch hoặc lỗi kết nối."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "h5",
+      "lỗi",
+      "cảm",
+      "biến",
+      "quá",
+      "tải",
+      "động",
+      "cơ",
+      "máy",
+      "nén",
+      "nhiệt",
+      "bảo",
+      "vệ",
+      "bị",
+      "hỏng",
+      "hở",
+      "mạch",
+      "hoặc",
+      "kết",
+      "nối",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "h5",
+      "daikin h5",
+      "mã lỗi h5"
+    ]
+  },
+  {
+    "id": "daikin_h6",
+    "code": "H6",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến vị trí máy nén",
+    "description": "Lỗi cảm biến vị trí máy nén. Lỗi kết nối dây nguồn máy nén, hỏng máy nén hoặc hỏng bo mạch biến tần dàn nóng.",
+    "severity": "critical",
+    "causes": [
+      "Lỗi kết nối dây nguồn máy nén, hỏng máy nén hoặc hỏng bo mạch biến tần dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "h6",
+      "lỗi",
+      "cảm",
+      "biến",
+      "vị",
+      "trí",
+      "máy",
+      "nén",
+      "kết",
+      "nối",
+      "dây",
+      "nguồn",
+      "hỏng",
+      "hoặc",
+      "bo",
+      "mạch",
+      "tần",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "h6",
+      "daikin h6",
+      "mã lỗi h6"
+    ]
+  },
+  {
+    "id": "daikin_h7",
+    "code": "H7",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi tín hiệu động cơ quạt dàn nóng",
+    "description": "Lỗi tín hiệu động cơ quạt dàn nóng. Truyền thông lỗi từ bo điều khiển đến động cơ quạt, hỏng động cơ quạt hoặc bo mạch quạt.",
+    "severity": "warning",
+    "causes": [
+      "Truyền thông lỗi từ bo điều khiển đến động cơ quạt, hỏng động cơ quạt hoặc bo mạch quạt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường dây truyền thông F1-F2",
+        "detail": "Đo thông mạch và điện trở đường dây F1-F2 giữa dàn nóng và dàn lạnh (hoặc điều khiển có dây). Kiểm tra tiếp xúc tại cầu đấu."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp truyền thông F1-F2",
+        "detail": "Sử dụng thang đo DC, điện áp chuẩn dao động trong khoảng 15V - 18VDC. Nếu điện áp = 0V hoặc treo cố định thì có thiết bị làm ngắn mạch."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch giao tiếp trên bo dàn lạnh / dàn nóng",
+        "detail": "Kiểm tra IC truyền thông, biến áp xung và cầu chì bảo vệ đường tín hiệu trên bo mạch chính."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "h7",
+      "lỗi",
+      "tín",
+      "hiệu",
+      "động",
+      "cơ",
+      "quạt",
+      "dàn",
+      "nóng",
+      "truyền",
+      "thông",
+      "từ",
+      "bo",
+      "điều",
+      "khiển",
+      "đến",
+      "hỏng",
+      "hoặc",
+      "mạch",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "h7",
+      "daikin h7",
+      "mã lỗi h7"
+    ]
+  },
+  {
+    "id": "daikin_h8",
+    "code": "H8",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi bộ điều chỉnh nhiệt máy nén (CT)",
+    "description": "Lỗi bộ điều chỉnh nhiệt máy nén (CT). Hỏng biến dòng cảm biến dòng máy nén, hỏng bo dàn nóng hoặc bóng bán dẫn công suất.",
+    "severity": "critical",
+    "causes": [
+      "Hỏng biến dòng cảm biến dòng máy nén, hỏng bo dàn nóng hoặc bóng bán dẫn công suất."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "h8",
+      "lỗi",
+      "bộ",
+      "điều",
+      "chỉnh",
+      "nhiệt",
+      "máy",
+      "nén",
+      "ct",
+      "hỏng",
+      "biến",
+      "dòng",
+      "cảm",
+      "bo",
+      "dàn",
+      "nóng",
+      "hoặc",
+      "bóng",
+      "bán",
+      "dẫn",
+      "công",
+      "suất",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "h8",
+      "daikin h8",
+      "mã lỗi h8"
+    ]
+  },
+  {
+    "id": "daikin_h9",
+    "code": "H9",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ không khí ngoài trời",
+    "description": "Lỗi cảm biến nhiệt độ không khí ngoài trời. Cảm biến nhiệt độ môi trường ngoài trời bị hỏng, đo sai trị số điện trở hoặc lỏng giắc.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ môi trường ngoài trời bị hỏng, đo sai trị số điện trở hoặc lỏng giắc."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "h9",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "không",
+      "khí",
+      "ngoài",
+      "trời",
+      "môi",
+      "trường",
+      "bị",
+      "hỏng",
+      "đo",
+      "sai",
+      "trị",
+      "số",
+      "điện",
+      "trở",
+      "hoặc",
+      "lỏng",
+      "giắc",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "h9",
+      "daikin h9"
+    ]
+  },
+  {
+    "id": "daikin_hc",
+    "code": "HC",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ nước nóng",
+    "description": "Lỗi cảm biến nhiệt độ nước nóng. Hỏng cảm biến nhiệt độ dòng nước ấm/nóng hoặc bo mạch dàn nóng.",
+    "severity": "warning",
+    "causes": [
+      "Hỏng cảm biến nhiệt độ dòng nước ấm/nóng hoặc bo mạch dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "hc",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "nước",
+      "nóng",
+      "hỏng",
+      "dòng",
+      "ấm",
+      "hoặc",
+      "bo",
+      "mạch",
+      "dàn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "hc",
+      "daikin hc",
+      "mã lỗi hc"
+    ]
+  },
+  {
+    "id": "daikin_hj",
+    "code": "HJ",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi mực nước bồn chứa nhiệt dự trữ",
+    "description": "Lỗi mực nước bồn chứa nhiệt dự trữ. Bồn lưu trữ nhiệt có mực nước quá thấp, lỗi cảm biến mực nước hoặc cài đặt công tắc sai.",
+    "severity": "warning",
+    "causes": [
+      "Bồn lưu trữ nhiệt có mực nước quá thấp, lỗi cảm biến mực nước hoặc cài đặt công tắc sai."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "hj",
+      "lỗi",
+      "mực",
+      "nước",
+      "bồn",
+      "chứa",
+      "nhiệt",
+      "dự",
+      "trữ",
+      "lưu",
+      "có",
+      "quá",
+      "thấp",
+      "cảm",
+      "biến",
+      "hoặc",
+      "cài",
+      "đặt",
+      "công",
+      "tắc",
+      "sai",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "hj",
+      "daikin hj",
+      "mã lỗi hj"
+    ]
+  },
+  {
+    "id": "daikin_j1",
+    "code": "J1",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến áp suất đầu đẩy",
+    "description": "Lỗi cảm biến áp suất đầu đẩy. Cảm biến áp suất dàn nóng bị lỗi giắc cắm, đo sai áp suất hoặc hỏng cảm biến.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến áp suất dàn nóng bị lỗi giắc cắm, đo sai áp suất hoặc hỏng cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Cảm biến / Công tắc áp suất cao (High Pressure Switch)"
+    ],
+    "tags": [
+      "j1",
+      "lỗi",
+      "cảm",
+      "biến",
+      "áp",
+      "suất",
+      "đầu",
+      "đẩy",
+      "dàn",
+      "nóng",
+      "bị",
+      "giắc",
+      "cắm",
+      "đo",
+      "sai",
+      "hoặc",
+      "hỏng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "j1",
+      "daikin j1",
+      "mã lỗi j1"
+    ]
+  },
+  {
+    "id": "daikin_j2",
+    "code": "J2",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến dòng điện máy nén",
+    "description": "Lỗi cảm biến dòng điện máy nén. Cảm biến dòng (CT) máy nén bị hỏng hoặc lỗi mạch so sánh trên bo mạch.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến dòng (CT) máy nén bị hỏng hoặc lỗi mạch so sánh trên bo mạch."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Cảm biến / Công tắc áp suất thấp (Low Pressure Switch)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "j2",
+      "lỗi",
+      "cảm",
+      "biến",
+      "dòng",
+      "điện",
+      "máy",
+      "nén",
+      "ct",
+      "bị",
+      "hỏng",
+      "hoặc",
+      "mạch",
+      "so",
+      "sánh",
+      "trên",
+      "bo",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "j2",
+      "daikin j2",
+      "mã lỗi j2"
+    ]
+  },
+  {
+    "id": "daikin_j3",
+    "code": "J3",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ ống đẩy máy nén",
+    "description": "Lỗi cảm biến nhiệt độ ống đẩy máy nén. Cảm biến nhiệt độ đầu đẩy bị hỏng, đứt dây hoặc lỏng giắc kết nối.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến nhiệt độ đầu đẩy bị hỏng, đứt dây hoặc lỏng giắc kết nối."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "j3",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "ống",
+      "đẩy",
+      "máy",
+      "nén",
+      "đầu",
+      "bị",
+      "hỏng",
+      "đứt",
+      "dây",
+      "hoặc",
+      "lỏng",
+      "giắc",
+      "kết",
+      "nối",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "j3",
+      "daikin j3",
+      "mã lỗi j3"
+    ]
+  },
+  {
+    "id": "daikin_j4",
+    "code": "J4",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ bão hòa hạ áp",
+    "description": "Lỗi cảm biến nhiệt độ bão hòa hạ áp. Cảm biến áp suất thấp hoặc cảm biến nhiệt độ bão hòa hạ áp bị hỏng.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến áp suất thấp hoặc cảm biến nhiệt độ bão hòa hạ áp bị hỏng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Cảm biến / Công tắc áp suất thấp (Low Pressure Switch)"
+    ],
+    "tags": [
+      "j4",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "bão",
+      "hòa",
+      "hạ",
+      "áp",
+      "suất",
+      "thấp",
+      "hoặc",
+      "bị",
+      "hỏng",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "j4",
+      "daikin j4",
+      "mã lỗi j4"
+    ]
+  },
+  {
+    "id": "daikin_j5",
+    "code": "J5",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ gas hồi dàn nóng",
+    "description": "Lỗi cảm biến nhiệt độ gas hồi dàn nóng. Cảm biến nhiệt ống gas hồi bị hỏng hoặc lỏng giắc cắm.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt ống gas hồi bị hỏng hoặc lỏng giắc cắm."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "j5",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "gas",
+      "hồi",
+      "dàn",
+      "nóng",
+      "ống",
+      "bị",
+      "hỏng",
+      "hoặc",
+      "lỏng",
+      "giắc",
+      "cắm",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "j5",
+      "daikin j5",
+      "mã lỗi j5"
+    ]
+  },
+  {
+    "id": "daikin_j6",
+    "code": "J6",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ dàn trao đổi nhiệt dàn nóng",
+    "description": "Lỗi cảm biến nhiệt độ dàn trao đổi nhiệt dàn nóng. Cảm biến nhiệt độ dàn ngưng tụ bị hỏng hoặc tiếp xúc kém.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến nhiệt độ dàn ngưng tụ bị hỏng hoặc tiếp xúc kém."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "j6",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "trao",
+      "đổi",
+      "nóng",
+      "ngưng",
+      "tụ",
+      "bị",
+      "hỏng",
+      "hoặc",
+      "tiếp",
+      "xúc",
+      "kém",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "j6",
+      "daikin j6",
+      "mã lỗi j6"
+    ]
+  },
+  {
+    "id": "daikin_j9",
+    "code": "J9",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến nhiệt độ gas hơi (Mạch gas)",
+    "description": "Lỗi cảm biến nhiệt độ gas hơi (Mạch gas). Cảm biến nhiệt độ gas hơi đường hồi/mạch gas bị hỏng.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến nhiệt độ gas hơi đường hồi/mạch gas bị hỏng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "j9",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "gas",
+      "hơi",
+      "mạch",
+      "đường",
+      "hồi",
+      "bị",
+      "hỏng",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "j9",
+      "daikin j9",
+      "mã lỗi j9"
+    ]
+  },
+  {
+    "id": "daikin_ja",
+    "code": "JA",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi cảm biến cao áp",
+    "description": "Lỗi cảm biến cao áp. Cảm biến áp suất cao bị hỏng, cắm nhầm giắc cắm cảm biến cao áp và hạ áp.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến áp suất cao bị hỏng, cắm nhầm giắc cắm cảm biến cao áp và hạ áp."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Cảm biến / Công tắc áp suất cao (High Pressure Switch)"
+    ],
+    "tags": [
+      "ja",
+      "lỗi",
+      "cảm",
+      "biến",
+      "cao",
+      "áp",
+      "suất",
+      "bị",
+      "hỏng",
+      "cắm",
+      "nhầm",
+      "giắc",
+      "và",
+      "hạ",
+      "dàn",
+      "nóng",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "ja",
+      "daikin ja",
+      "mã lỗi ja"
+    ]
+  },
+  {
+    "id": "daikin_l0",
+    "code": "L0",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi hệ thống biến tần",
+    "description": "Lỗi hệ thống biến tần. Hệ thống biến tần bị lỗi phần cứng, thiếu công suất nguồn cấp hoặc hỏng bo mạch biến tần.",
+    "severity": "critical",
+    "causes": [
+      "Hệ thống biến tần bị lỗi phần cứng, thiếu công suất nguồn cấp hoặc hỏng bo mạch biến tần."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "l0",
+      "lỗi",
+      "hệ",
+      "thống",
+      "biến",
+      "tần",
+      "bị",
+      "phần",
+      "cứng",
+      "thiếu",
+      "công",
+      "suất",
+      "nguồn",
+      "cấp",
+      "hoặc",
+      "hỏng",
+      "bo",
+      "mạch",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "l0",
+      "daikin l0",
+      "mã lỗi l0"
+    ]
+  },
+  {
+    "id": "daikin_l1",
+    "code": "L1",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi bo mạch biến tần",
+    "description": "Lỗi bo mạch biến tần. Bo mạch biến tần bị lỗi mạch lái, nổ cầu chì nguồn hoặc lỗi quạt giải nhiệt bo.",
+    "severity": "critical",
+    "causes": [
+      "Bo mạch biến tần bị lỗi mạch lái, nổ cầu chì nguồn hoặc lỗi quạt giải nhiệt bo."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "l1",
+      "lỗi",
+      "bo",
+      "mạch",
+      "biến",
+      "tần",
+      "bị",
+      "lái",
+      "nổ",
+      "cầu",
+      "chì",
+      "nguồn",
+      "hoặc",
+      "quạt",
+      "giải",
+      "nhiệt",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "l1",
+      "daikin l1",
+      "mã lỗi l1"
+    ]
+  },
+  {
+    "id": "daikin_l3",
+    "code": "L3",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Nhiệt độ hộp điện tăng cao",
+    "description": "Nhiệt độ hộp điện tăng cao. Nhiệt độ bên trong hộp bo mạch tăng quá cao do quạt dàn nóng hỏng hoặc quẩn gió.",
+    "severity": "critical",
+    "causes": [
+      "Nhiệt độ bên trong hộp bo mạch tăng quá cao do quạt dàn nóng hỏng hoặc quẩn gió."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "l3",
+      "nhiệt",
+      "độ",
+      "hộp",
+      "điện",
+      "tăng",
+      "cao",
+      "bên",
+      "trong",
+      "bo",
+      "mạch",
+      "quá",
+      "do",
+      "quạt",
+      "dàn",
+      "nóng",
+      "hỏng",
+      "hoặc",
+      "quẩn",
+      "gió",
+      "biến",
+      "tần",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "l3",
+      "daikin l3",
+      "mã lỗi l3"
+    ]
+  },
+  {
+    "id": "daikin_l4",
+    "code": "L4",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Nhiệt độ cánh tản nhiệt dàn nóng quá cao",
+    "description": "Nhiệt độ cánh tản nhiệt dàn nóng quá cao. Cánh tản nhiệt của transistor công suất bị quá nhiệt, kiểm tra mỡ tản nhiệt hoặc quạt dàn nóng.",
+    "severity": "critical",
+    "causes": [
+      "Cánh tản nhiệt của transistor công suất bị quá nhiệt, kiểm tra mỡ tản nhiệt hoặc quạt dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học quạt và lồng quạt",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật, vướng cọ xát hoặc bó bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp và xung Hall motor quạt DC",
+        "detail": "Kiểm tra nguồn DC 310V, 15V và điện áp điều khiển tốc độ Vsp, tín hiệu phản hồi xung Hall FG."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo mạch quạt",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng IC Hall, tiến hành thay motor quạt Daikin mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Motor quạt DC & Mạch hồi tiếp Hall Sensor",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "l4",
+      "nhiệt",
+      "độ",
+      "cánh",
+      "tản",
+      "dàn",
+      "nóng",
+      "quá",
+      "cao",
+      "của",
+      "transistor",
+      "công",
+      "suất",
+      "bị",
+      "kiểm",
+      "tra",
+      "mỡ",
+      "hoặc",
+      "quạt",
+      "biến",
+      "tần",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "l4",
+      "daikin l4",
+      "mã lỗi l4"
+    ]
+  },
+  {
+    "id": "daikin_l5",
+    "code": "L5",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Quá dòng máy nén Inverter (Đầu ra DC)",
+    "description": "Quá dòng máy nén Inverter (Đầu ra DC). Máy nén Inverter bị cháy cuộn dây, rò điện hoặc kẹt cơ cứng máy nén.",
+    "severity": "critical",
+    "causes": [
+      "Máy nén Inverter bị cháy cuộn dây, rò điện hoặc kẹt cơ cứng máy nén."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.5 - 2.0Ω) và kiểm tra cách điện với vỏ (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra module công suất Inverter (IPM)",
+        "detail": "Đo diode 6 nhánh của module công suất biến tần trên bo dàn nóng. Kiểm tra lớp keo tản nhiệt và quạt làm mát."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra điện áp DC Bus và tải hệ thống",
+        "detail": "Đo điện áp tụ lọc nguồn DC Bus và kiểm tra áp suất gas xem hệ thống có bị quá tải không."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống xả máy nén (Discharge Pipe Thermistor ~200kΩ)",
+      "Bo biến tần Inverter (IPM Module) & Máy nén Daikin"
+    ],
+    "tags": [
+      "l5",
+      "quá",
+      "dòng",
+      "máy",
+      "nén",
+      "inverter",
+      "đầu",
+      "ra",
+      "dc",
+      "bị",
+      "cháy",
+      "cuộn",
+      "dây",
+      "rò",
+      "điện",
+      "hoặc",
+      "kẹt",
+      "cơ",
+      "cứng",
+      "biến",
+      "tần",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "l5",
+      "daikin l5",
+      "mã lỗi l5"
+    ]
+  },
+  {
+    "id": "daikin_u0",
+    "code": "U0",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Thiếu môi chất lạnh (thiếu gas)",
+    "description": "Thiếu môi chất lạnh (thiếu gas). Hệ thống bị thiếu gas, tắc nghẽn đường ống hoặc hỏng van tiết lưu, cảm biến đo sai.",
+    "severity": "warning",
+    "causes": [
+      "Hệ thống bị thiếu gas, tắc nghẽn đường ống hoặc hỏng van tiết lưu, cảm biến đo sai."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo điện trở cảm biến nhiệt điện trở (Thermistor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở 25°C. Cảm biến dàn lạnh/phòng Daikin ~20kΩ, cảm biến dàn nóng ~20kΩ, cảm biến đầu máy nén ~200kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra jack cắm và dây dẫn",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến Daikin chính hãng",
+        "detail": "Nếu trị số sensor sai lệch quá 10% so với bảng giá trị nhiệt độ - điện trở tiêu chuẩn, thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "u0",
+      "thiếu",
+      "môi",
+      "chất",
+      "lạnh",
+      "gas",
+      "hệ",
+      "thống",
+      "bị",
+      "tắc",
+      "nghẽn",
+      "đường",
+      "ống",
+      "hoặc",
+      "hỏng",
+      "van",
+      "tiết",
+      "lưu",
+      "cảm",
+      "biến",
+      "đo",
+      "sai",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u0",
+      "daikin u0",
+      "mã lỗi u0"
+    ]
+  },
+  {
+    "id": "daikin_u1",
+    "code": "U1",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi ngược pha hoặc mất pha nguồn",
+    "description": "Lỗi ngược pha hoặc mất pha nguồn. Pha nguồn cấp bị đảo ngược (ngược pha dòng 3 pha), hoặc mất pha nguồn cấp.",
+    "severity": "critical",
+    "causes": [
+      "Pha nguồn cấp bị đảo ngược (ngược pha dòng 3 pha), hoặc mất pha nguồn cấp."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "u1",
+      "lỗi",
+      "ngược",
+      "pha",
+      "hoặc",
+      "mất",
+      "nguồn",
+      "cấp",
+      "bị",
+      "đảo",
+      "dòng",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u1",
+      "daikin u1",
+      "mã lỗi u1"
+    ]
+  },
+  {
+    "id": "daikin_u2",
+    "code": "U2",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi nguồn điện hoặc mất điện tức thời",
+    "description": "Lỗi nguồn điện hoặc mất điện tức thời. Điện áp nguồn quá thấp hoặc quá cao, mất điện tức thời, sụt áp nghiêm trọng.",
+    "severity": "warning",
+    "causes": [
+      "Điện áp nguồn quá thấp hoặc quá cao, mất điện tức thời, sụt áp nghiêm trọng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "u2",
+      "lỗi",
+      "nguồn",
+      "điện",
+      "hoặc",
+      "mất",
+      "tức",
+      "thời",
+      "áp",
+      "quá",
+      "thấp",
+      "cao",
+      "sụt",
+      "nghiêm",
+      "trọng",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u2",
+      "daikin u2",
+      "mã lỗi u2"
+    ]
+  },
+  {
+    "id": "daikin_u3",
+    "code": "U3",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Chưa thực hiện chạy kiểm tra hệ thống",
+    "description": "Chưa thực hiện chạy kiểm tra hệ thống. Hệ thống chưa được chạy thử nghiệm thiết lập ban đầu (chạy test run) để tự nhận cấu hình.",
+    "severity": "warning",
+    "causes": [
+      "Hệ thống chưa được chạy thử nghiệm thiết lập ban đầu (chạy test run) để tự nhận cấu hình."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "u3",
+      "chưa",
+      "thực",
+      "hiện",
+      "chạy",
+      "kiểm",
+      "tra",
+      "hệ",
+      "thống",
+      "được",
+      "thử",
+      "nghiệm",
+      "thiết",
+      "lập",
+      "ban",
+      "đầu",
+      "test",
+      "run",
+      "để",
+      "tự",
+      "nhận",
+      "cấu",
+      "hình",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u3",
+      "daikin u3",
+      "mã lỗi u3"
+    ]
+  },
+  {
+    "id": "daikin_u4",
+    "code": "U4",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi truyền tín hiệu giữa dàn lạnh và dàn nóng",
+    "description": "Lỗi truyền tín hiệu giữa dàn lạnh và dàn nóng. Đứt dây truyền tín hiệu, lỏng giắc kết nối F1/F2, hỏng bo mạch dàn lạnh hoặc dàn nóng.",
+    "severity": "critical",
+    "causes": [
+      "Đứt dây truyền tín hiệu, lỏng giắc kết nối F1/F2, hỏng bo mạch dàn lạnh hoặc dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường dây truyền thông F1-F2",
+        "detail": "Đo thông mạch và điện trở đường dây F1-F2 giữa dàn nóng và dàn lạnh (hoặc điều khiển có dây). Kiểm tra tiếp xúc tại cầu đấu."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp truyền thông F1-F2",
+        "detail": "Sử dụng thang đo DC, điện áp chuẩn dao động trong khoảng 15V - 18VDC. Nếu điện áp = 0V hoặc treo cố định thì có thiết bị làm ngắn mạch."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch giao tiếp trên bo dàn lạnh / dàn nóng",
+        "detail": "Kiểm tra IC truyền thông, biến áp xung và cầu chì bảo vệ đường tín hiệu trên bo mạch chính."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Đường dây truyền thông F1-F2 & IC giao tiếp"
+    ],
+    "tags": [
+      "u4",
+      "lỗi",
+      "truyền",
+      "tín",
+      "hiệu",
+      "giữa",
+      "dàn",
+      "lạnh",
+      "và",
+      "nóng",
+      "đứt",
+      "dây",
+      "lỏng",
+      "giắc",
+      "kết",
+      "nối",
+      "f1",
+      "f2",
+      "hỏng",
+      "bo",
+      "mạch",
+      "hoặc",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u4",
+      "daikin u4",
+      "mã lỗi u4"
+    ]
+  },
+  {
+    "id": "daikin_u5",
+    "code": "U5",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi truyền tín hiệu giữa dàn lạnh và điều khiển từ xa",
+    "description": "Lỗi truyền tín hiệu giữa dàn lạnh và điều khiển từ xa. Dây kết nối điều khiển P1/P2 bị đứt, lỗi đấu song song 2 điều khiển chính, hỏng điều khiển.",
+    "severity": "warning",
+    "causes": [
+      "Dây kết nối điều khiển P1/P2 bị đứt, lỗi đấu song song 2 điều khiển chính, hỏng điều khiển."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "u5",
+      "lỗi",
+      "truyền",
+      "tín",
+      "hiệu",
+      "giữa",
+      "dàn",
+      "lạnh",
+      "và",
+      "điều",
+      "khiển",
+      "từ",
+      "xa",
+      "dây",
+      "kết",
+      "nối",
+      "p1",
+      "p2",
+      "bị",
+      "đứt",
+      "đấu",
+      "song",
+      "chính",
+      "hỏng",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u5"
+    ]
+  },
+  {
+    "id": "daikin_u6",
+    "code": "U6",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi truyền tín hiệu giữa các dàn lạnh",
+    "description": "Lỗi truyền tín hiệu giữa các dàn lạnh. Lỗi đường truyền tín hiệu nối tiếp giữa các dàn lạnh trong hệ thống VRV.",
+    "severity": "warning",
+    "causes": [
+      "Lỗi đường truyền tín hiệu nối tiếp giữa các dàn lạnh trong hệ thống VRV."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)"
+    ],
+    "tags": [
+      "u6",
+      "lỗi",
+      "truyền",
+      "tín",
+      "hiệu",
+      "giữa",
+      "các",
+      "dàn",
+      "lạnh",
+      "đường",
+      "nối",
+      "tiếp",
+      "trong",
+      "hệ",
+      "thống",
+      "vrv",
+      "daikin",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u6",
+      "daikin u6",
+      "mã lỗi u6"
+    ]
+  },
+  {
+    "id": "daikin_u7",
+    "code": "U7",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi truyền tín hiệu giữa các dàn nóng",
+    "description": "Lỗi truyền tín hiệu giữa các dàn nóng. Lỗi truyền thông giữa dàn nóng chính (Master) và dàn nóng phụ (Slave).",
+    "severity": "critical",
+    "causes": [
+      "Lỗi truyền thông giữa dàn nóng chính (Master) và dàn nóng phụ (Slave)."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường dây truyền thông F1-F2",
+        "detail": "Đo thông mạch và điện trở đường dây F1-F2 giữa dàn nóng và dàn lạnh (hoặc điều khiển có dây). Kiểm tra tiếp xúc tại cầu đấu."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp truyền thông F1-F2",
+        "detail": "Sử dụng thang đo DC, điện áp chuẩn dao động trong khoảng 15V - 18VDC. Nếu điện áp = 0V hoặc treo cố định thì có thiết bị làm ngắn mạch."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch giao tiếp trên bo dàn lạnh / dàn nóng",
+        "detail": "Kiểm tra IC truyền thông, biến áp xung và cầu chì bảo vệ đường tín hiệu trên bo mạch chính."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời",
+      "Đường dây truyền thông F1-F2 & IC giao tiếp"
+    ],
+    "tags": [
+      "u7",
+      "lỗi",
+      "truyền",
+      "tín",
+      "hiệu",
+      "giữa",
+      "các",
+      "dàn",
+      "nóng",
+      "thông",
+      "chính",
+      "master",
+      "và",
+      "phụ",
+      "slave",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u7",
+      "daikin u7",
+      "mã lỗi u7"
+    ]
+  },
+  {
+    "id": "daikin_u8",
+    "code": "U8",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi truyền tín hiệu giữa các điều khiển từ xa",
+    "description": "Lỗi truyền tín hiệu giữa các điều khiển từ xa. Lỗi truyền thông giữa điều khiển chính (Master) và điều khiển phụ (Slave).",
+    "severity": "warning",
+    "causes": [
+      "Lỗi truyền thông giữa điều khiển chính (Master) và điều khiển phụ (Slave)."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường dây truyền thông F1-F2",
+        "detail": "Đo thông mạch và điện trở đường dây F1-F2 giữa dàn nóng và dàn lạnh (hoặc điều khiển có dây). Kiểm tra tiếp xúc tại cầu đấu."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp truyền thông F1-F2",
+        "detail": "Sử dụng thang đo DC, điện áp chuẩn dao động trong khoảng 15V - 18VDC. Nếu điện áp = 0V hoặc treo cố định thì có thiết bị làm ngắn mạch."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch giao tiếp trên bo dàn lạnh / dàn nóng",
+        "detail": "Kiểm tra IC truyền thông, biến áp xung và cầu chì bảo vệ đường tín hiệu trên bo mạch chính."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "u8",
+      "lỗi",
+      "truyền",
+      "tín",
+      "hiệu",
+      "giữa",
+      "các",
+      "điều",
+      "khiển",
+      "từ",
+      "xa",
+      "thông",
+      "chính",
+      "master",
+      "và",
+      "phụ",
+      "slave",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u8",
+      "daikin u8",
+      "mã lỗi u8"
+    ]
+  },
+  {
+    "id": "daikin_u9",
+    "code": "U9",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi truyền tín hiệu hệ thống khác",
+    "description": "Lỗi truyền tín hiệu hệ thống khác. Đường truyền tín hiệu hệ thống gặp lỗi nhiễu hoặc lỗi thiết bị kết nối.",
+    "severity": "warning",
+    "causes": [
+      "Đường truyền tín hiệu hệ thống gặp lỗi nhiễu hoặc lỗi thiết bị kết nối."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "u9",
+      "lỗi",
+      "truyền",
+      "tín",
+      "hiệu",
+      "hệ",
+      "thống",
+      "khác",
+      "đường",
+      "gặp",
+      "nhiễu",
+      "hoặc",
+      "thiết",
+      "bị",
+      "kết",
+      "nối",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "u9",
+      "daikin u9",
+      "mã lỗi u9"
+    ]
+  },
+  {
+    "id": "daikin_ua",
+    "code": "UA",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Dàn nóng và dàn lạnh không tương thích",
+    "description": "Dàn nóng và dàn lạnh không tương thích. Lỗi cài đặt địa chỉ điều khiển trung tâm, hoặc số lượng dàn lạnh vượt giới hạn cho phép.",
+    "severity": "warning",
+    "causes": [
+      "Lỗi cài đặt địa chỉ điều khiển trung tâm, hoặc số lượng dàn lạnh vượt giới hạn cho phép."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "ua",
+      "dàn",
+      "nóng",
+      "và",
+      "lạnh",
+      "không",
+      "tương",
+      "thích",
+      "lỗi",
+      "cài",
+      "đặt",
+      "địa",
+      "chỉ",
+      "điều",
+      "khiển",
+      "trung",
+      "tâm",
+      "hoặc",
+      "số",
+      "lượng",
+      "vượt",
+      "giới",
+      "hạn",
+      "cho",
+      "phép",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin"
+    ]
+  },
+  {
+    "id": "daikin_uf",
+    "code": "UF",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Hệ thống chưa được cài đặt hoàn chỉnh",
+    "description": "Hệ thống chưa được cài đặt hoàn chỉnh. Chưa mở van dịch vụ đầu nén, lỗi đấu nhầm dây tín hiệu giữa các dàn.",
+    "severity": "warning",
+    "causes": [
+      "Chưa mở van dịch vụ đầu nén, lỗi đấu nhầm dây tín hiệu giữa các dàn."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "uf",
+      "hệ",
+      "thống",
+      "chưa",
+      "được",
+      "cài",
+      "đặt",
+      "hoàn",
+      "chỉnh",
+      "mở",
+      "van",
+      "dịch",
+      "vụ",
+      "đầu",
+      "nén",
+      "lỗi",
+      "đấu",
+      "nhầm",
+      "dây",
+      "tín",
+      "hiệu",
+      "giữa",
+      "các",
+      "dàn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "uf",
+      "daikin uf",
+      "mã lỗi uf"
+    ]
+  },
+  {
+    "id": "daikin_uh",
+    "code": "UH",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi hệ thống truyền thông không xác định",
+    "description": "Lỗi hệ thống truyền thông không xác định. Lỗi đấu nối nhầm dây điều khiển, hỏng bo dàn nóng/dàn lạnh gây nhiễu toàn hệ thống.",
+    "severity": "warning",
+    "causes": [
+      "Lỗi đấu nối nhầm dây điều khiển, hỏng bo dàn nóng/dàn lạnh gây nhiễu toàn hệ thống."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường dây truyền thông F1-F2",
+        "detail": "Đo thông mạch và điện trở đường dây F1-F2 giữa dàn nóng và dàn lạnh (hoặc điều khiển có dây). Kiểm tra tiếp xúc tại cầu đấu."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp truyền thông F1-F2",
+        "detail": "Sử dụng thang đo DC, điện áp chuẩn dao động trong khoảng 15V - 18VDC. Nếu điện áp = 0V hoặc treo cố định thì có thiết bị làm ngắn mạch."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch giao tiếp trên bo dàn lạnh / dàn nóng",
+        "detail": "Kiểm tra IC truyền thông, biến áp xung và cầu chì bảo vệ đường tín hiệu trên bo mạch chính."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (Indoor Coil Thermistor)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời"
+    ],
+    "tags": [
+      "uh",
+      "lỗi",
+      "hệ",
+      "thống",
+      "truyền",
+      "thông",
+      "không",
+      "xác",
+      "định",
+      "đấu",
+      "nối",
+      "nhầm",
+      "dây",
+      "điều",
+      "khiển",
+      "hỏng",
+      "bo",
+      "dàn",
+      "nóng",
+      "lạnh",
+      "gây",
+      "nhiễu",
+      "toàn",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "uh",
+      "daikin uh",
+      "mã lỗi uh"
+    ]
+  },
+  {
+    "id": "daikin_uj",
+    "code": "UJ",
+    "brandId": "daikin",
+    "brandName": "Daikin",
+    "title": "Lỗi kết nối với thiết bị phụ kiện tùy chọn",
+    "description": "Lỗi kết nối với thiết bị phụ kiện tùy chọn. Các thiết bị phụ kiện tích hợp thêm bị hỏng hoặc mất tín hiệu kết nối.",
+    "severity": "warning",
+    "causes": [
+      "Các thiết bị phụ kiện tích hợp thêm bị hỏng hoặc mất tín hiệu kết nối."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra trạng thái hệ thống và nguồn điện",
+        "detail": "Đo kiểm tra điện áp nguồn cấp và trạng thái hiển thị trên điều khiển / đèn LED bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các linh kiện & giắc nối liên quan",
+        "detail": "Đo kiểm tra các đầu nối, giắc cắm và thông mạch theo sơ đồ mạch Daikin."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt nguồn Aptomat 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra hoặc thay thế bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Trung tâm Daikin VRV",
+      "Daikin SkyAir Thương mại",
+      "Daikin Treo tường Dân dụng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Daikin"
+    ],
+    "tags": [
+      "uj",
+      "lỗi",
+      "kết",
+      "nối",
+      "với",
+      "thiết",
+      "bị",
+      "phụ",
+      "kiện",
+      "tùy",
+      "chọn",
+      "các",
+      "tích",
+      "hợp",
+      "thêm",
+      "hỏng",
+      "hoặc",
+      "mất",
+      "tín",
+      "hiệu",
+      "hệ",
+      "thống",
+      "daikin",
+      "vrv",
+      "skyair",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "daikin",
+      "uj",
+      "daikin uj",
+      "mã lỗi uj"
+    ]
+  }
+]

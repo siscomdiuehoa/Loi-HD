@@ -1,0 +1,2207 @@
+[
+  {
+    "id": "mitsu_e01",
+    "code": "E01",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi truyền tải dữ liệu của bộ điều khiển",
+    "description": "Lỗi truyền tải dữ liệu của bộ điều khiển. -Mạch truyền tải giữ điều khiển và dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Mạch truyền tải giữ điều khiển và dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e01",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "truyền",
+      "tải",
+      "dữ",
+      "liệu",
+      "của",
+      "bộ",
+      "điều",
+      "khiển"
+    ]
+  },
+  {
+    "id": "mitsu_e02",
+    "code": "E02",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Dàn lạnh được nhân đôi với hơn 129 dàn lạnh được kết nối",
+    "description": "Dàn lạnh được nhân đôi với hơn 129 dàn lạnh được kết nối. -Số lượng dàn lạnh vượt quá 129 dàn lạnh. -Địa chỉ dàn lạnh bị trùng nhau. -Board dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Số lượng dàn lạnh vượt quá 129 dàn lạnh.",
+      "Địa chỉ dàn lạnh bị trùng nhau.",
+      "Board dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e02",
+      "vrf",
+      "kxz",
+      "kx6",
+      "dàn",
+      "lạnh",
+      "được",
+      "nhân",
+      "đôi",
+      "với",
+      "hơn",
+      "129",
+      "dàn",
+      "lạnh",
+      "được",
+      "kết",
+      "nối"
+    ]
+  },
+  {
+    "id": "mitsu_e03",
+    "code": "E03",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi đường truyền tín hiệu đến dàn nóng",
+    "description": "Lỗi đường truyền tín hiệu đến dàn nóng. -Điện chưa được cấp cho dàn nóng. -Địa chỉ dàn nóng và dàn lạnh không khớp nhau. -Board dàn nóng bất thường. -Dây tín hiệu bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Điện chưa được cấp cho dàn nóng.",
+      "Địa chỉ dàn nóng và dàn lạnh không khớp nhau.",
+      "Board dàn nóng bất thường.",
+      "Dây tín hiệu bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e03",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "đường",
+      "truyền",
+      "tín",
+      "hiệu",
+      "đến",
+      "dàn",
+      "nóng"
+    ]
+  },
+  {
+    "id": "mitsu_e05",
+    "code": "E05",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi truyền tải dữ liệu trong quá trình hoạt động",
+    "description": "Lỗi truyền tải dữ liệu trong quá trình hoạt động. -Điện chưa được cấp cho dàn nóng. -Dây điều khiển từ xa bị hỏng. -Board dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Điện chưa được cấp cho dàn nóng.",
+      "Dây điều khiển từ xa bị hỏng.",
+      "Board dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e05",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "truyền",
+      "tải",
+      "dữ",
+      "liệu",
+      "trong",
+      "quá",
+      "trình",
+      "hoạt",
+      "động"
+    ]
+  },
+  {
+    "id": "mitsu_e06",
+    "code": "E06",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Cảm biển nhiệt độ dàn lạnh (Thi-R1,2,3) bất thường",
+    "description": "Cảm biển nhiệt độ dàn lạnh (Thi-R1,2,3) bất thường. -Cảm biến bất thường. -Kết nối kém. -Board điều khiển dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến bất thường.",
+      "Kết nối kém.",
+      "Board điều khiển dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e06",
+      "vrf",
+      "kxz",
+      "kx6",
+      "cảm",
+      "biển",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "lạnh",
+      "(thi-r1,2,3)",
+      "bất",
+      "thường"
+    ]
+  },
+  {
+    "id": "mitsu_e07",
+    "code": "E07",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Cảm biển nhiệt độ gió hồi dàn lạnh (Thi-A) bất thường",
+    "description": "Cảm biển nhiệt độ gió hồi dàn lạnh (Thi-A) bất thường. -Cảm biến bất thường. -Kết nối kém. -Board điều khiển dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến bất thường.",
+      "Kết nối kém.",
+      "Board điều khiển dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e07",
+      "vrf",
+      "kxz",
+      "kx6",
+      "cảm",
+      "biển",
+      "nhiệt",
+      "độ",
+      "gió",
+      "hồi",
+      "dàn",
+      "lạnh",
+      "(thi-a)",
+      "bất",
+      "thường"
+    ]
+  },
+  {
+    "id": "mitsu_e09",
+    "code": "E09",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Thoát nước ngưng bị trục trặc",
+    "description": "Thoát nước ngưng bị trục trặc. -Đường ống xả bị tắc. -Bơm nước ngưng hoạt động bất thường. -Phao bơm trục trặc. -Board dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Đường ống xả bị tắc.",
+      "Bơm nước ngưng hoạt động bất thường.",
+      "Phao bơm trục trặc.",
+      "Board dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e09",
+      "vrf",
+      "kxz",
+      "kx6",
+      "thoát",
+      "nước",
+      "ngưng",
+      "bị",
+      "trục",
+      "trặc"
+    ]
+  },
+  {
+    "id": "mitsu_e10",
+    "code": "E10",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Một điều khiển nhưng điều khiển quá nhiều dàn lạnh",
+    "description": "Một điều khiển nhưng điều khiển quá nhiều dàn lạnh. -Số lượng dàn lạnh kết nối với 1 điều khiển quá nhiều (hơn 16 đơn vị) -Điều khiển hoạt động bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Số lượng dàn lạnh kết nối với 1 điều khiển quá nhiều (hơn 16 đơn vị)",
+      "Điều khiển hoạt động bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e10",
+      "vrf",
+      "kxz",
+      "kx6",
+      "một",
+      "điều",
+      "khiển",
+      "nhưng",
+      "điều",
+      "khiển",
+      "quá",
+      "nhiều",
+      "dàn",
+      "lạnh"
+    ]
+  },
+  {
+    "id": "mitsu_e11",
+    "code": "E11",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi cài đặt địa chỉ (cài đặt với bộ điều khiển có dây )",
+    "description": "Lỗi cài đặt địa chỉ (cài đặt với bộ điều khiển có dây ). -Khi kết nối nhiều dàn lạnh không sử dụng cách cài đặt địa chỉ cho dàn lạnh.",
+    "severity": "critical",
+    "causes": [
+      "Khi kết nối nhiều dàn lạnh không sử dụng cách cài đặt địa chỉ cho dàn lạnh."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e11",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "cài",
+      "đặt",
+      "địa",
+      "chỉ",
+      "(cài",
+      "đặt",
+      "với",
+      "bộ",
+      "điều",
+      "khiển",
+      "có",
+      "dây",
+      ")"
+    ]
+  },
+  {
+    "id": "mitsu_e12",
+    "code": "E12",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi cài đặt địa chỉ bằng cách cài đặt hỗn hợp",
+    "description": "Lỗi cài đặt địa chỉ bằng cách cài đặt hỗn hợp. -Không cài đặt địa chỉ với một số máy thuộc tổ máy.",
+    "severity": "critical",
+    "causes": [
+      "Không cài đặt địa chỉ với một số máy thuộc tổ máy."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e12",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "cài",
+      "đặt",
+      "địa",
+      "chỉ",
+      "bằng",
+      "cách",
+      "cài",
+      "đặt",
+      "hỗn",
+      "hợp"
+    ]
+  },
+  {
+    "id": "mitsu_e16",
+    "code": "E16",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Motor quạt dàn lạnh bất thường",
+    "description": "Motor quạt dàn lạnh bất thường. -Motor quạt dàn lạnh bất thường. -Kết nối kém. -Board dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Motor quạt dàn lạnh bất thường.",
+      "Kết nối kém.",
+      "Board dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e16",
+      "vrf",
+      "kxz",
+      "kx6",
+      "motor",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "bất",
+      "thường"
+    ]
+  },
+  {
+    "id": "mitsu_e18",
+    "code": "E18",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi cài đặt địa chỉ của điều khiển giữa điều khiển chính và phụ",
+    "description": "Lỗi cài đặt địa chỉ của điều khiển giữa điều khiển chính và phụ. -Lỗi cài đặt địa chỉ SW của điều khiển.",
+    "severity": "critical",
+    "causes": [
+      "Lỗi cài đặt địa chỉ SW của điều khiển."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e18",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "cài",
+      "đặt",
+      "địa",
+      "chỉ",
+      "của",
+      "điều",
+      "khiển",
+      "giữa",
+      "điều",
+      "khiển",
+      "chính",
+      "và",
+      "phụ"
+    ]
+  },
+  {
+    "id": "mitsu_e19",
+    "code": "E19",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Bị lỗi trong kiểm tra hoạt động dàn lạnh, việc lắp đặt motor nước thải",
+    "description": "Bị lỗi trong kiểm tra hoạt động dàn lạnh, việc lắp đặt motor nước thải. -Bị lỗi trong cài đặt SW7-1 (Do quên tắt SW7-1 sau khi kiểm tra hoạt động dàn lạnh kết thúc)",
+    "severity": "critical",
+    "causes": [
+      "Bị lỗi trong cài đặt SW7-1 (Do quên tắt SW7-1 sau khi kiểm tra hoạt động dàn lạnh",
+      "kết thúc)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e19",
+      "vrf",
+      "kxz",
+      "kx6",
+      "bị",
+      "lỗi",
+      "trong",
+      "kiểm",
+      "tra",
+      "hoạt",
+      "động",
+      "dàn",
+      "lạnh,",
+      "việc",
+      "lắp",
+      "đặt",
+      "motor",
+      "nước",
+      "thải"
+    ]
+  },
+  {
+    "id": "mitsu_e20",
+    "code": "E20",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Tốc độ quay động cơ dàn lạnh hoạt động bất thường",
+    "description": "Tốc độ quay động cơ dàn lạnh hoạt động bất thường. -Tốc độ Motor quạt một chiều bất thường. -Board Nguồn điều khiển nguồn dàn lạnh bất thường. -Cánh quạt bị cản trở bởi dị vật.",
+    "severity": "critical",
+    "causes": [
+      "Tốc độ Motor quạt một chiều bất thường.",
+      "Board Nguồn điều khiển nguồn dàn lạnh bất thường.",
+      "Cánh quạt bị cản trở bởi dị vật."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e20",
+      "vrf",
+      "kxz",
+      "kx6",
+      "tốc",
+      "độ",
+      "quay",
+      "động",
+      "cơ",
+      "dàn",
+      "lạnh",
+      "hoạt",
+      "động",
+      "bất",
+      "thường"
+    ]
+  },
+  {
+    "id": "mitsu_e21",
+    "code": "E21",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Công tắc tại của gió hồi (FDT) không được kích hoạt",
+    "description": "Công tắc tại của gió hồi (FDT) không được kích hoạt. -Cửa gió hồi không được đóng kín. -Đầu nối CNV lỏng.",
+    "severity": "critical",
+    "causes": [
+      "Cửa gió hồi không được đóng kín.",
+      "Đầu nối CNV lỏng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e21",
+      "vrf",
+      "kxz",
+      "kx6",
+      "công",
+      "tắc",
+      "tại",
+      "của",
+      "gió",
+      "hồi",
+      "(fdt)",
+      "không",
+      "được",
+      "kích",
+      "hoạt"
+    ]
+  },
+  {
+    "id": "mitsu_e28",
+    "code": "E28",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Cảm biến nhiệt độ trên điều khiển bất thường (ThC)",
+    "description": "Cảm biến nhiệt độ trên điều khiển bất thường (ThC). -Cảm biến trên điều khiển bất thường. -Kết nối kém. -Board điều khiển dàn lạnh bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến trên điều khiển bất thường.",
+      "Kết nối kém.",
+      "Board điều khiển dàn lạnh bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e28",
+      "vrf",
+      "kxz",
+      "kx6",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "trên",
+      "điều",
+      "khiển",
+      "bất",
+      "thường",
+      "(thc)"
+    ]
+  },
+  {
+    "id": "mitsu_e31",
+    "code": "E31",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Số vị trí dàn nóng được nhân đôi",
+    "description": "Số vị trí dàn nóng được nhân đôi. -Lỗi trong cài đặt địa chỉ của dàn nóng. -Không cài đặt dàn nóng chính/phụ đối với tổ ghép",
+    "severity": "critical",
+    "causes": [
+      "Lỗi trong cài đặt địa chỉ của dàn nóng.",
+      "Không cài đặt dàn nóng chính/phụ đối với tổ ghép"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e31",
+      "vrf",
+      "kxz",
+      "kx6",
+      "số",
+      "vị",
+      "trí",
+      "dàn",
+      "nóng",
+      "được",
+      "nhân",
+      "đôi"
+    ]
+  },
+  {
+    "id": "mitsu_e32",
+    "code": "E32",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Mở pha L3 trên điện nguồn",
+    "description": "Mở pha L3 trên điện nguồn. -Nguồn cấp bị ngược pha L2 và L3. -Board điều khiển dàn nóng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Nguồn cấp bị ngược pha L2 và L3.",
+      "Board điều khiển dàn nóng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e32",
+      "vrf",
+      "kxz",
+      "kx6",
+      "mở",
+      "pha",
+      "l3",
+      "trên",
+      "điện",
+      "nguồn"
+    ]
+  },
+  {
+    "id": "mitsu_e36_e39_",
+    "code": "E36(E39)",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Cảm biến nhiệt độ ống xả bất thường (Tho-D1, D2)",
+    "description": "Cảm biến nhiệt độ ống xả bất thường (Tho-D1, D2). -Cảm biến nhiệt độ ống xả bất thường. -Board điều khiển dàn nóng bất thường. -Luồng không khí ngắn, lượng không khí không đủ, giải nhiệt dàn nóng kém -Không đủ môi chất lạnh. -Mạch SV1, SV2 bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến nhiệt độ ống xả bất thường.",
+      "Board điều khiển dàn nóng bất thường.",
+      "Luồng không khí ngắn, lượng không khí không đủ, giải nhiệt dàn nóng kém",
+      "Không đủ môi chất lạnh.",
+      "Mạch SV1, SV2 bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e36(e39)",
+      "vrf",
+      "kxz",
+      "kx6",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "ống",
+      "xả",
+      "bất",
+      "thường",
+      "(tho-d1,",
+      "d2)"
+    ]
+  },
+  {
+    "id": "mitsu_e37",
+    "code": "E37",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "E37-1,2,3,4 Cảm biến nhiệt độ trao đổi nhiệt dàn nóng bất thường\r\n(Tho-R1, R2, R3, R4)\r\nE37-5,6 Cảm biến nhiệt độ cuộn coil lạnh bất thường (Tho-SC, H)",
+    "description": "E37-1,2,3,4 Cảm biến nhiệt độ trao đổi nhiệt dàn nóng bất thường\r\n(Tho-R1, R2, R3, R4)\r\nE37-5,6 Cảm biến nhiệt độ cuộn coil lạnh bất thường (Tho-SC, H). -Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng. -Kết nối kém. -Board điều khiển dàn nóng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng.",
+      "Kết nối kém.",
+      "Board điều khiển dàn nóng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e37",
+      "vrf",
+      "kxz",
+      "kx6",
+      "e37-1,2,3,4",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "trao",
+      "đổi",
+      "nhiệt",
+      "dàn",
+      "nóng",
+      "bất",
+      "thường",
+      "(tho-r1,",
+      "r2,",
+      "r3,",
+      "r4)",
+      "e37-5,6",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "cuộn",
+      "coil",
+      "lạnh",
+      "bất",
+      "thường",
+      "(tho-sc,",
+      "h)"
+    ]
+  },
+  {
+    "id": "mitsu_e38",
+    "code": "E38",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Cảm biến nhiệt độ không khí dàn nóng bất thường (Tho-A)",
+    "description": "Cảm biến nhiệt độ không khí dàn nóng bất thường (Tho-A). -Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng. -Kết nối kém. -Board điều khiển dàn nóng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng.",
+      "Kết nối kém.",
+      "Board điều khiển dàn nóng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e38",
+      "vrf",
+      "kxz",
+      "kx6",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "không",
+      "khí",
+      "dàn",
+      "nóng",
+      "bất",
+      "thường",
+      "(tho-a)"
+    ]
+  },
+  {
+    "id": "mitsu_e40",
+    "code": "E40",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Áp suất cao bất thường (63H1-1,2 kích hoạt)",
+    "description": "Áp suất cao bất thường (63H1-1,2 kích hoạt). -Ngắt kết nối công tắc áp suất cao. -Cảm biến áp suất cao bất thường. -Công tắc chuyển đổi áp suất cao bất thường. -Ngắn mạch luồng không khí ở dàn ngừng tụ. -Van dịch vụ đóng.",
+    "severity": "critical",
+    "causes": [
+      "Ngắt kết nối công tắc áp suất cao.",
+      "Cảm biến áp suất cao bất thường.",
+      "Công tắc chuyển đổi áp suất cao bất thường.",
+      "Ngắn mạch luồng không khí ở dàn ngừng tụ.",
+      "Van dịch vụ đóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e40",
+      "vrf",
+      "kxz",
+      "kx6",
+      "áp",
+      "suất",
+      "cao",
+      "bất",
+      "thường",
+      "(63h1-1,2",
+      "kích",
+      "hoạt)"
+    ]
+  },
+  {
+    "id": "mitsu_e41_e51_",
+    "code": "E41(E51)",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Bộ chuyển đổi nguồn quá nóng (Tho-P1, P2)",
+    "description": "Bộ chuyển đổi nguồn quá nóng (Tho-P1, P2). -Bộ chuyển đổi nguồn bất thường. -Cảm biến bộ chuyển đổi nguồn bất thường. -Lắp không đúng bộ chuyển đổi nguồn tới cánh bộ tản nhiệt. -Board biến tần bất thường. -Động cơ quạt làm mát cho biến tần bất thường. -Không đủ không gian lắp đặt dàn nóng.",
+    "severity": "critical",
+    "causes": [
+      "Bộ chuyển đổi nguồn bất thường.",
+      "Cảm biến bộ chuyển đổi nguồn bất thường.",
+      "Lắp không đúng bộ chuyển đổi nguồn tới cánh bộ tản nhiệt.",
+      "Board biến tần bất thường.",
+      "Động cơ quạt làm mát cho biến tần bất thường.",
+      "Không đủ không gian lắp đặt dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e41(e51)",
+      "vrf",
+      "kxz",
+      "kx6",
+      "bộ",
+      "chuyển",
+      "đổi",
+      "nguồn",
+      "quá",
+      "nóng",
+      "(tho-p1,",
+      "p2)"
+    ]
+  },
+  {
+    "id": "mitsu_e42",
+    "code": "E42",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Ngắn dòng (CM1, CM2)",
+    "description": "Ngắn dòng (CM1, CM2). -Máy nén khí bất thường. -Rò rỉ môi chất lạnh. -Sự bất thường của Mô-dun chuyển đổi nguồn. -Nguồn cấp điện cho board biến tần bất thường. -Động cơ quạt dàn nóng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Máy nén khí bất thường.",
+      "Rò rỉ môi chất lạnh.",
+      "Sự bất thường của Mô-dun chuyển đổi nguồn.",
+      "Nguồn cấp điện cho board biến tần bất thường.",
+      "Động cơ quạt dàn nóng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e42",
+      "vrf",
+      "kxz",
+      "kx6",
+      "ngắn",
+      "dòng",
+      "(cm1,",
+      "cm2)"
+    ]
+  },
+  {
+    "id": "mitsu_e43",
+    "code": "E43",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Số lượng dàn lạnh được kết nối quá cao, tổng công suất quá cao",
+    "description": "Số lượng dàn lạnh được kết nối quá cao, tổng công suất quá cao. -Kết nối dây tín hiệu bị lỗi. -Kết nối vượt công suất. -Kết nối tỷ lệ quá thấp (dưới 50%) công suất dàn nóng.",
+    "severity": "critical",
+    "causes": [
+      "Kết nối dây tín hiệu bị lỗi.",
+      "Kết nối vượt công suất.",
+      "Kết nối tỷ lệ quá thấp (dưới 50%) công suất dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e43",
+      "vrf",
+      "kxz",
+      "kx6",
+      "số",
+      "lượng",
+      "dàn",
+      "lạnh",
+      "được",
+      "kết",
+      "nối",
+      "quá",
+      "cao,",
+      "tổng",
+      "công",
+      "suất",
+      "quá",
+      "cao"
+    ]
+  },
+  {
+    "id": "mitsu_e44",
+    "code": "E44",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Chất lỏng Tràn bất thường",
+    "description": "Chất lỏng Tràn bất thường. -Không phù hợp đường ống dẫn môi chất lạnh và/hoặc dây dẫn tín hiệu. -Nạp quá nhiều môi chất lạnh, bộ kiểm soát nhiệt độ dàn nóng bất thường. -Mạch môi chất lạnh đi qua bất thường. -Chu kỳ lạnh của dàn coil bất thường. -Nhiệt độ dưới máy nén (Tho-C1, C2) bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Không phù hợp đường ống dẫn môi chất lạnh và/hoặc dây dẫn tín hiệu.",
+      "Nạp quá nhiều môi chất lạnh, bộ kiểm soát nhiệt độ dàn nóng bất thường.",
+      "Mạch môi chất lạnh đi qua bất thường.",
+      "Chu kỳ lạnh của dàn coil bất thường.",
+      "Nhiệt độ dưới máy nén (Tho-C1, C2) bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e44",
+      "vrf",
+      "kxz",
+      "kx6",
+      "chất",
+      "lỏng",
+      "tràn",
+      "bất",
+      "thường"
+    ]
+  },
+  {
+    "id": "mitsu_e45",
+    "code": "E45",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi giao tiếp giữa board biến tần và board điều khiển dàn nóng",
+    "description": "Lỗi giao tiếp giữa board biến tần và board điều khiển dàn nóng. -Dây tín hiệu bất thường. -Board điều khiển dàn nóng bất thường. -Board biến tần (INV1, 2) bất thường. -Điện trở bảo vệ dòng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Dây tín hiệu bất thường.",
+      "Board điều khiển dàn nóng bất thường.",
+      "Board biến tần (INV1, 2) bất thường.",
+      "Điện trở bảo vệ dòng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e45",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "giao",
+      "tiếp",
+      "giữa",
+      "board",
+      "biến",
+      "tần",
+      "và",
+      "board",
+      "điều",
+      "khiển",
+      "dàn",
+      "nóng"
+    ]
+  },
+  {
+    "id": "mitsu_e46",
+    "code": "E46",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Các phương pháp cài đặt địa chỉ hỗn hợp không tồn tại trong cùng một mạng",
+    "description": "Các phương pháp cài đặt địa chỉ hỗn hợp không tồn tại trong cùng một mạng. -Sai sót trong cài đặt địa chỉ. -Sai sót trong việc kết nối dây tín hiệu.",
+    "severity": "critical",
+    "causes": [
+      "Sai sót trong cài đặt địa chỉ.",
+      "Sai sót trong việc kết nối dây tín hiệu."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e46",
+      "vrf",
+      "kxz",
+      "kx6",
+      "các",
+      "phương",
+      "pháp",
+      "cài",
+      "đặt",
+      "địa",
+      "chỉ",
+      "hỗn",
+      "hợp",
+      "không",
+      "tồn",
+      "tại",
+      "trong",
+      "cùng",
+      "một",
+      "mạng"
+    ]
+  },
+  {
+    "id": "mitsu_e48",
+    "code": "E48",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Động cơ quạt dàn nóng một chiều bất thường (FMo1, FMo2)",
+    "description": "Động cơ quạt dàn nóng một chiều bất thường (FMo1, FMo2). -Động cơ quạt dàn nóng bất thường kết nối kém. -Board biến tần bất thường. -Board điều khiển dàn nóng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Động cơ quạt dàn nóng bất thường kết nối kém.",
+      "Board biến tần bất thường.",
+      "Board điều khiển dàn nóng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e48",
+      "vrf",
+      "kxz",
+      "kx6",
+      "động",
+      "cơ",
+      "quạt",
+      "dàn",
+      "nóng",
+      "một",
+      "chiều",
+      "bất",
+      "thường",
+      "(fmo1,",
+      "fmo2)"
+    ]
+  },
+  {
+    "id": "mitsu_e49",
+    "code": "E49",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Áp suất thấp bất thường",
+    "description": "Áp suất thấp bất thường. -Cảm biến áp suất thấp bất thường. -Van dịch vụ đóng. -EEV bất thường (EEV bị đóng ) -Lượng chất làm lạnh không đủ. -Bị tắc nghẽn tại EEV hoặc bộ lọc.",
+    "severity": "critical",
+    "causes": [
+      "Cảm biến áp suất thấp bất thường.",
+      "Van dịch vụ đóng.",
+      "EEV bất thường (EEV bị đóng )",
+      "Lượng chất làm lạnh không đủ.",
+      "Bị tắc nghẽn tại EEV hoặc bộ lọc."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e49",
+      "vrf",
+      "kxz",
+      "kx6",
+      "áp",
+      "suất",
+      "thấp",
+      "bất",
+      "thường"
+    ]
+  },
+  {
+    "id": "mitsu_e53_e55",
+    "code": "E53/E55",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Cảm biến nhiệt độ đường ống hút bất thường (Tho-S)",
+    "description": "Cảm biến nhiệt độ đường ống hút bất thường (Tho-S). -Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng. -Kết nối kém. -Board điều khiển dàn nóng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng.",
+      "Kết nối kém.",
+      "Board điều khiển dàn nóng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e53/e55",
+      "vrf",
+      "kxz",
+      "kx6",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "đường",
+      "ống",
+      "hút",
+      "bất",
+      "thường",
+      "(tho-s)"
+    ]
+  },
+  {
+    "id": "mitsu_e54",
+    "code": "E54",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "E54-1 Cảm biến áp suất cao bất thường (PSH)\r\nE54-2 Cảm biến áp suất thấp bất thường (PSL)",
+    "description": "E54-1 Cảm biến áp suất cao bất thường (PSH)\r\nE54-2 Cảm biến áp suất thấp bất thường (PSL). -Cáp cảm biến bị hỏng. -Cảm biến bị ngắt kết nối. -Cảm biến (PSH, PSL ) bất thường. -Board điều khiển dàn nóng bất thường. -Điều kiện cài đặt bất thường. -Trao đổi nhiệt kém ngoài dàn nóng. -Lượng môi chất lạnh không đủ hoặc quá nhiều.",
+    "severity": "critical",
+    "causes": [
+      "Cáp cảm biến bị hỏng.",
+      "Cảm biến bị ngắt kết nối.",
+      "Cảm biến (PSH, PSL ) bất thường.",
+      "Board điều khiển dàn nóng bất thường.",
+      "Điều kiện cài đặt bất thường.",
+      "Trao đổi nhiệt kém ngoài dàn nóng.",
+      "Lượng môi chất lạnh không đủ hoặc quá nhiều."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e54",
+      "vrf",
+      "kxz",
+      "kx6",
+      "e54-1",
+      "cảm",
+      "biến",
+      "áp",
+      "suất",
+      "cao",
+      "bất",
+      "thường",
+      "(psh)",
+      "e54-2",
+      "cảm",
+      "biến",
+      "áp",
+      "suất",
+      "thấp",
+      "bất",
+      "thường",
+      "(psl)"
+    ]
+  },
+  {
+    "id": "mitsu_e56",
+    "code": "E56",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Cảm biến nhiệt độ bộ chuyển đổi bất thường (Tho-P1, P2)",
+    "description": "Cảm biến nhiệt độ bộ chuyển đổi bất thường (Tho-P1, P2). -Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng. -Kết nối kém. -Board điều khiển dàn nóng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Bộ dây cảm biến hoặc dây bên trong phần cảm biến bị hỏng.",
+      "Kết nối kém.",
+      "Board điều khiển dàn nóng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e56",
+      "vrf",
+      "kxz",
+      "kx6",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "bộ",
+      "chuyển",
+      "đổi",
+      "bất",
+      "thường",
+      "(tho-p1,",
+      "p2)"
+    ]
+  },
+  {
+    "id": "mitsu_e58",
+    "code": "E58",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Máy nén bất thường do mất đồng bộ",
+    "description": "Máy nén bất thường do mất đồng bộ. -Không đủ thời gian sau khi cấp điện trước khi khởi động máy nén. -Khởi động máy nén khi mà điện trở sưởi dầu không BẬT lên. -Máy nén bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Không đủ thời gian sau khi cấp điện trước khi khởi động máy nén.",
+      "Khởi động máy nén khi mà điện trở sưởi dầu không BẬT lên.",
+      "Máy nén bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e58",
+      "vrf",
+      "kxz",
+      "kx6",
+      "máy",
+      "nén",
+      "bất",
+      "thường",
+      "do",
+      "mất",
+      "đồng",
+      "bộ"
+    ]
+  },
+  {
+    "id": "mitsu_e59",
+    "code": "E59",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Sự cố khởi động máy nén (CM1, CM2)",
+    "description": "Sự cố khởi động máy nén (CM1, CM2). -Điện áp nguồn bất thường. -Các thành phần của chu kỳ lạnh bất thường, board biến tần bất thường. -Kết nối lỏng lẻo cầu đấu nối hoặc dây cáp. -Máy nén bất thường (đông cơ hoặc vòng xoay)",
+    "severity": "critical",
+    "causes": [
+      "Điện áp nguồn bất thường.",
+      "Các thành phần của chu kỳ lạnh bất thường, board biến tần bất thường.",
+      "Kết nối lỏng lẻo cầu đấu nối hoặc dây cáp.",
+      "Máy nén bất thường (đông cơ hoặc vòng xoay)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e59",
+      "vrf",
+      "kxz",
+      "kx6",
+      "sự",
+      "cố",
+      "khởi",
+      "động",
+      "máy",
+      "nén",
+      "(cm1,",
+      "cm2)"
+    ]
+  },
+  {
+    "id": "mitsu_e61",
+    "code": "E61",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Lỗi truyền tải dữ liệu giữa dàn nóng chủ và dàn nóng phụ",
+    "description": "Lỗi truyền tải dữ liệu giữa dàn nóng chủ và dàn nóng phụ. -Dây tín hiệu bất thường. -Board điều khiển dàn nóng bất thường. -Board biến tần (INV1, 2) bất thường. -Điện trở bảo vệ dòng bất thường.",
+    "severity": "critical",
+    "causes": [
+      "Dây tín hiệu bất thường.",
+      "Board điều khiển dàn nóng bất thường.",
+      "Board biến tần (INV1, 2) bất thường.",
+      "Điện trở bảo vệ dòng bất thường."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e61",
+      "vrf",
+      "kxz",
+      "kx6",
+      "lỗi",
+      "truyền",
+      "tải",
+      "dữ",
+      "liệu",
+      "giữa",
+      "dàn",
+      "nóng",
+      "chủ",
+      "và",
+      "dàn",
+      "nóng",
+      "phụ"
+    ]
+  },
+  {
+    "id": "mitsu_e63",
+    "code": "E63",
+    "brandId": "mitsubishi",
+    "brandName": "Mitsubishi Heavy",
+    "title": "Dừng khẩn cấp",
+    "description": "Dừng khẩn cấp. -Các yếu tố để dừng khẩn cấp.",
+    "severity": "critical",
+    "causes": [
+      "Các yếu tố để dừng khẩn cấp."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền và kết nối bo mạch",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra cảm biến và linh kiện liên quan",
+        "detail": "Đo điện trở sensor, kiểm tra nguồn cấp và tín hiệu điều khiển trên bo mạch vi xử lý."
+      },
+      {
+        "step": 3,
+        "action": "Reset và kiểm tra trạng thái hoạt động",
+        "detail": "Ngắt nguồn CB trong 3 phút rồi khởi động lại hệ thống để xác nhận mã lỗi."
+      }
+    ],
+    "modelTypes": [
+      "VRF KXZ / KX6",
+      "Multi Split",
+      "Điều hòa thương mại"
+    ],
+    "relatedSensors": [
+      "Board dàn lạnh",
+      "Board dàn nóng",
+      "Cảm biến hệ thống"
+    ],
+    "tags": [
+      "mitsubishi",
+      "mitsu",
+      "e63",
+      "vrf",
+      "kxz",
+      "kx6",
+      "dừng",
+      "khẩn",
+      "cấp"
+    ]
+  }
+]

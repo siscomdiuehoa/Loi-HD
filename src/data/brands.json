@@ -1,0 +1,205 @@
+[
+  {
+    "id": "panasonic",
+    "name": "Panasonic",
+    "code": "pana",
+    "tagline": "Điều hòa cục bộ, Sky Series & VRFS Multi",
+    "logo": "/logos/normalized/panasonic.png",
+    "accentColor": "#38BDF8",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#004098",
+    "totalCodes": 51,
+    "popularCodes": [
+      "H11",
+      "H16",
+      "F95",
+      "H97"
+    ]
+  },
+  {
+    "id": "daikin",
+    "name": "Daikin",
+    "code": "daikin",
+    "tagline": "Chuyên gia VRV & SkyAir",
+    "logo": "/logos/normalized/daikin.png",
+    "accentColor": "#00E5FF",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#0097e6",
+    "totalCodes": 81,
+    "popularCodes": [
+      "U4",
+      "A5",
+      "L5",
+      "E7"
+    ]
+  },
+  {
+    "id": "midea",
+    "name": "Midea",
+    "code": "midea",
+    "tagline": "Treo tường, Cassette, Ống gió & Multi",
+    "logo": "/logos/normalized/midea.png",
+    "accentColor": "#38BDF8",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#0092D0",
+    "totalCodes": 174,
+    "popularCodes": [
+      "E1",
+      "E3",
+      "EC",
+      "P0"
+    ]
+  },
+  {
+    "id": "mitsubishi",
+    "name": "Mitsubishi Heavy",
+    "code": "mitsu",
+    "tagline": "Hệ thống điều hòa trung tâm VRF KXZ & KX6",
+    "logo": "/logos/normalized/mitsubishi.png",
+    "accentColor": "#F43F5E",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#E60012",
+    "totalCodes": 37,
+    "popularCodes": [
+      "E01",
+      "E03",
+      "E09",
+      "E42"
+    ]
+  },
+  {
+    "id": "lg",
+    "name": "LG Electronics",
+    "code": "lg",
+    "tagline": "Dual Inverter & Multi V",
+    "logo": "/logos/normalized/lg.png",
+    "accentColor": "#F43F5E",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#C40030",
+    "totalCodes": 42,
+    "popularCodes": [
+      "CH05",
+      "CH10",
+      "CH21",
+      "CH38"
+    ]
+  },
+  {
+    "id": "casper",
+    "name": "Casper",
+    "code": "casper",
+    "tagline": "Treo tường Inverter, Âm trần & Tủ đứng",
+    "logo": "/logos/normalized/casper.png",
+    "accentColor": "#0284C7",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#0083CA",
+    "totalCodes": 28,
+    "popularCodes": [
+      "E1",
+      "E3",
+      "E4",
+      "E5",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "gree",
+    "name": "Gree",
+    "code": "gree",
+    "tagline": "Điều hòa trung tâm VRF GMV & Dân dụng, Thương mại",
+    "logo": "/logos/normalized/gree.png",
+    "accentColor": "#0284C7",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#0072CE",
+    "totalCodes": 222,
+    "popularCodes": [
+      "E1",
+      "E3",
+      "E6",
+      "H6",
+      "P0",
+      "F1"
+    ]
+  },
+  {
+    "id": "reetech",
+    "name": "Reetech",
+    "code": "reetech",
+    "tagline": "Treo tường, Âm trần, Tủ đứng & Inverter",
+    "logo": "/logos/normalized/reetech.png",
+    "accentColor": "#0284C7",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#0066B2",
+    "totalCodes": 28,
+    "popularCodes": [
+      "E0",
+      "E1",
+      "E2",
+      "P0",
+      "P4"
+    ]
+  },
+  {
+    "id": "saiver",
+    "name": "Saiver",
+    "code": "saiver",
+    "tagline": "AHU & Chiller",
+    "logo": "",
+    "accentColor": "#38BDF8",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#004098",
+    "totalCodes": 1,
+    "popularCodes": [
+      "E01"
+    ]
+  },
+  {
+    "id": "toshiba",
+    "name": "Toshiba",
+    "code": "toshiba",
+    "tagline": "Một số dòng RAV thương mại",
+    "logo": "",
+    "accentColor": "#dc2626",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#dc2626",
+    "totalCodes": 13,
+    "popularCodes": [
+      "E01",
+      "E02",
+      "E03"
+    ]
+  },
+  {
+    "id": "aqua",
+    "name": "AQUA",
+    "code": "aqua",
+    "tagline": "Một số dòng inverter",
+    "logo": "",
+    "accentColor": "#0079bf",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#0079bf",
+    "totalCodes": 17,
+    "popularCodes": [
+      "E1",
+      "E2",
+      "E4"
+    ]
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "code": "samsung",
+    "tagline": "Một số dòng máy lạnh Samsung",
+    "logo": "",
+    "accentColor": "#1428a0",
+    "badgeBg": "#FFFFFF",
+    "badgeText": "#1428a0",
+    "totalCodes": 4,
+    "popularCodes": [
+      "E1",
+      "E5",
+      "E6"
+    ]
+  }
+]

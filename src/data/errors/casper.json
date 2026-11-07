@@ -1,0 +1,1681 @@
+[
+  {
+    "id": "casper_e0",
+    "code": "E0",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi thiếu môi chất lạnh ( gas lạnh ) / Lỗi ở cảm biến dàn lạnh",
+    "description": "[Âm trần] Lỗi thiếu môi chất lạnh ( gas lạnh ) | [Di động (Portable AC)] Lỗi ở cảm biến dàn lạnh",
+    "severity": "warning",
+    "causes": [
+      "[Âm trần] Lỗi thiếu môi chất lạnh ( gas lạnh )",
+      "[Di động (Portable AC)] Lỗi ở cảm biến dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần",
+      "Di động (Portable AC)"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (5kΩ/10kΩ)"
+    ],
+    "tags": [
+      "e0",
+      "lỗi",
+      "thiếu",
+      "môi",
+      "chất",
+      "lạnh",
+      "gas",
+      "cảm",
+      "biến",
+      "dàn",
+      "âm",
+      "trần",
+      "di",
+      "động",
+      "portable",
+      "ac",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e0",
+      "casper e0",
+      "mã lỗi e0"
+    ]
+  },
+  {
+    "id": "casper_e1",
+    "code": "E1",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến nhiệt độ phòng / Lỗi cảm biến nhiệt độ trong nhà",
+    "description": "[Treo tường ON/OFF] Lỗi cảm biến nhiệt độ phòng | [Treo tường Inverter] Lỗi cảm biến nhiệt độ phòng | [Tủ đứng] Lỗi cảm biến nhiệt độ phòng | [Âm trần] Lỗi cảm biến nhiệt độ trong nhà",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường ON/OFF] Lỗi cảm biến nhiệt độ phòng",
+      "[Treo tường Inverter] Lỗi cảm biến nhiệt độ phòng",
+      "[Tủ đứng] Lỗi cảm biến nhiệt độ phòng",
+      "[Âm trần] Lỗi cảm biến nhiệt độ trong nhà"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường ON/OFF",
+      "Treo tường Inverter",
+      "Tủ đứng",
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (5kΩ/10kΩ)"
+    ],
+    "tags": [
+      "e1",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "phòng",
+      "trong",
+      "nhà",
+      "treo",
+      "tường",
+      "on",
+      "off",
+      "inverter",
+      "tủ",
+      "đứng",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e1",
+      "casper e1",
+      "mã lỗi e1"
+    ]
+  },
+  {
+    "id": "casper_e2",
+    "code": "E2",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến nhiệt độ dàn nóng / Lỗi cảm biến dàn nóng / Lỗi cảm biến dàn ngoài nhà",
+    "description": "[Treo tường ON/OFF] Lỗi cảm biến nhiệt độ dàn nóng | [Treo tường Inverter] Lỗi cảm biến dàn nóng | [Âm trần] Lỗi cảm biến dàn ngoài nhà",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường ON/OFF] Lỗi cảm biến nhiệt độ dàn nóng",
+      "[Treo tường Inverter] Lỗi cảm biến dàn nóng",
+      "[Âm trần] Lỗi cảm biến dàn ngoài nhà"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường ON/OFF",
+      "Treo tường Inverter",
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài"
+    ],
+    "tags": [
+      "e2",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "nóng",
+      "ngoài",
+      "nhà",
+      "treo",
+      "tường",
+      "on",
+      "off",
+      "inverter",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e2",
+      "casper e2",
+      "mã lỗi e2"
+    ]
+  },
+  {
+    "id": "casper_e3",
+    "code": "E3",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến nhiệt độ dàn lạnh / Lỗi cảm biến dàn lạnh / Lỗi cảm biến dàn trong nhà",
+    "description": "[Treo tường ON/OFF] Lỗi cảm biến nhiệt độ dàn lạnh | [Treo tường Inverter] Lỗi cảm biến dàn lạnh | [Tủ đứng] Lỗi cảm biến dàn lạnh | [Âm trần] Lỗi cảm biến dàn trong nhà",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường ON/OFF] Lỗi cảm biến nhiệt độ dàn lạnh",
+      "[Treo tường Inverter] Lỗi cảm biến dàn lạnh",
+      "[Tủ đứng] Lỗi cảm biến dàn lạnh",
+      "[Âm trần] Lỗi cảm biến dàn trong nhà"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường ON/OFF",
+      "Treo tường Inverter",
+      "Tủ đứng",
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (5kΩ/10kΩ)",
+      "Sensor đồng dàn lạnh (5kΩ/10kΩ)"
+    ],
+    "tags": [
+      "e3",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "lạnh",
+      "trong",
+      "nhà",
+      "treo",
+      "tường",
+      "on",
+      "off",
+      "inverter",
+      "tủ",
+      "đứng",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e3",
+      "casper e3",
+      "mã lỗi e3"
+    ]
+  },
+  {
+    "id": "casper_e4",
+    "code": "E4",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Tín hiệu điều khiển động cơ quạt dàn lạnh lỗi / Lỗi động cơ quạt dàn lạnh / Lỗi cảm biến dàn nóng / Lỗi hệ thống bơm thoát nước ngưng",
+    "description": "[Treo tường ON/OFF] Tín hiệu điều khiển động cơ quạt dàn lạnh lỗi | [Treo tường Inverter] Lỗi động cơ quạt dàn lạnh | [Tủ đứng] Lỗi cảm biến dàn nóng | [Âm trần] Lỗi hệ thống bơm thoát nước ngưng",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường ON/OFF] Tín hiệu điều khiển động cơ quạt dàn lạnh lỗi",
+      "[Treo tường Inverter] Lỗi động cơ quạt dàn lạnh",
+      "[Tủ đứng] Lỗi cảm biến dàn nóng",
+      "[Âm trần] Lỗi hệ thống bơm thoát nước ngưng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường ON/OFF",
+      "Treo tường Inverter",
+      "Tủ đứng",
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Sensor đồng dàn lạnh (5kΩ/10kΩ)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài",
+      "Motor quạt & IC Hall phản hồi xung",
+      "Phao nước chống tràn & Bơm xả nước ngưng"
+    ],
+    "tags": [
+      "e4",
+      "tín",
+      "hiệu",
+      "điều",
+      "khiển",
+      "động",
+      "cơ",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nóng",
+      "hệ",
+      "thống",
+      "bơm",
+      "thoát",
+      "nước",
+      "ngưng",
+      "treo",
+      "tường",
+      "on",
+      "off",
+      "inverter",
+      "tủ",
+      "đứng",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper"
+    ]
+  },
+  {
+    "id": "casper_e5",
+    "code": "E5",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi kết nối cục nóng và cục lạnh / Lỗi kết nối tín hiệu điều khiển",
+    "description": "[Treo tường Inverter] Lỗi kết nối cục nóng và cục lạnh | [Âm trần] Lỗi kết nối tín hiệu điều khiển",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường Inverter] Lỗi kết nối cục nóng và cục lạnh",
+      "[Âm trần] Lỗi kết nối tín hiệu điều khiển"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra dây điện tín hiệu kết nối liên tổ",
+        "detail": "Kiểm tra dây đấu nối giữa dàn nóng và dàn lạnh tại cầu đấu (chân 1, 2, 3). Đảm bảo dây đúng thứ tự và bắt chặt ốc."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động truyền thông",
+        "detail": "Dùng đồng hồ đo thang DC giữa chân tín hiệu Data và chân Nguồn (điện áp thường dao động từ 0-24VDC)."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra khối giao tiếp trên bo nóng & bo lạnh",
+        "detail": "Đo kiểm các điện trở công suất, Diode, IC so quang (Opto PC817/PC814) trên mạch truyền thông."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter",
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "e5",
+      "lỗi",
+      "kết",
+      "nối",
+      "cục",
+      "nóng",
+      "và",
+      "lạnh",
+      "tín",
+      "hiệu",
+      "điều",
+      "khiển",
+      "treo",
+      "tường",
+      "inverter",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e5",
+      "casper e5",
+      "mã lỗi e5"
+    ]
+  },
+  {
+    "id": "casper_e6",
+    "code": "E6",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi mất pha, ngược pha cục nóng",
+    "description": "[Âm trần] Lỗi mất pha, ngược pha cục nóng",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần] Lỗi mất pha, ngược pha cục nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện áp nguồn cấp 3 pha",
+        "detail": "Đo điện áp giữa các pha L1-L2, L2-L3, L3-L1 (chuẩn 380V) và giữa từng pha với dây trung tính N (220V)."
+      },
+      {
+        "step": 2,
+        "action": "Đảo thứ tự 2 dây pha",
+        "detail": "Ngắt cầu dao nguồn và đảo chéo vị trí 2 dây pha bất kỳ trong 3 pha tại cầu đấu dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra rơ le bảo vệ mất pha trên bo mạch",
+        "detail": "Kiểm tra mạch phát hiện thứ tự pha và rơ le bảo vệ trên bo dàn nóng."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Mạch bảo vệ mất pha, lệch pha 3 pha"
+    ],
+    "tags": [
+      "e6",
+      "lỗi",
+      "mất",
+      "pha",
+      "ngược",
+      "cục",
+      "nóng",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e6",
+      "casper e6",
+      "mã lỗi e6"
+    ]
+  },
+  {
+    "id": "casper_e7",
+    "code": "E7",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến dàn ngưng ngoài nhà",
+    "description": "[Âm trần] Lỗi cảm biến dàn ngưng ngoài nhà",
+    "severity": "warning",
+    "causes": [
+      "[Âm trần] Lỗi cảm biến dàn ngưng ngoài nhà"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "e7",
+      "lỗi",
+      "cảm",
+      "biến",
+      "dàn",
+      "ngưng",
+      "ngoài",
+      "nhà",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e7",
+      "casper e7",
+      "mã lỗi e7"
+    ]
+  },
+  {
+    "id": "casper_e8",
+    "code": "E8",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến nhiệt đầu máy nén",
+    "description": "[Âm trần] Lỗi cảm biến nhiệt đầu máy nén",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần] Lỗi cảm biến nhiệt đầu máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (50kΩ)",
+      "Mô đun công suất IPM & Bo Inverter máy nén"
+    ],
+    "tags": [
+      "e8",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "đầu",
+      "máy",
+      "nén",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e8",
+      "casper e8",
+      "mã lỗi e8"
+    ]
+  },
+  {
+    "id": "casper_e9",
+    "code": "E9",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Bảo vệ áp suất cao, thấp",
+    "description": "[Âm trần] Bảo vệ áp suất cao, thấp",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần] Bảo vệ áp suất cao, thấp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn điện và trạng thái máy",
+        "detail": "Kiểm tra điện áp cấp cho điều hòa có ổn định trong dải cho phép (200 - 240V) không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các cảm biến & giắc nối liên quan",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra sửa chữa bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "e9",
+      "bảo",
+      "vệ",
+      "áp",
+      "suất",
+      "cao",
+      "thấp",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "e9",
+      "casper e9",
+      "mã lỗi e9"
+    ]
+  },
+  {
+    "id": "casper_ea",
+    "code": "EA",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Bảo vệ quá nhiệt đường hồi",
+    "description": "[Âm trần] Bảo vệ quá nhiệt đường hồi",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần] Bảo vệ quá nhiệt đường hồi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn điện và trạng thái máy",
+        "detail": "Kiểm tra điện áp cấp cho điều hòa có ổn định trong dải cho phép (200 - 240V) không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các cảm biến & giắc nối liên quan",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra sửa chữa bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống hút hồi gas"
+    ],
+    "tags": [
+      "ea",
+      "bảo",
+      "vệ",
+      "quá",
+      "nhiệt",
+      "đường",
+      "hồi",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "ea",
+      "casper ea",
+      "mã lỗi ea"
+    ]
+  },
+  {
+    "id": "casper_f0",
+    "code": "F0",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi động cơ quạt dàn nóng",
+    "description": "[Treo tường Inverter] Lỗi động cơ quạt dàn nóng",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường Inverter] Lỗi động cơ quạt dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra lồng quạt và tụ quạt / motor",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt dị vật hay bó bạc không. Đo tụ quạt (với quạt AC) hoặc kiểm tra nguồn cấp DC."
+      },
+      {
+        "step": 2,
+        "action": "Đo xung hồi tiếp quạt (Hall Sensor)",
+        "detail": "Đo dây tín hiệu phản hồi tốc độ quạt (dây Hall) về bo mạch. Với quạt DC, kiểm tra điện áp 310V, 15V và xung Vsp (0-6V)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển",
+        "detail": "Nếu quạt hỏng cuộn dây hoặc chết IC Hall thì thay motor quạt mới. Nếu bo không cấp lệnh thì sửa mạch điều khiển quạt trên mainboard."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài",
+      "Motor quạt & IC Hall phản hồi xung"
+    ],
+    "tags": [
+      "f0",
+      "lỗi",
+      "động",
+      "cơ",
+      "quạt",
+      "dàn",
+      "nóng",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f0",
+      "casper f0",
+      "mã lỗi f0"
+    ]
+  },
+  {
+    "id": "casper_f1",
+    "code": "F1",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi phần IPM / Bảo vệ mất pha, lệch pha. Bảo vệ áp suất cao",
+    "description": "[Treo tường Inverter] Lỗi phần IPM | [Tủ đứng] Bảo vệ mất pha, lệch pha. Bảo vệ áp suất cao",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường Inverter] Lỗi phần IPM",
+      "[Tủ đứng] Bảo vệ mất pha, lệch pha. Bảo vệ áp suất cao"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện áp nguồn cấp 3 pha",
+        "detail": "Đo điện áp giữa các pha L1-L2, L2-L3, L3-L1 (chuẩn 380V) và giữa từng pha với dây trung tính N (220V)."
+      },
+      {
+        "step": 2,
+        "action": "Đảo thứ tự 2 dây pha",
+        "detail": "Ngắt cầu dao nguồn và đảo chéo vị trí 2 dây pha bất kỳ trong 3 pha tại cầu đấu dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra rơ le bảo vệ mất pha trên bo mạch",
+        "detail": "Kiểm tra mạch phát hiện thứ tự pha và rơ le bảo vệ trên bo dàn nóng."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter",
+      "Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Mô đun công suất IPM & Bo Inverter máy nén",
+      "Mạch bảo vệ mất pha, lệch pha 3 pha"
+    ],
+    "tags": [
+      "f1",
+      "lỗi",
+      "phần",
+      "ipm",
+      "bảo",
+      "vệ",
+      "mất",
+      "pha",
+      "lệch",
+      "áp",
+      "suất",
+      "cao",
+      "treo",
+      "tường",
+      "inverter",
+      "tủ",
+      "đứng",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f1",
+      "casper f1",
+      "mã lỗi f1"
+    ]
+  },
+  {
+    "id": "casper_f2",
+    "code": "F2",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi phần PFC / Bảo vệ quá nhiệt",
+    "description": "[Treo tường Inverter] Lỗi phần PFC | [Tủ đứng] Bảo vệ quá nhiệt",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường Inverter] Lỗi phần PFC",
+      "[Tủ đứng] Bảo vệ quá nhiệt"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút jack cắm máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo cách điện với vỏ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & Diode cầu PFC",
+        "detail": "Đo thang Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo Inverter."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra nguồn DC Bus 300V/380V",
+        "detail": "Đo điện áp trên tụ lọc nguồn DC Bus và kiểm tra cuộn kháng lọc nhiễu Reactor."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter",
+      "Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Mô đun công suất IPM & Bo Inverter máy nén"
+    ],
+    "tags": [
+      "f2",
+      "lỗi",
+      "phần",
+      "pfc",
+      "bảo",
+      "vệ",
+      "quá",
+      "nhiệt",
+      "treo",
+      "tường",
+      "inverter",
+      "tủ",
+      "đứng",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f2",
+      "casper f2",
+      "mã lỗi f2"
+    ]
+  },
+  {
+    "id": "casper_f3",
+    "code": "F3",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi máy nén",
+    "description": "[Treo tường Inverter] Lỗi máy nén",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường Inverter] Lỗi máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút jack cắm máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo cách điện với vỏ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & Diode cầu PFC",
+        "detail": "Đo thang Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo Inverter."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra nguồn DC Bus 300V/380V",
+        "detail": "Đo điện áp trên tụ lọc nguồn DC Bus và kiểm tra cuộn kháng lọc nhiễu Reactor."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (50kΩ)",
+      "Mô đun công suất IPM & Bo Inverter máy nén"
+    ],
+    "tags": [
+      "f3",
+      "lỗi",
+      "máy",
+      "nén",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f3",
+      "casper f3",
+      "mã lỗi f3"
+    ]
+  },
+  {
+    "id": "casper_f4",
+    "code": "F4",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến nhiệt đầu máy nén",
+    "description": "[Treo tường Inverter] Lỗi cảm biến nhiệt đầu máy nén",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường Inverter] Lỗi cảm biến nhiệt đầu máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (50kΩ)",
+      "Mô đun công suất IPM & Bo Inverter máy nén"
+    ],
+    "tags": [
+      "f4",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "đầu",
+      "máy",
+      "nén",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f4",
+      "casper f4",
+      "mã lỗi f4"
+    ]
+  },
+  {
+    "id": "casper_f5",
+    "code": "F5",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi bảo vệ máy nén",
+    "description": "[Treo tường Inverter] Lỗi bảo vệ máy nén",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường Inverter] Lỗi bảo vệ máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút jack cắm máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo cách điện với vỏ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & Diode cầu PFC",
+        "detail": "Đo thang Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo Inverter."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra nguồn DC Bus 300V/380V",
+        "detail": "Đo điện áp trên tụ lọc nguồn DC Bus và kiểm tra cuộn kháng lọc nhiễu Reactor."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (50kΩ)",
+      "Mô đun công suất IPM & Bo Inverter máy nén"
+    ],
+    "tags": [
+      "f5",
+      "lỗi",
+      "bảo",
+      "vệ",
+      "máy",
+      "nén",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f5",
+      "casper f5",
+      "mã lỗi f5"
+    ]
+  },
+  {
+    "id": "casper_f6",
+    "code": "F6",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến nhiệt độ môi trường cục nóng",
+    "description": "[Treo tường Inverter] Lỗi cảm biến nhiệt độ môi trường cục nóng",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường Inverter] Lỗi cảm biến nhiệt độ môi trường cục nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài"
+    ],
+    "tags": [
+      "f6",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "môi",
+      "trường",
+      "cục",
+      "nóng",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f6",
+      "casper f6",
+      "mã lỗi f6"
+    ]
+  },
+  {
+    "id": "casper_f7",
+    "code": "F7",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi bảo vệ điện áp cao, thấp",
+    "description": "[Treo tường Inverter] Lỗi bảo vệ điện áp cao, thấp",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường Inverter] Lỗi bảo vệ điện áp cao, thấp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn điện và trạng thái máy",
+        "detail": "Kiểm tra điện áp cấp cho điều hòa có ổn định trong dải cho phép (200 - 240V) không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các cảm biến & giắc nối liên quan",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra sửa chữa bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "f7",
+      "lỗi",
+      "bảo",
+      "vệ",
+      "điện",
+      "áp",
+      "cao",
+      "thấp",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f7",
+      "casper f7",
+      "mã lỗi f7"
+    ]
+  },
+  {
+    "id": "casper_f8",
+    "code": "F8",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi kết lỗi cục nóng",
+    "description": "[Treo tường Inverter] Lỗi kết lỗi cục nóng",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường Inverter] Lỗi kết lỗi cục nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra dây điện tín hiệu kết nối liên tổ",
+        "detail": "Kiểm tra dây đấu nối giữa dàn nóng và dàn lạnh tại cầu đấu (chân 1, 2, 3). Đảm bảo dây đúng thứ tự và bắt chặt ốc."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động truyền thông",
+        "detail": "Dùng đồng hồ đo thang DC giữa chân tín hiệu Data và chân Nguồn (điện áp thường dao động từ 0-24VDC)."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra khối giao tiếp trên bo nóng & bo lạnh",
+        "detail": "Đo kiểm các điện trở công suất, Diode, IC so quang (Opto PC817/PC814) trên mạch truyền thông."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "f8",
+      "lỗi",
+      "kết",
+      "cục",
+      "nóng",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f8",
+      "casper f8",
+      "mã lỗi f8"
+    ]
+  },
+  {
+    "id": "casper_f9",
+    "code": "F9",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi chip vi xử lý cục nóng / Máy không có gas",
+    "description": "[Treo tường Inverter] Lỗi chip vi xử lý cục nóng | [Âm trần] Máy không có gas",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường Inverter] Lỗi chip vi xử lý cục nóng",
+      "[Âm trần] Máy không có gas"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Gắn đồng hồ đo áp suất hút gas",
+        "detail": "Kiểm tra áp suất gas R32/R410A khi máy chạy. Nếu áp suất thấp hơn 120-140 PSI (R32) hoặc kim dao động thì hệ thống thiếu gas."
+      },
+      {
+        "step": 2,
+        "action": "Tìm và xử lý điểm rò rỉ rắc co / mối hàn",
+        "detail": "Dùng bọt xà phòng hoặc máy dò gas kiểm tra các đầu nối rắc co, đầu côn và dàn tản nhiệt."
+      },
+      {
+        "step": 3,
+        "action": "Hút chân không và nạp lại gas chuẩn",
+        "detail": "Hút chân không sâu tối thiểu 15-20 phút, sau đó dùng cân điện tử nạp lại gas đúng định lượng ghi trên tem máy."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter",
+      "Âm trần"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "f9",
+      "lỗi",
+      "chip",
+      "vi",
+      "xử",
+      "lý",
+      "cục",
+      "nóng",
+      "máy",
+      "không",
+      "có",
+      "gas",
+      "treo",
+      "tường",
+      "inverter",
+      "âm",
+      "trần",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "f9",
+      "casper f9",
+      "mã lỗi f9"
+    ]
+  },
+  {
+    "id": "casper_fa",
+    "code": "FA",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi cảm biến đường hồi",
+    "description": "[Treo tường Inverter] Lỗi cảm biến đường hồi",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường Inverter] Lỗi cảm biến đường hồi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường Inverter"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống hút hồi gas"
+    ],
+    "tags": [
+      "fa",
+      "lỗi",
+      "cảm",
+      "biến",
+      "đường",
+      "hồi",
+      "treo",
+      "tường",
+      "inverter",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "fa",
+      "casper fa",
+      "mã lỗi fa"
+    ]
+  },
+  {
+    "id": "casper_p1",
+    "code": "P1",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Tràn máng nước / Xảy ra tình trạng tràn máng nước",
+    "description": "[Di động (Portable AC)] Tràn máng nước / Xảy ra tình trạng tràn máng nước",
+    "severity": "warning",
+    "causes": [
+      "[Di động (Portable AC)] Tràn máng nước / Xảy ra tình trạng tràn máng nước"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường thoát nước xả ngưng",
+        "detail": "Kiểm tra máng nước ngưng xem có bị đọng bẩn, rêu cặn làm tắc đường ống xả không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra công tắc phao từ chống tràn",
+        "detail": "Đo kiểm tiếp điểm công tắc phao xem có đóng/ngắt dứt khoát khi nâng hạ phao không."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra bơm nước ngưng",
+        "detail": "Cấp điện kiểm tra motor bơm nước ngưng có hoạt động bơm nước thoát ra ngoài không."
+      }
+    ],
+    "modelTypes": [
+      "Di động (Portable AC)"
+    ],
+    "relatedSensors": [
+      "Phao nước chống tràn & Bơm xả nước ngưng"
+    ],
+    "tags": [
+      "p1",
+      "tràn",
+      "máng",
+      "nước",
+      "xảy",
+      "ra",
+      "tình",
+      "trạng",
+      "di",
+      "động",
+      "portable",
+      "ac",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "p1",
+      "casper p1",
+      "mã lỗi p1"
+    ]
+  },
+  {
+    "id": "casper_p3",
+    "code": "P3",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Bị thiếu gas",
+    "description": "[Di động (Portable AC)] Bị thiếu gas",
+    "severity": "warning",
+    "causes": [
+      "[Di động (Portable AC)] Bị thiếu gas"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Gắn đồng hồ đo áp suất hút gas",
+        "detail": "Kiểm tra áp suất gas R32/R410A khi máy chạy. Nếu áp suất thấp hơn 120-140 PSI (R32) hoặc kim dao động thì hệ thống thiếu gas."
+      },
+      {
+        "step": 2,
+        "action": "Tìm và xử lý điểm rò rỉ rắc co / mối hàn",
+        "detail": "Dùng bọt xà phòng hoặc máy dò gas kiểm tra các đầu nối rắc co, đầu côn và dàn tản nhiệt."
+      },
+      {
+        "step": 3,
+        "action": "Hút chân không và nạp lại gas chuẩn",
+        "detail": "Hút chân không sâu tối thiểu 15-20 phút, sau đó dùng cân điện tử nạp lại gas đúng định lượng ghi trên tem máy."
+      }
+    ],
+    "modelTypes": [
+      "Di động (Portable AC)"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "p3",
+      "bị",
+      "thiếu",
+      "gas",
+      "di",
+      "động",
+      "portable",
+      "ac",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "p3",
+      "casper p3",
+      "mã lỗi p3"
+    ]
+  },
+  {
+    "id": "casper_p4",
+    "code": "P4",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi ở bảo vệ điện áp",
+    "description": "[Di động (Portable AC)] Lỗi ở bảo vệ điện áp",
+    "severity": "critical",
+    "causes": [
+      "[Di động (Portable AC)] Lỗi ở bảo vệ điện áp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn điện và trạng thái máy",
+        "detail": "Kiểm tra điện áp cấp cho điều hòa có ổn định trong dải cho phép (200 - 240V) không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các cảm biến & giắc nối liên quan",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra sửa chữa bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Di động (Portable AC)"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý"
+    ],
+    "tags": [
+      "p4",
+      "lỗi",
+      "bảo",
+      "vệ",
+      "điện",
+      "áp",
+      "di",
+      "động",
+      "portable",
+      "ac",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "p4",
+      "casper p4",
+      "mã lỗi p4"
+    ]
+  },
+  {
+    "id": "casper_p5",
+    "code": "P5",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Máy nén hoạt động quá tải",
+    "description": "[Di động (Portable AC)] Máy nén hoạt động quá tải",
+    "severity": "critical",
+    "causes": [
+      "[Di động (Portable AC)] Máy nén hoạt động quá tải"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cuộn dây máy nén (Compressor)",
+        "detail": "Rút jack cắm máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo cách điện với vỏ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & Diode cầu PFC",
+        "detail": "Đo thang Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo Inverter."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra nguồn DC Bus 300V/380V",
+        "detail": "Đo điện áp trên tụ lọc nguồn DC Bus và kiểm tra cuộn kháng lọc nhiễu Reactor."
+      }
+    ],
+    "modelTypes": [
+      "Di động (Portable AC)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (50kΩ)",
+      "Mô đun công suất IPM & Bo Inverter máy nén"
+    ],
+    "tags": [
+      "p5",
+      "máy",
+      "nén",
+      "hoạt",
+      "động",
+      "quá",
+      "tải",
+      "di",
+      "portable",
+      "ac",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "p5",
+      "casper p5",
+      "mã lỗi p5"
+    ]
+  },
+  {
+    "id": "casper_p6",
+    "code": "P6",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi bảo vệ nhiệt độ cao trong phòng",
+    "description": "[Di động (Portable AC)] Lỗi bảo vệ nhiệt độ cao trong phòng",
+    "severity": "critical",
+    "causes": [
+      "[Di động (Portable AC)] Lỗi bảo vệ nhiệt độ cao trong phòng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn điện và trạng thái máy",
+        "detail": "Kiểm tra điện áp cấp cho điều hòa có ổn định trong dải cho phép (200 - 240V) không."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra các cảm biến & giắc nối liên quan",
+        "detail": "Đo kiểm thông mạch các dây tín hiệu và tiếp xúc giắc cắm trên dàn lạnh/dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Reset hệ thống hoặc thay thế bo mạch",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút rồi khởi động lại. Nếu lỗi không hết, tiến hành kiểm tra sửa chữa bo mạch."
+      }
+    ],
+    "modelTypes": [
+      "Di động (Portable AC)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (5kΩ/10kΩ)"
+    ],
+    "tags": [
+      "p6",
+      "lỗi",
+      "bảo",
+      "vệ",
+      "nhiệt",
+      "độ",
+      "cao",
+      "trong",
+      "phòng",
+      "di",
+      "động",
+      "portable",
+      "ac",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "p6",
+      "casper p6",
+      "mã lỗi p6"
+    ]
+  },
+  {
+    "id": "casper_p8",
+    "code": "P8",
+    "brandId": "casper",
+    "brandName": "Casper",
+    "title": "Lỗi ở cảm biến dàn nóng",
+    "description": "[Di động (Portable AC)] Lỗi ở cảm biến dàn nóng",
+    "severity": "warning",
+    "causes": [
+      "[Di động (Portable AC)] Lỗi ở cảm biến dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm sensor và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Casper ~5kΩ (hoặc 10kΩ tùy model), cảm biến đồng dàn ~5kΩ/10kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và đường dây",
+        "detail": "Kiểm tra giắc cắm trên bo mạch có bị oxy hóa, ẩm mốc, lỏng chân hoặc chuột cắn đứt dây tín hiệu không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới hoặc kiểm tra vi xử lý",
+        "detail": "Nếu trị số điện trở cảm biến tăng/giảm bất thường hoặc đứt/chập thì thay thế cảm biến Casper đúng trị số."
+      }
+    ],
+    "modelTypes": [
+      "Di động (Portable AC)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài"
+    ],
+    "tags": [
+      "p8",
+      "lỗi",
+      "cảm",
+      "biến",
+      "dàn",
+      "nóng",
+      "di",
+      "động",
+      "portable",
+      "ac",
+      "casper",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "casper",
+      "p8",
+      "casper p8",
+      "mã lỗi p8"
+    ]
+  }
+]

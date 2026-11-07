@@ -1,0 +1,496 @@
+[
+  {
+    "id": "toshiba_e01",
+    "code": "E01",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Lỗi nhận tín hiệu của bộ điều khiển",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e01",
+      "toshiba",
+      "lỗi nhận tín hiệu của bộ điều khiển"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_e02",
+    "code": "E02",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Lỗi truyền tín hiệu của bộ điều khiển",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e02",
+      "toshiba",
+      "lỗi truyền tín hiệu của bộ điều khiển"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_e03",
+    "code": "E03",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Gián đoạn giao tiếp với bộ điều khiển",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e03",
+      "toshiba",
+      "gián đoạn giao tiếp với bộ điều khiển"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_e04",
+    "code": "E04",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Lỗi kết nối giữa dàn lạnh và dàn nóng",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e04",
+      "toshiba",
+      "lỗi kết nối giữa dàn lạnh và dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_e08",
+    "code": "E08",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Trùng địa chỉ dàn lạnh",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e08",
+      "toshiba",
+      "trùng địa chỉ dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_e09",
+    "code": "E09",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Trùng thiết lập bộ điều khiển chính",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e09",
+      "toshiba",
+      "trùng thiết lập bộ điều khiển chính"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_e10",
+    "code": "E10",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Lỗi giao tiếp giữa các CPU bo dàn lạnh",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e10",
+      "toshiba",
+      "lỗi giao tiếp giữa các cpu bo dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_e18",
+    "code": "E18",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Lỗi kết nối giữa các dàn lạnh hoặc nguồn dàn lạnh",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "e18",
+      "toshiba",
+      "lỗi kết nối giữa các dàn lạnh hoặc nguồn dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_p10",
+    "code": "P10",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Phát hiện tràn nước dàn lạnh",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "p10",
+      "toshiba",
+      "phát hiện tràn nước dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_p12",
+    "code": "P12",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Lỗi quạt DC dàn lạnh",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "p12",
+      "toshiba",
+      "lỗi quạt dc dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_p20",
+    "code": "P20",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Bảo vệ áp suất cao",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "p20",
+      "toshiba",
+      "bảo vệ áp suất cao"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_p22",
+    "code": "P22",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Lỗi hệ thống quạt dàn nóng",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "p22",
+      "toshiba",
+      "lỗi hệ thống quạt dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "toshiba_p31",
+    "code": "P31",
+    "brandId": "toshiba",
+    "brandName": "Toshiba",
+    "title": "Dàn phụ dừng do lỗi dàn khác trong nhóm",
+    "description": "Thông tin áp dụng cho RAV-GM561ATP-E1; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "RAV-GM561ATP-E1"
+    ],
+    "tags": [
+      "p31",
+      "toshiba",
+      "dàn phụ dừng do lỗi dàn khác trong nhóm"
+    ],
+    "sources": [
+      {
+        "title": "Toshiba – Service Manual SVM-24005",
+        "url": "https://www.toshiba-aircon.co.uk/wp-content/uploads/2018/05/20240209_SM_SVM-24005_R32_DI_RAV-GM561ATP-E1_EN.pdf"
+      }
+    ]
+  }
+]

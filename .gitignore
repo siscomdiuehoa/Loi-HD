@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+*.jks
+*.keystore
+*.aab
+*.apk
+.DS_Store

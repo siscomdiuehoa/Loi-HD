@@ -1,0 +1,1967 @@
+[
+  {
+    "id": "reetech_e0",
+    "code": "E0",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi tham số EEPROM / Lỗi EPROM board dàn lạnh",
+    "description": "[Treo tường (Inverter & Thường)] Lỗi tham số EEPROM / Lỗi EPROM board dàn lạnh (Xử lý: Kiểm tra hoặc thay thế bo mạch điều khiển (EEPROM).)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Lỗi tham số EEPROM / Lỗi EPROM board dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn cấp IC nhớ EEPROM",
+        "detail": "Kiểm tra điện áp 5VDC cấp cho chip nhớ EEPROM trên bo mạch điều khiển."
+      },
+      {
+        "step": 2,
+        "action": "Nạp lại chương trình hoặc thay thế IC EEPROM",
+        "detail": "Nạp lại firmware phần mềm Reetech hoặc thay chip nhớ EEPROM đúng mã đời máy."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế bo mạch điều khiển",
+        "detail": "Nếu lỗi hỏng đường truyền dữ liệu vi xử lý không khắc phục được, thay thế bo mạch mới."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)",
+      "Chip nhớ EEPROM & Bo vi xử lý"
+    ],
+    "tags": [
+      "e0",
+      "lỗi",
+      "tham",
+      "số",
+      "eeprom",
+      "eprom",
+      "board",
+      "dàn",
+      "lạnh",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "hoặc",
+      "thay",
+      "thế",
+      "bo",
+      "mạch",
+      "điều",
+      "khiển",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "e0",
+      "reetech e0",
+      "mã lỗi e0"
+    ]
+  },
+  {
+    "id": "reetech_e1",
+    "code": "E1",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi kết nối dàn nóng & dàn lạnh / Hư sensor nhiệt độ phòng hoặc lỗi EEPROM",
+    "description": "[Treo tường (Inverter & Thường)] Lỗi kết nối dàn nóng & dàn lạnh (Xử lý: Kiểm tra dây kết nối tín hiệu giữa 2 dàn, siết chặt các đầu jack hoặc thay dây tín hiệu.) | [Âm trần / Tủ đứng] Hư sensor nhiệt độ phòng hoặc lỗi EEPROM (Xử lý: Kiểm tra hoặc thay cảm biến nhiệt độ phòng, reset bo mạch.)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Lỗi kết nối dàn nóng & dàn lạnh",
+      "[Âm trần / Tủ đứng] Hư sensor nhiệt độ phòng hoặc lỗi EEPROM"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn cấp IC nhớ EEPROM",
+        "detail": "Kiểm tra điện áp 5VDC cấp cho chip nhớ EEPROM trên bo mạch điều khiển."
+      },
+      {
+        "step": 2,
+        "action": "Nạp lại chương trình hoặc thay thế IC EEPROM",
+        "detail": "Nạp lại firmware phần mềm Reetech hoặc thay chip nhớ EEPROM đúng mã đời máy."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế bo mạch điều khiển",
+        "detail": "Nếu lỗi hỏng đường truyền dữ liệu vi xử lý không khắc phục được, thay thế bo mạch mới."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)",
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Sensor ~10kΩ/15kΩ)",
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Chip nhớ EEPROM & Bo vi xử lý",
+      "Đường dây truyền thông & Mạch Opto cách ly"
+    ],
+    "tags": [
+      "e1",
+      "lỗi",
+      "kết",
+      "nối",
+      "dàn",
+      "nóng",
+      "lạnh",
+      "hư",
+      "sensor",
+      "nhiệt",
+      "độ",
+      "phòng",
+      "hoặc",
+      "eeprom",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "dây",
+      "tín",
+      "hiệu",
+      "giữa",
+      "siết",
+      "chặt",
+      "các",
+      "đầu",
+      "jack",
+      "thay",
+      "âm",
+      "trần",
+      "tủ"
+    ]
+  },
+  {
+    "id": "reetech_e1__nh_y_timer_",
+    "code": "E1 (Nháy Timer)",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Sự cố cảm biến nhiệt độ phòng",
+    "description": "[Model đèn nháy (Không LED)] Sự cố cảm biến nhiệt độ phòng (Xử lý: Kiểm tra đứt dây, chuột cắn hoặc thay mới.)",
+    "severity": "warning",
+    "causes": [
+      "[Model đèn nháy (Không LED)] Sự cố cảm biến nhiệt độ phòng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Reetech ~10kΩ/15kΩ, cảm biến đồng dàn ~10kΩ/20kΩ, cảm biến dàn nóng ~10kΩ/50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và dây dẫn",
+        "detail": "Kiểm tra chân jack cắm có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới đúng thông số",
+        "detail": "Nếu điện trở tăng giảm bất thường hoặc chập đứt, thay cảm biến Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Model đèn nháy (Không LED)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Sensor ~10kΩ/15kΩ)"
+    ],
+    "tags": [
+      "e1",
+      "nháy",
+      "timer",
+      "sự",
+      "cố",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "phòng",
+      "model",
+      "đèn",
+      "không",
+      "led",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "đứt",
+      "dây",
+      "chuột",
+      "cắn",
+      "hoặc",
+      "thay",
+      "mới",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "e1 (nháy timer)",
+      "reetech e1 (nháy timer)",
+      "mã lỗi e1 (nháy timer)"
+    ]
+  },
+  {
+    "id": "reetech_e2",
+    "code": "E2",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi không có tín hiệu / Hư sensor nhiệt độ ngưng tụ T3 hoặc motor quạt dàn lạnh",
+    "description": "[Treo tường (Inverter & Thường)] Lỗi không có tín hiệu (Xử lý: Kiểm tra nguồn điện cấp và hệ thống dây tín hiệu, reset lại nguồn.) | [Âm trần / Tủ đứng] Hư sensor nhiệt độ ngưng tụ T3 hoặc motor quạt dàn lạnh (Xử lý: Vệ sinh, kiểm tra thay cảm biến T3 dàn nóng hoặc motor quạt dàn lạnh.)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Lỗi không có tín hiệu",
+      "[Âm trần / Tủ đứng] Hư sensor nhiệt độ ngưng tụ T3 hoặc motor quạt dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra dây cáp tín hiệu kết nối dàn nóng - dàn lạnh",
+        "detail": "Kiểm tra các mối nối, cầu đấu dây và siết chặt các ốc vít tiếp xúc tại khối trong nhà và ngoài trời."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động truyền thông DC",
+        "detail": "Đo thang DC kiểm tra điện áp dao động giữa dây tín hiệu và dây mass/nguồn."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch so quang (Optocoupler) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện cách ly quang PC817 và IC giao tiếp trên bo điều khiển."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)",
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Motor quạt dàn lạnh / dàn nóng & IC Hall xung",
+      "Đường dây truyền thông & Mạch Opto cách ly"
+    ],
+    "tags": [
+      "e2",
+      "lỗi",
+      "không",
+      "có",
+      "tín",
+      "hiệu",
+      "hư",
+      "sensor",
+      "nhiệt",
+      "độ",
+      "ngưng",
+      "tụ",
+      "t3",
+      "hoặc",
+      "motor",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "nguồn",
+      "điện",
+      "cấp",
+      "và",
+      "hệ",
+      "thống",
+      "dây",
+      "reset",
+      "lại"
+    ]
+  },
+  {
+    "id": "reetech_e2__nh_y_defrost_",
+    "code": "E2 (Nháy Defrost)",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Sự cố cảm biến nhiệt độ dàn lạnh",
+    "description": "[Model đèn nháy (Không LED)] Sự cố cảm biến nhiệt độ dàn lạnh (Xử lý: Thay mới cảm biến ống đồng.)",
+    "severity": "warning",
+    "causes": [
+      "[Model đèn nháy (Không LED)] Sự cố cảm biến nhiệt độ dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Reetech ~10kΩ/15kΩ, cảm biến đồng dàn ~10kΩ/20kΩ, cảm biến dàn nóng ~10kΩ/50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và dây dẫn",
+        "detail": "Kiểm tra chân jack cắm có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới đúng thông số",
+        "detail": "Nếu điện trở tăng giảm bất thường hoặc chập đứt, thay cảm biến Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Model đèn nháy (Không LED)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)"
+    ],
+    "tags": [
+      "e2",
+      "nháy",
+      "defrost",
+      "sự",
+      "cố",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "lạnh",
+      "model",
+      "đèn",
+      "không",
+      "led",
+      "xử",
+      "lý",
+      "thay",
+      "mới",
+      "ống",
+      "đồng",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "e2 (nháy defrost)",
+      "reetech e2 (nháy defrost)",
+      "mã lỗi e2 (nháy defrost)"
+    ]
+  },
+  {
+    "id": "reetech_e3",
+    "code": "E3",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Hư motor dàn lạnh (hoặc board dàn lạnh) / Hư sensor dàn (coil) hoặc motor quạt dàn nóng",
+    "description": "[Treo tường (Inverter & Thường)] Hư motor dàn lạnh (hoặc board dàn lạnh) (Xử lý: Thay thế motor quạt dàn lạnh hoặc bo mạch điều khiển cấp nguồn cho quạt.) | [Âm trần / Tủ đứng] Hư sensor dàn (coil) hoặc motor quạt dàn nóng (Xử lý: Thay cảm biến ống đồng dàn lạnh hoặc sửa quạt dàn nóng.)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Hư motor dàn lạnh (hoặc board dàn lạnh)",
+      "[Âm trần / Tủ đứng] Hư sensor dàn (coil) hoặc motor quạt dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Reetech ~10kΩ/15kΩ, cảm biến đồng dàn ~10kΩ/20kΩ, cảm biến dàn nóng ~10kΩ/50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và dây dẫn",
+        "detail": "Kiểm tra chân jack cắm có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới đúng thông số",
+        "detail": "Nếu điện trở tăng giảm bất thường hoặc chập đứt, thay cảm biến Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)",
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Motor quạt dàn lạnh / dàn nóng & IC Hall xung"
+    ],
+    "tags": [
+      "e3",
+      "hư",
+      "motor",
+      "dàn",
+      "lạnh",
+      "hoặc",
+      "board",
+      "sensor",
+      "coil",
+      "quạt",
+      "nóng",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "thay",
+      "thế",
+      "bo",
+      "mạch",
+      "điều",
+      "khiển",
+      "cấp",
+      "nguồn",
+      "cho",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "cảm",
+      "biến",
+      "ống",
+      "đồng",
+      "sửa"
+    ]
+  },
+  {
+    "id": "reetech_e3__nh_y_timer___defrost_",
+    "code": "E3 (Nháy Timer + Defrost)",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Sự cố quạt dàn lạnh",
+    "description": "[Model đèn nháy (Không LED)] Sự cố quạt dàn lạnh (Xử lý: Kiểm tra quạt, tụ kích quạt trên bo mạch.)",
+    "severity": "warning",
+    "causes": [
+      "[Model đèn nháy (Không LED)] Sự cố quạt dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra quay lồng quạt và tụ quạt / motor",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt rác, bó bạc đạn không. Đo tụ quạt (đối với motor AC)."
+      },
+      {
+        "step": 2,
+        "action": "Đo xung phản hồi tốc độ quạt (Hall IC)",
+        "detail": "Kiểm tra tín hiệu xung phản hồi từ quạt về bo mạch. Với quạt DC, kiểm tra nguồn 310V, 15V và điện áp điều khiển tốc độ."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo điều khiển",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng cảm biến Hall, thay thế motor quạt Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Model đèn nháy (Không LED)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)",
+      "Motor quạt dàn lạnh / dàn nóng & IC Hall xung"
+    ],
+    "tags": [
+      "e3",
+      "nháy",
+      "timer",
+      "defrost",
+      "sự",
+      "cố",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "model",
+      "đèn",
+      "không",
+      "led",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "tụ",
+      "kích",
+      "trên",
+      "bo",
+      "mạch",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "e3 (nháy timer + defrost)",
+      "reetech e3 (nháy timer + defrost)",
+      "mã lỗi e3 (nháy timer + defrost)"
+    ]
+  },
+  {
+    "id": "reetech_e4",
+    "code": "E4",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi xung tín hiệu motor quạt dàn lạnh / Mất tín hiệu xung quạt dàn lạnh (Ngừng sau 5p)",
+    "description": "[Treo tường (Inverter & Thường)] Lỗi xung tín hiệu motor quạt dàn lạnh (Xử lý: Vệ sinh kẹt lồng sóc, kiểm tra board điều khiển motor hoặc tụ quạt.) | [Âm trần / Tủ đứng] Mất tín hiệu xung quạt dàn lạnh (Ngừng sau 5p) (Xử lý: Kiểm tra mạch phản hồi xung từ quạt dàn lạnh về board mạch.)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Lỗi xung tín hiệu motor quạt dàn lạnh",
+      "[Âm trần / Tủ đứng] Mất tín hiệu xung quạt dàn lạnh (Ngừng sau 5p)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra dây cáp tín hiệu kết nối dàn nóng - dàn lạnh",
+        "detail": "Kiểm tra các mối nối, cầu đấu dây và siết chặt các ốc vít tiếp xúc tại khối trong nhà và ngoài trời."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động truyền thông DC",
+        "detail": "Đo thang DC kiểm tra điện áp dao động giữa dây tín hiệu và dây mass/nguồn."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch so quang (Optocoupler) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện cách ly quang PC817 và IC giao tiếp trên bo điều khiển."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)",
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)",
+      "Motor quạt dàn lạnh / dàn nóng & IC Hall xung",
+      "Đường dây truyền thông & Mạch Opto cách ly"
+    ],
+    "tags": [
+      "e4",
+      "lỗi",
+      "xung",
+      "tín",
+      "hiệu",
+      "motor",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "mất",
+      "ngừng",
+      "sau",
+      "5p",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "vệ",
+      "sinh",
+      "kẹt",
+      "lồng",
+      "sóc",
+      "kiểm",
+      "tra",
+      "board",
+      "điều",
+      "khiển",
+      "hoặc",
+      "tụ",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng"
+    ]
+  },
+  {
+    "id": "reetech_e4__nh_y_operation___defrost_",
+    "code": "E4 (Nháy Operation + Defrost)",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Quá dòng máy nén",
+    "description": "[Model đèn nháy (Không LED)] Quá dòng máy nén (Xử lý: Kiểm tra dòng điện Block, kiểm tra tụ khởi động Block.)",
+    "severity": "critical",
+    "causes": [
+      "[Model đèn nháy (Không LED)] Quá dòng máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở 3 cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở các cuộn UV, VW, WU phải cân bằng nhau và đo cách điện với vỏ máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bo mạch biến tần Inverter (Module IPM & PFC)",
+        "detail": "Đo kiểm tra diode 6 nhánh IC công suất IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra hệ thống gas và áp suất vận hành",
+        "detail": "Đo áp suất gas hút/đẩy. Kiểm tra xem máy có bị nghẹt phin lọc, tắc van tiết lưu hay dư gas gây quá dòng không."
+      }
+    ],
+    "modelTypes": [
+      "Model đèn nháy (Không LED)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đường đẩy máy nén",
+      "Bo biến tần Inverter (Mô đun IPM & PFC) & Máy nén"
+    ],
+    "tags": [
+      "e4",
+      "nháy",
+      "operation",
+      "defrost",
+      "quá",
+      "dòng",
+      "máy",
+      "nén",
+      "model",
+      "đèn",
+      "không",
+      "led",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "điện",
+      "block",
+      "tụ",
+      "khởi",
+      "động",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "e4 (nháy operation + defrost)",
+      "reetech e4 (nháy operation + defrost)",
+      "mã lỗi e4 (nháy operation + defrost)"
+    ]
+  },
+  {
+    "id": "reetech_e5",
+    "code": "E5",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi cảm biến nhiệt độ cuộn dây (coil) dàn nóng / Mất kết nối DN-DL hoặc lỗi cảm biến phòng T1",
+    "description": "[Treo tường (Inverter & Thường)] Lỗi cảm biến nhiệt độ cuộn dây (coil) dàn nóng (Xử lý: Vệ sinh, kiểm tra jack cắm cảm biến và dây kết nối, thay mới nếu hỏng.) | [Âm trần / Tủ đứng] Mất kết nối DN-DL hoặc lỗi cảm biến phòng T1 (Xử lý: Kiểm tra đường truyền tín hiệu hoặc thay thế cảm biến T1.)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Lỗi cảm biến nhiệt độ cuộn dây (coil) dàn nóng",
+      "[Âm trần / Tủ đứng] Mất kết nối DN-DL hoặc lỗi cảm biến phòng T1"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra dây cáp tín hiệu kết nối dàn nóng - dàn lạnh",
+        "detail": "Kiểm tra các mối nối, cầu đấu dây và siết chặt các ốc vít tiếp xúc tại khối trong nhà và ngoài trời."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động truyền thông DC",
+        "detail": "Đo thang DC kiểm tra điện áp dao động giữa dây tín hiệu và dây mass/nguồn."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch so quang (Optocoupler) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện cách ly quang PC817 và IC giao tiếp trên bo điều khiển."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)",
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Sensor ~10kΩ/15kΩ)",
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Đường dây truyền thông & Mạch Opto cách ly"
+    ],
+    "tags": [
+      "e5",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "cuộn",
+      "dây",
+      "coil",
+      "dàn",
+      "nóng",
+      "mất",
+      "kết",
+      "nối",
+      "dn",
+      "dl",
+      "hoặc",
+      "phòng",
+      "t1",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "vệ",
+      "sinh",
+      "kiểm",
+      "tra",
+      "jack",
+      "cắm",
+      "và",
+      "thay",
+      "mới",
+      "nếu"
+    ]
+  },
+  {
+    "id": "reetech_e6",
+    "code": "E6",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi cảm biến nhiệt độ phòng / Lỗi cảm biến coil dàn lạnh T2",
+    "description": "[Treo tường (Inverter & Thường)] Lỗi cảm biến nhiệt độ phòng (Xử lý: Kiểm tra cảm biến nhiệt độ phòng (Room sensor), hở mạch hoặc thay mới.) | [Âm trần / Tủ đứng] Lỗi cảm biến coil dàn lạnh T2 (Xử lý: Thay cảm biến nhiệt độ đường ống dàn lạnh (T2).)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Lỗi cảm biến nhiệt độ phòng",
+      "[Âm trần / Tủ đứng] Lỗi cảm biến coil dàn lạnh T2"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Reetech ~10kΩ/15kΩ, cảm biến đồng dàn ~10kΩ/20kΩ, cảm biến dàn nóng ~10kΩ/50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và dây dẫn",
+        "detail": "Kiểm tra chân jack cắm có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới đúng thông số",
+        "detail": "Nếu điện trở tăng giảm bất thường hoặc chập đứt, thay cảm biến Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)",
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Sensor ~10kΩ/15kΩ)",
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)"
+    ],
+    "tags": [
+      "e6",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "phòng",
+      "coil",
+      "dàn",
+      "lạnh",
+      "t2",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "room",
+      "sensor",
+      "hở",
+      "mạch",
+      "hoặc",
+      "thay",
+      "mới",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "đường",
+      "ống",
+      "reetech",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "reetech_e7__nh_y_timer__operation_s_ng_",
+    "code": "E7 (Nháy Timer, Operation sáng)",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi EEPROM board dàn lạnh",
+    "description": "[Model đèn nháy (Không LED)] Lỗi EEPROM board dàn lạnh (Xử lý: Thay thế bo mạch dàn lạnh.)",
+    "severity": "warning",
+    "causes": [
+      "[Model đèn nháy (Không LED)] Lỗi EEPROM board dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn cấp IC nhớ EEPROM",
+        "detail": "Kiểm tra điện áp 5VDC cấp cho chip nhớ EEPROM trên bo mạch điều khiển."
+      },
+      {
+        "step": 2,
+        "action": "Nạp lại chương trình hoặc thay thế IC EEPROM",
+        "detail": "Nạp lại firmware phần mềm Reetech hoặc thay chip nhớ EEPROM đúng mã đời máy."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế bo mạch điều khiển",
+        "detail": "Nếu lỗi hỏng đường truyền dữ liệu vi xử lý không khắc phục được, thay thế bo mạch mới."
+      }
+    ],
+    "modelTypes": [
+      "Model đèn nháy (Không LED)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)",
+      "Chip nhớ EEPROM & Bo vi xử lý"
+    ],
+    "tags": [
+      "e7",
+      "nháy",
+      "timer",
+      "operation",
+      "sáng",
+      "lỗi",
+      "eeprom",
+      "board",
+      "dàn",
+      "lạnh",
+      "model",
+      "đèn",
+      "không",
+      "led",
+      "xử",
+      "lý",
+      "thay",
+      "thế",
+      "bo",
+      "mạch",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "e7 (nháy timer, operation sáng)",
+      "reetech e7 (nháy timer, operation sáng)",
+      "mã lỗi e7 (nháy timer, operation sáng)"
+    ]
+  },
+  {
+    "id": "reetech_e9__nh_y_c__3___n_",
+    "code": "E9 (Nháy cả 3 đèn)",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi bo mạch dàn lạnh",
+    "description": "[Model đèn nháy (Không LED)] Lỗi bo mạch dàn lạnh (Xử lý: Sửa chữa hoặc thay mới board mạch điều khiển.)",
+    "severity": "warning",
+    "causes": [
+      "[Model đèn nháy (Không LED)] Lỗi bo mạch dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Sửa chữa hoặc thay mới board mạch điều khiển.",
+        "detail": "Quy trình kỹ thuật điều hòa Reetech: Sửa chữa hoặc thay mới board mạch điều khiển."
+      }
+    ],
+    "modelTypes": [
+      "Model đèn nháy (Không LED)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)"
+    ],
+    "tags": [
+      "e9",
+      "nháy",
+      "cả",
+      "đèn",
+      "lỗi",
+      "bo",
+      "mạch",
+      "dàn",
+      "lạnh",
+      "model",
+      "không",
+      "led",
+      "xử",
+      "lý",
+      "sửa",
+      "chữa",
+      "hoặc",
+      "thay",
+      "mới",
+      "board",
+      "điều",
+      "khiển",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "e9 (nháy cả 3 đèn)",
+      "reetech e9 (nháy cả 3 đèn)",
+      "mã lỗi e9 (nháy cả 3 đèn)"
+    ]
+  },
+  {
+    "id": "reetech_f0",
+    "code": "F0",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Hư motor quạt dàn nóng",
+    "description": "[Âm trần / Tủ đứng] Hư motor quạt dàn nóng (Xử lý: Kiểm tra và thay thế motor quạt dàn nóng.)",
+    "severity": "warning",
+    "causes": [
+      "[Âm trần / Tủ đứng] Hư motor quạt dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra quay lồng quạt và tụ quạt / motor",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt rác, bó bạc đạn không. Đo tụ quạt (đối với motor AC)."
+      },
+      {
+        "step": 2,
+        "action": "Đo xung phản hồi tốc độ quạt (Hall IC)",
+        "detail": "Kiểm tra tín hiệu xung phản hồi từ quạt về bo mạch. Với quạt DC, kiểm tra nguồn 310V, 15V và điện áp điều khiển tốc độ."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo điều khiển",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng cảm biến Hall, thay thế motor quạt Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Motor quạt dàn lạnh / dàn nóng & IC Hall xung"
+    ],
+    "tags": [
+      "f0",
+      "hư",
+      "motor",
+      "quạt",
+      "dàn",
+      "nóng",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "và",
+      "thay",
+      "thế",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f0",
+      "reetech f0",
+      "mã lỗi f0"
+    ]
+  },
+  {
+    "id": "reetech_f1",
+    "code": "F1",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi bảo vệ PC board ngoài dàn nóng",
+    "description": "[Âm trần / Tủ đứng] Lỗi bảo vệ PC board ngoài dàn nóng (Xử lý: Kiểm tra, sửa chữa hoặc thay thế bo mạch dàn nóng.)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Lỗi bảo vệ PC board ngoài dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra, sửa chữa hoặc thay thế bo mạch dàn nóng.",
+        "detail": "Quy trình kỹ thuật điều hòa Reetech: Kiểm tra, sửa chữa hoặc thay thế bo mạch dàn nóng."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Bo biến tần Inverter (Mô đun IPM & PFC) & Máy nén"
+    ],
+    "tags": [
+      "f1",
+      "lỗi",
+      "bảo",
+      "vệ",
+      "pc",
+      "board",
+      "ngoài",
+      "dàn",
+      "nóng",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "sửa",
+      "chữa",
+      "hoặc",
+      "thay",
+      "thế",
+      "bo",
+      "mạch",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f1",
+      "reetech f1",
+      "mã lỗi f1"
+    ]
+  },
+  {
+    "id": "reetech_f2",
+    "code": "F2",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi bộ điều khiển PFC ngoài dàn nóng",
+    "description": "[Âm trần / Tủ đứng] Lỗi bộ điều khiển PFC ngoài dàn nóng (Xử lý: Thay thế/sửa chữa mạch PFC (Điều chỉnh hệ số công suất).)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Lỗi bộ điều khiển PFC ngoài dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở 3 cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở các cuộn UV, VW, WU phải cân bằng nhau và đo cách điện với vỏ máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bo mạch biến tần Inverter (Module IPM & PFC)",
+        "detail": "Đo kiểm tra diode 6 nhánh IC công suất IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra hệ thống gas và áp suất vận hành",
+        "detail": "Đo áp suất gas hút/đẩy. Kiểm tra xem máy có bị nghẹt phin lọc, tắc van tiết lưu hay dư gas gây quá dòng không."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Bo biến tần Inverter (Mô đun IPM & PFC) & Máy nén"
+    ],
+    "tags": [
+      "f2",
+      "lỗi",
+      "bộ",
+      "điều",
+      "khiển",
+      "pfc",
+      "ngoài",
+      "dàn",
+      "nóng",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "thay",
+      "thế",
+      "sửa",
+      "chữa",
+      "mạch",
+      "chỉnh",
+      "hệ",
+      "số",
+      "công",
+      "suất",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f2",
+      "reetech f2",
+      "mã lỗi f2"
+    ]
+  },
+  {
+    "id": "reetech_f3",
+    "code": "F3",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Máy nén hoạt động bị lỗi",
+    "description": "[Âm trần / Tủ đứng] Máy nén hoạt động bị lỗi (Xử lý: Kiểm tra Block máy nén, đứt cuộn dây hoặc kẹt cơ.)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Máy nén hoạt động bị lỗi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở 3 cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở các cuộn UV, VW, WU phải cân bằng nhau và đo cách điện với vỏ máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bo mạch biến tần Inverter (Module IPM & PFC)",
+        "detail": "Đo kiểm tra diode 6 nhánh IC công suất IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra hệ thống gas và áp suất vận hành",
+        "detail": "Đo áp suất gas hút/đẩy. Kiểm tra xem máy có bị nghẹt phin lọc, tắc van tiết lưu hay dư gas gây quá dòng không."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đường đẩy máy nén",
+      "Bo biến tần Inverter (Mô đun IPM & PFC) & Máy nén"
+    ],
+    "tags": [
+      "f3",
+      "máy",
+      "nén",
+      "hoạt",
+      "động",
+      "bị",
+      "lỗi",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "block",
+      "đứt",
+      "cuộn",
+      "dây",
+      "hoặc",
+      "kẹt",
+      "cơ",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f3",
+      "reetech f3",
+      "mã lỗi f3"
+    ]
+  },
+  {
+    "id": "reetech_f4",
+    "code": "F4",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Bảo vệ nhiệt độ đường nén cao",
+    "description": "[Âm trần / Tủ đứng] Bảo vệ nhiệt độ đường nén cao (Xử lý: Hệ thống thiếu gas, quạt nóng không chạy, vệ sinh dàn nóng.)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Bảo vệ nhiệt độ đường nén cao"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra quay lồng quạt và tụ quạt / motor",
+        "detail": "Dùng tay quay lồng quạt xem có bị kẹt rác, bó bạc đạn không. Đo tụ quạt (đối với motor AC)."
+      },
+      {
+        "step": 2,
+        "action": "Đo xung phản hồi tốc độ quạt (Hall IC)",
+        "detail": "Kiểm tra tín hiệu xung phản hồi từ quạt về bo mạch. Với quạt DC, kiểm tra nguồn 310V, 15V và điện áp điều khiển tốc độ."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa bo điều khiển",
+        "detail": "Nếu motor quạt bị cháy cuộn dây hoặc hỏng cảm biến Hall, thay thế motor quạt Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đường đẩy máy nén"
+    ],
+    "tags": [
+      "f4",
+      "bảo",
+      "vệ",
+      "nhiệt",
+      "độ",
+      "đường",
+      "nén",
+      "cao",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "hệ",
+      "thống",
+      "thiếu",
+      "gas",
+      "quạt",
+      "nóng",
+      "không",
+      "chạy",
+      "sinh",
+      "dàn",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f4",
+      "reetech f4",
+      "mã lỗi f4"
+    ]
+  },
+  {
+    "id": "reetech_f5",
+    "code": "F5",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi sensor nhiệt độ dàn nóng T4",
+    "description": "[Âm trần / Tủ đứng] Lỗi sensor nhiệt độ dàn nóng T4 (Xử lý: Thay cảm biến nhiệt độ môi trường ngoài trời (T4).)",
+    "severity": "warning",
+    "causes": [
+      "[Âm trần / Tủ đứng] Lỗi sensor nhiệt độ dàn nóng T4"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Reetech ~10kΩ/15kΩ, cảm biến đồng dàn ~10kΩ/20kΩ, cảm biến dàn nóng ~10kΩ/50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và dây dẫn",
+        "detail": "Kiểm tra chân jack cắm có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới đúng thông số",
+        "detail": "Nếu điện trở tăng giảm bất thường hoặc chập đứt, thay cảm biến Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)"
+    ],
+    "tags": [
+      "f5",
+      "lỗi",
+      "sensor",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "nóng",
+      "t4",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "thay",
+      "cảm",
+      "biến",
+      "môi",
+      "trường",
+      "ngoài",
+      "trời",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f5",
+      "reetech f5",
+      "mã lỗi f5"
+    ]
+  },
+  {
+    "id": "reetech_f6",
+    "code": "F6",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi bộ điều khiển IPM ngoài dàn nóng",
+    "description": "[Âm trần / Tủ đứng] Lỗi bộ điều khiển IPM ngoài dàn nóng (Xử lý: Sửa chữa mạch công suất biến tần (IPM) ngoài dàn nóng.)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Lỗi bộ điều khiển IPM ngoài dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở 3 cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở các cuộn UV, VW, WU phải cân bằng nhau và đo cách điện với vỏ máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bo mạch biến tần Inverter (Module IPM & PFC)",
+        "detail": "Đo kiểm tra diode 6 nhánh IC công suất IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra hệ thống gas và áp suất vận hành",
+        "detail": "Đo áp suất gas hút/đẩy. Kiểm tra xem máy có bị nghẹt phin lọc, tắc van tiết lưu hay dư gas gây quá dòng không."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Bo biến tần Inverter (Mô đun IPM & PFC) & Máy nén"
+    ],
+    "tags": [
+      "f6",
+      "lỗi",
+      "bộ",
+      "điều",
+      "khiển",
+      "ipm",
+      "ngoài",
+      "dàn",
+      "nóng",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "sửa",
+      "chữa",
+      "mạch",
+      "công",
+      "suất",
+      "biến",
+      "tần",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f6",
+      "reetech f6",
+      "mã lỗi f6"
+    ]
+  },
+  {
+    "id": "reetech_f7",
+    "code": "F7",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi bảo vệ điện áp cao - thấp",
+    "description": "[Âm trần / Tủ đứng] Lỗi bảo vệ điện áp cao - thấp (Xử lý: Kiểm tra nguồn cấp điện, đảm bảo điện áp ổn định (lắp ổn áp).)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Lỗi bảo vệ điện áp cao - thấp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện áp nguồn cấp cho máy",
+        "detail": "Đo điện áp nguồn điện AC xem có ổn định trong dải 200V - 240V không. Lắp đặt ổn áp nếu nguồn điện chập chờn."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra áp suất gas và vệ sinh dàn trao đổi nhiệt",
+        "detail": "Dùng máy bơm rửa vệ sinh sạch sẽ dàn nóng và dàn lạnh để đảm bảo giải nhiệt tốt."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra cảm biến áp suất / rơ le bảo vệ",
+        "detail": "Đo kiểm tra công tắc bảo vệ cao áp/thấp áp và mạch bảo vệ trên bo dàn nóng."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Reetech"
+    ],
+    "tags": [
+      "f7",
+      "lỗi",
+      "bảo",
+      "vệ",
+      "điện",
+      "áp",
+      "cao",
+      "thấp",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "nguồn",
+      "cấp",
+      "đảm",
+      "ổn",
+      "định",
+      "lắp",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f7",
+      "reetech f7",
+      "mã lỗi f7"
+    ]
+  },
+  {
+    "id": "reetech_f8",
+    "code": "F8",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi liên lạc giữa các IC điều khiển ngoài dàn nóng",
+    "description": "[Âm trần / Tủ đứng] Lỗi liên lạc giữa các IC điều khiển ngoài dàn nóng (Xử lý: Kiểm tra cáp nội bộ trên board mạch dàn nóng.)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Lỗi liên lạc giữa các IC điều khiển ngoài dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra dây cáp tín hiệu kết nối dàn nóng - dàn lạnh",
+        "detail": "Kiểm tra các mối nối, cầu đấu dây và siết chặt các ốc vít tiếp xúc tại khối trong nhà và ngoài trời."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động truyền thông DC",
+        "detail": "Đo thang DC kiểm tra điện áp dao động giữa dây tín hiệu và dây mass/nguồn."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra mạch so quang (Optocoupler) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện cách ly quang PC817 và IC giao tiếp trên bo điều khiển."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Đường dây truyền thông & Mạch Opto cách ly"
+    ],
+    "tags": [
+      "f8",
+      "lỗi",
+      "liên",
+      "lạc",
+      "giữa",
+      "các",
+      "ic",
+      "điều",
+      "khiển",
+      "ngoài",
+      "dàn",
+      "nóng",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "cáp",
+      "nội",
+      "bộ",
+      "trên",
+      "board",
+      "mạch",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f8",
+      "reetech f8",
+      "mã lỗi f8"
+    ]
+  },
+  {
+    "id": "reetech_f9",
+    "code": "F9",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi bộ điều khiển EPROM ngoài dàn nóng",
+    "description": "[Âm trần / Tủ đứng] Lỗi bộ điều khiển EPROM ngoài dàn nóng (Xử lý: Lỗi chip nhớ EEPROM trên dàn nóng, cần nạp lại phần mềm hoặc thay board.)",
+    "severity": "critical",
+    "causes": [
+      "[Âm trần / Tủ đứng] Lỗi bộ điều khiển EPROM ngoài dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn cấp IC nhớ EEPROM",
+        "detail": "Kiểm tra điện áp 5VDC cấp cho chip nhớ EEPROM trên bo mạch điều khiển."
+      },
+      {
+        "step": 2,
+        "action": "Nạp lại chương trình hoặc thay thế IC EEPROM",
+        "detail": "Nạp lại firmware phần mềm Reetech hoặc thay chip nhớ EEPROM đúng mã đời máy."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế bo mạch điều khiển",
+        "detail": "Nếu lỗi hỏng đường truyền dữ liệu vi xử lý không khắc phục được, thay thế bo mạch mới."
+      }
+    ],
+    "modelTypes": [
+      "Âm trần / Tủ đứng"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ dàn nóng / môi trường ngoài trời (T3/T4)",
+      "Chip nhớ EEPROM & Bo vi xử lý"
+    ],
+    "tags": [
+      "f9",
+      "lỗi",
+      "bộ",
+      "điều",
+      "khiển",
+      "eprom",
+      "ngoài",
+      "dàn",
+      "nóng",
+      "âm",
+      "trần",
+      "tủ",
+      "đứng",
+      "xử",
+      "lý",
+      "chip",
+      "nhớ",
+      "eeprom",
+      "trên",
+      "cần",
+      "nạp",
+      "lại",
+      "phần",
+      "mềm",
+      "hoặc",
+      "thay",
+      "board",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "f9",
+      "reetech f9"
+    ]
+  },
+  {
+    "id": "reetech_p0",
+    "code": "P0",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Lỗi nhiệt độ dàn bay hơi",
+    "description": "[Treo tường (Inverter & Thường)] Lỗi nhiệt độ dàn bay hơi (Xử lý: Kiểm tra cảm biến nhiệt độ dàn lạnh, bảo vệ dòng điện cao (IGBT).)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Lỗi nhiệt độ dàn bay hơi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở cảm biến (Sensor) ở 25°C",
+        "detail": "Rút jack cắm và dùng đồng hồ VOM đo thang Ohm. Cảm biến nhiệt độ phòng Reetech ~10kΩ/15kΩ, cảm biến đồng dàn ~10kΩ/20kΩ, cảm biến dàn nóng ~10kΩ/50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tiếp xúc giắc cắm và dây dẫn",
+        "detail": "Kiểm tra chân jack cắm có bị oxy hóa, lỏng chân hoặc chuột cắn đứt dây không."
+      },
+      {
+        "step": 3,
+        "action": "Thay cảm biến mới đúng thông số",
+        "detail": "Nếu điện trở tăng giảm bất thường hoặc chập đứt, thay cảm biến Reetech mới."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Coil Sensor T2)"
+    ],
+    "tags": [
+      "p0",
+      "lỗi",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "bay",
+      "hơi",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "cảm",
+      "biến",
+      "lạnh",
+      "bảo",
+      "vệ",
+      "dòng",
+      "điện",
+      "cao",
+      "igbt",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "p0",
+      "reetech p0",
+      "mã lỗi p0"
+    ]
+  },
+  {
+    "id": "reetech_p1",
+    "code": "P1",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Bảo vệ cao áp",
+    "description": "[Treo tường (Inverter & Thường)] Bảo vệ cao áp (Xử lý: Kiểm tra nguồn điện (quá cao/thấp), vệ sinh dàn nóng giải nhiệt.)",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Bảo vệ cao áp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện áp nguồn cấp cho máy",
+        "detail": "Đo điện áp nguồn điện AC xem có ổn định trong dải 200V - 240V không. Lắp đặt ổn áp nếu nguồn điện chập chờn."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra áp suất gas và vệ sinh dàn trao đổi nhiệt",
+        "detail": "Dùng máy bơm rửa vệ sinh sạch sẽ dàn nóng và dàn lạnh để đảm bảo giải nhiệt tốt."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra cảm biến áp suất / rơ le bảo vệ",
+        "detail": "Đo kiểm tra công tắc bảo vệ cao áp/thấp áp và mạch bảo vệ trên bo dàn nóng."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Reetech"
+    ],
+    "tags": [
+      "p1",
+      "bảo",
+      "vệ",
+      "cao",
+      "áp",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "nguồn",
+      "điện",
+      "quá",
+      "thấp",
+      "sinh",
+      "dàn",
+      "nóng",
+      "giải",
+      "nhiệt",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "p1",
+      "reetech p1",
+      "mã lỗi p1"
+    ]
+  },
+  {
+    "id": "reetech_p2",
+    "code": "P2",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Bảo vệ thấp áp",
+    "description": "[Treo tường (Inverter & Thường)] Bảo vệ thấp áp (Xử lý: Kiểm tra gas, vệ sinh dàn lạnh, đảm bảo thông thoáng gió.)",
+    "severity": "warning",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Bảo vệ thấp áp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện áp nguồn cấp cho máy",
+        "detail": "Đo điện áp nguồn điện AC xem có ổn định trong dải 200V - 240V không. Lắp đặt ổn áp nếu nguồn điện chập chờn."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra áp suất gas và vệ sinh dàn trao đổi nhiệt",
+        "detail": "Dùng máy bơm rửa vệ sinh sạch sẽ dàn nóng và dàn lạnh để đảm bảo giải nhiệt tốt."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra cảm biến áp suất / rơ le bảo vệ",
+        "detail": "Đo kiểm tra công tắc bảo vệ cao áp/thấp áp và mạch bảo vệ trên bo dàn nóng."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)"
+    ],
+    "relatedSensors": [
+      "Bo mạch điều khiển vi xử lý Reetech"
+    ],
+    "tags": [
+      "p2",
+      "bảo",
+      "vệ",
+      "thấp",
+      "áp",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "gas",
+      "sinh",
+      "dàn",
+      "lạnh",
+      "đảm",
+      "thông",
+      "thoáng",
+      "gió",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "p2",
+      "reetech p2",
+      "mã lỗi p2"
+    ]
+  },
+  {
+    "id": "reetech_p3",
+    "code": "P3",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Bảo vệ quá dòng máy nén",
+    "description": "[Treo tường (Inverter & Thường)] Bảo vệ quá dòng máy nén (Xử lý: Kiểm tra dòng điện hoạt động của máy nén, hệ thống nghẹt hoặc dư gas.)",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Bảo vệ quá dòng máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở 3 cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở các cuộn UV, VW, WU phải cân bằng nhau và đo cách điện với vỏ máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bo mạch biến tần Inverter (Module IPM & PFC)",
+        "detail": "Đo kiểm tra diode 6 nhánh IC công suất IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra hệ thống gas và áp suất vận hành",
+        "detail": "Đo áp suất gas hút/đẩy. Kiểm tra xem máy có bị nghẹt phin lọc, tắc van tiết lưu hay dư gas gây quá dòng không."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đường đẩy máy nén",
+      "Bo biến tần Inverter (Mô đun IPM & PFC) & Máy nén"
+    ],
+    "tags": [
+      "p3",
+      "bảo",
+      "vệ",
+      "quá",
+      "dòng",
+      "máy",
+      "nén",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "điện",
+      "hoạt",
+      "động",
+      "của",
+      "hệ",
+      "thống",
+      "nghẹt",
+      "hoặc",
+      "dư",
+      "gas",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "p3",
+      "reetech p3",
+      "mã lỗi p3"
+    ]
+  },
+  {
+    "id": "reetech_p4",
+    "code": "P4",
+    "brandId": "reetech",
+    "brandName": "Reetech",
+    "title": "Máy nén biến tần bị lỗi (Không hoạt động)",
+    "description": "[Treo tường (Inverter & Thường)] Máy nén biến tần bị lỗi (Không hoạt động) (Xử lý: Kiểm tra lại board biến tần Inverter ngoài dàn nóng, tụ đề hoặc Block máy nén.)",
+    "severity": "critical",
+    "causes": [
+      "[Treo tường (Inverter & Thường)] Máy nén biến tần bị lỗi (Không hoạt động)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Đo điện trở 3 cuộn dây máy nén (Compressor)",
+        "detail": "Rút giắc máy nén, đo điện trở các cuộn UV, VW, WU phải cân bằng nhau và đo cách điện với vỏ máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bo mạch biến tần Inverter (Module IPM & PFC)",
+        "detail": "Đo kiểm tra diode 6 nhánh IC công suất IPM. Kiểm tra lớp keo tản nhiệt và quạt làm mát bo dàn nóng."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra hệ thống gas và áp suất vận hành",
+        "detail": "Đo áp suất gas hút/đẩy. Kiểm tra xem máy có bị nghẹt phin lọc, tắc van tiết lưu hay dư gas gây quá dòng không."
+      }
+    ],
+    "modelTypes": [
+      "Treo tường (Inverter & Thường)"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đường đẩy máy nén",
+      "Bo biến tần Inverter (Mô đun IPM & PFC) & Máy nén"
+    ],
+    "tags": [
+      "p4",
+      "máy",
+      "nén",
+      "biến",
+      "tần",
+      "bị",
+      "lỗi",
+      "không",
+      "hoạt",
+      "động",
+      "treo",
+      "tường",
+      "inverter",
+      "thường",
+      "xử",
+      "lý",
+      "kiểm",
+      "tra",
+      "lại",
+      "board",
+      "ngoài",
+      "dàn",
+      "nóng",
+      "tụ",
+      "đề",
+      "hoặc",
+      "block",
+      "reetech",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "reetech",
+      "p4",
+      "reetech p4"
+    ]
+  }
+]

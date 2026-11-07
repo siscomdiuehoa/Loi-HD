@@ -1,0 +1,154 @@
+[
+  {
+    "id": "samsung_e1",
+    "code": "E1",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi bộ nhớ EEPROM",
+    "description": "Thông tin áp dụng cho Một số model Samsung; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Một số model Samsung"
+    ],
+    "tags": [
+      "e1",
+      "samsung",
+      "lỗi bộ nhớ eeprom"
+    ],
+    "sources": [
+      {
+        "title": "Samsung Việt Nam – Mã hiển thị dàn lạnh",
+        "url": "https://www.samsung.com/vn/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
+      }
+    ]
+  },
+  {
+    "id": "samsung_e5",
+    "code": "E5",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến bộ trao đổi nhiệt dàn lạnh",
+    "description": "Thông tin áp dụng cho Một số model Samsung; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Một số model Samsung"
+    ],
+    "tags": [
+      "e5",
+      "samsung",
+      "lỗi cảm biến bộ trao đổi nhiệt dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Samsung Việt Nam – Mã hiển thị dàn lạnh",
+        "url": "https://www.samsung.com/vn/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
+      }
+    ]
+  },
+  {
+    "id": "samsung_e6",
+    "code": "E6",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến bộ trao đổi nhiệt dàn nóng",
+    "description": "Thông tin áp dụng cho Một số model Samsung; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Một số model Samsung"
+    ],
+    "tags": [
+      "e6",
+      "samsung",
+      "lỗi cảm biến bộ trao đổi nhiệt dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Samsung Việt Nam – Mã hiển thị dàn lạnh",
+        "url": "https://www.samsung.com/vn/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
+      }
+    ]
+  },
+  {
+    "id": "samsung_e7",
+    "code": "E7",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ bộ gia nhiệt",
+    "description": "Thông tin áp dụng cho Một số model Samsung; mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Một số model Samsung"
+    ],
+    "tags": [
+      "e7",
+      "samsung",
+      "lỗi cảm biến nhiệt độ bộ gia nhiệt"
+    ],
+    "sources": [
+      {
+        "title": "Samsung Việt Nam – Mã hiển thị dàn lạnh",
+        "url": "https://www.samsung.com/vn/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
+      }
+    ]
+  }
+]

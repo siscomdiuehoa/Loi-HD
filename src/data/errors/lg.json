@@ -1,0 +1,1589 @@
+[
+  {
+    "id": "lg_ch01",
+    "code": "CH01",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến nhiệt độ không khí dàn lạnh",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ phòng, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch01",
+      "lg",
+      "cảm biến nhiệt độ không khí dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch02",
+    "code": "CH02",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến nhiệt độ ống vào dàn lạnh",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến ống vào, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch02",
+      "lg",
+      "cảm biến nhiệt độ ống vào dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch03",
+    "code": "CH03",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Tín hiệu giữa dàn lạnh và bộ điều khiển",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Dây tín hiệu, kết nối hoặc bộ điều khiển."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch03",
+      "lg",
+      "tín hiệu giữa dàn lạnh và bộ điều khiển"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch04",
+    "code": "CH04",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Hệ thống thoát nước hoặc công tắc phao",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Công tắc phao, bơm thoát nước hoặc đường thoát nước."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch04",
+      "lg",
+      "hệ thống thoát nước hoặc công tắc phao"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch05",
+    "code": "CH05",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Giao tiếp giữa dàn lạnh và dàn nóng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Dây tín hiệu, kết nối hoặc mạch truyền thông."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch05",
+      "lg",
+      "giao tiếp giữa dàn lạnh và dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch06",
+    "code": "CH06",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến nhiệt độ ống ra dàn lạnh",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến ống ra, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch06",
+      "lg",
+      "cảm biến nhiệt độ ống ra dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch07",
+    "code": "CH07",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Các dàn lạnh không cùng chế độ vận hành",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Các dàn lạnh trong hệ thống đang chọn chế độ không tương thích."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch07",
+      "lg",
+      "các dàn lạnh không cùng chế độ vận hành"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch09",
+    "code": "CH09",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi chức năng bo mạch",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bo điều khiển; vị trí bo cần đối chiếu theo model."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch09",
+      "lg",
+      "lỗi chức năng bo mạch"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch10",
+    "code": "CH10",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi quạt dàn lạnh",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Quạt dàn lạnh, dây nối hoặc mạch điều khiển quạt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch10",
+      "lg",
+      "lỗi quạt dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch21",
+    "code": "CH21",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bảo vệ hoặc lỗi mạch công suất",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Mạch công suất, máy nén hoặc dây kết nối liên quan."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch21",
+      "lg",
+      "bảo vệ hoặc lỗi mạch công suất"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch22",
+    "code": "CH22",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bảo vệ quá dòng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Dòng điện bất thường hoặc mạch công suất; cần kiểm tra theo tài liệu model."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch22",
+      "lg",
+      "bảo vệ quá dòng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch23",
+    "code": "CH23",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Điện áp nguồn thấp",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Nguồn cấp thấp hoặc mạch giám sát điện áp."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch23",
+      "lg",
+      "điện áp nguồn thấp"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch26",
+    "code": "CH26",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bất thường máy nén inverter",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Máy nén, dây nối hoặc mạch điều khiển máy nén."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch26",
+      "lg",
+      "bất thường máy nén inverter"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch27",
+    "code": "CH27",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bất thường mạch inverter hoặc quá tải dàn nóng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Mạch inverter hoặc điều kiện vận hành của dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch27",
+      "lg",
+      "bất thường mạch inverter hoặc quá tải dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch29",
+    "code": "CH29",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bất thường pha máy nén inverter",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Dây pha máy nén, máy nén hoặc mạch điều khiển."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch29",
+      "lg",
+      "bất thường pha máy nén inverter"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch32",
+    "code": "CH32",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Nhiệt độ đường đẩy máy nén cao",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Máy nén, cảm biến đường đẩy hoặc điều kiện vận hành hệ thống lạnh."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch32",
+      "lg",
+      "nhiệt độ đường đẩy máy nén cao"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch33",
+    "code": "CH33",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Nhiệt độ đường đẩy cao hoặc quá tải máy nén",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Tình trạng máy nén, cảm biến đường đẩy hoặc điều kiện vận hành."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch33",
+      "lg",
+      "nhiệt độ đường đẩy cao hoặc quá tải máy nén"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch41",
+    "code": "CH41",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến nhiệt độ máy nén",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến máy nén, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch41",
+      "lg",
+      "cảm biến nhiệt độ máy nén"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch44",
+    "code": "CH44",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến nhiệt độ không khí dàn nóng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến không khí dàn nóng, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch44",
+      "lg",
+      "cảm biến nhiệt độ không khí dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch45",
+    "code": "CH45",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến nhiệt độ ống dàn nóng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến ống dàn nóng, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch45",
+      "lg",
+      "cảm biến nhiệt độ ống dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch46",
+    "code": "CH46",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến đường hồi máy nén",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến đường hồi, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch46",
+      "lg",
+      "cảm biến đường hồi máy nén"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch47",
+    "code": "CH47",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Cảm biến nhiệt độ đường đẩy",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến đường đẩy, dây nối hoặc mạch cảm biến."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch47",
+      "lg",
+      "cảm biến nhiệt độ đường đẩy"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch51",
+    "code": "CH51",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Quá tải công suất kết nối",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Tổng công suất dàn lạnh có thể không phù hợp với dàn nóng trong hệ thống nhiều dàn."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch51",
+      "lg",
+      "quá tải công suất kết nối"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch53",
+    "code": "CH53",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Giao tiếp giữa dàn lạnh và dàn nóng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Đường truyền tín hiệu, kết nối hoặc mạch giao tiếp."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch53",
+      "lg",
+      "giao tiếp giữa dàn lạnh và dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch54",
+    "code": "CH54",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bất thường thứ tự pha nguồn ba pha",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Dây nguồn ba pha có thể đấu sai thứ tự."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch54",
+      "lg",
+      "bất thường thứ tự pha nguồn ba pha"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch60",
+    "code": "CH60",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bất thường bo mạch dàn nóng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bo điều khiển dàn nóng hoặc linh kiện liên quan."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch60",
+      "lg",
+      "bất thường bo mạch dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch61",
+    "code": "CH61",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Dàn nóng tản nhiệt kém",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Thông gió và điều kiện tản nhiệt dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch61",
+      "lg",
+      "dàn nóng tản nhiệt kém"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch62",
+    "code": "CH62",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Nhiệt độ mạch công suất dàn nóng cao",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Tản nhiệt hoặc điều kiện làm việc của mạch công suất."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch62",
+      "lg",
+      "nhiệt độ mạch công suất dàn nóng cao"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_ch65",
+    "code": "CH65",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bất thường linh kiện mạch nguồn dàn nóng",
+    "description": "Thông tin tham khảo; ý nghĩa và cách kiểm tra có thể khác theo dòng máy. Đối chiếu tài liệu kỹ thuật đúng model trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Mạch nguồn hoặc linh kiện liên quan; cần xác nhận theo model."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác định model và mã hiển thị",
+        "detail": "Đối chiếu bảng mã trong tài liệu kỹ thuật của đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Ngắt nguồn trước khi kiểm tra kết nối. Công việc điện và sửa chữa phải do kỹ thuật viên có chuyên môn thực hiện."
+      }
+    ],
+    "tags": [
+      "ch65",
+      "lg",
+      "bất thường linh kiện mạch nguồn dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "Bảo Minh – Bảng mã lỗi điều hòa LG",
+        "url": "https://banhangtaikho.com.vn/tin/ma-loi-dieu-hoa-thuong-gap/tong-hop-ma-loi-va-nguyen-nhan-khi-su-dung-lap-dat-dieu-hoa-lg.htm"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_104",
+    "code": "CH104",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi giao tiếp giữa các dàn nóng chính và phụ",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 104. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1041, 1042, 1043. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Cáp truyền thông hoặc nguồn kết nối lỏng, đứt, chập; cấu hình hoặc bo điều khiển liên quan."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch104",
+      "1041",
+      "1042",
+      "1043",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi giao tiếp giữa các dàn nóng chính và phụ"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_105",
+    "code": "CH105",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi giao tiếp giữa bo quạt và bo inverter máy nén",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 105. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1051, 1052, 1053. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Giắc hoặc dây nối giữa các bo, nguồn cấp bo quạt, bo inverter hoặc bo quạt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch105",
+      "1051",
+      "1052",
+      "1053",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi giao tiếp giữa bo quạt và bo inverter máy nén"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_106",
+    "code": "CH106",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Bảo vệ quá dòng IPM trên bo quạt dàn nóng",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 106. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1061, 1062, 1063. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Quạt bị kẹt, motor quạt hoặc dây nối bất thường, tải hệ thống hoặc bo quạt."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch106",
+      "1061",
+      "1062",
+      "1063",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "bảo vệ quá dòng ipm trên bo quạt dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_107",
+    "code": "CH107",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Điện áp DC link của mạch quạt dàn nóng thấp",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 107. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1071, 1072, 1073. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Dây và đầu nối DC link, bo inverter, bo quạt hoặc linh kiện nguồn liên quan."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch107",
+      "1071",
+      "1072",
+      "1073",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "điện áp dc link của mạch quạt dàn nóng thấp"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_113",
+    "code": "CH113",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi cảm biến nhiệt độ ống lỏng dàn nóng",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 113. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1131, 1132, 1133. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Đầu nối cảm biến, cảm biến bị hở/chập hoặc bo dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch113",
+      "1131",
+      "1132",
+      "1133",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi cảm biến nhiệt độ ống lỏng dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_114",
+    "code": "CH114",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi cảm biến nhiệt độ đầu vào bộ quá lạnh",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 114. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1141, 1142, 1143. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Đầu nối cảm biến, cảm biến bị hở/chập hoặc bo dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch114",
+      "1141",
+      "1142",
+      "1143",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi cảm biến nhiệt độ đầu vào bộ quá lạnh"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_115",
+    "code": "CH115",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi cảm biến nhiệt độ đầu ra bộ quá lạnh",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 115. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1151, 1152, 1153. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Đầu nối cảm biến, cảm biến bị hở/chập hoặc bo dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch115",
+      "1151",
+      "1152",
+      "1153",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi cảm biến nhiệt độ đầu ra bộ quá lạnh"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_145",
+    "code": "CH145",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi giao tiếp giữa bo chính và bo mở rộng dàn nóng",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 145. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1451, 1452, 1453. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Nguồn hoặc cáp truyền thông giữa hai bo, bo điều khiển hoặc bo mở rộng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch145",
+      "1451",
+      "1452",
+      "1453",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi giao tiếp giữa bo chính và bo mở rộng dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_150",
+    "code": "CH150",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Độ quá nhiệt đường đẩy máy nén không đạt",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 150. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1501, 1502, 1503. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Cần kiểm tra điều kiện vận hành, van tiết lưu và các thành phần liên quan theo tài liệu model."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch150",
+      "1501",
+      "1502",
+      "1503",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "độ quá nhiệt đường đẩy máy nén không đạt"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_151",
+    "code": "CH151",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Chênh lệch áp suất cao và thấp quá nhỏ",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 151. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1511, 1512, 1513. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Van đảo chiều bốn ngả hoặc điều kiện vận hành hệ thống liên quan."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch151",
+      "1511",
+      "1512",
+      "1513",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "chênh lệch áp suất cao và thấp quá nhỏ"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_182",
+    "code": "CH182",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi giao tiếp giữa vi điều khiển chính và phụ trên bo mở rộng",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 182. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1821, 1822, 1823. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Truyền thông giữa các vi điều khiển trên bo mở rộng dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch182",
+      "1821",
+      "1822",
+      "1823",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi giao tiếp giữa vi điều khiển chính và phụ trên bo mở rộng"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_193",
+    "code": "CH193",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Nhiệt độ bộ tản nhiệt bo quạt dàn nóng tăng cao",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 193. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1931, 1932, 1933. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Điều kiện tản nhiệt, vận hành quạt, kết nối hoặc bo quạt dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch193",
+      "1931",
+      "1932",
+      "1933",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "nhiệt độ bộ tản nhiệt bo quạt dàn nóng tăng cao"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lg_multiv5_194",
+    "code": "CH194",
+    "brandId": "lg",
+    "brandName": "LG Electronics",
+    "title": "Lỗi cảm biến nhiệt độ bộ tản nhiệt bo quạt",
+    "description": "Tham khảo LG MULTI V 5, mã lỗi số 194. Trên màn hình bo dàn nóng, số cuối có thể chỉ dàn chính (1), dàn phụ 1 (2) hoặc dàn phụ 2 (3): ví dụ 1941, 1942, 1943. Kiểm tra cách hiển thị và tài liệu của đúng model.",
+    "severity": "warning",
+    "causes": [
+      "Đầu nối cảm biến, cảm biến bị hở/chập hoặc bo dàn nóng."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận model và dàn báo lỗi",
+        "detail": "Ghi lại đầy đủ số trên màn hình, dàn chính/phụ và trạng thái vận hành; đối chiếu tài liệu LG đúng model."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khu vực liên quan",
+        "detail": "Kỹ thuật viên đủ chuyên môn kiểm tra theo sơ đồ và quy trình an toàn của LG. Cô lập nguồn và xác minh an toàn trước khi thao tác; tụ điện inverter có thể còn điện tích."
+      }
+    ],
+    "modelTypes": [
+      "Multi V 5"
+    ],
+    "tags": [
+      "ch194",
+      "1941",
+      "1942",
+      "1943",
+      "vrf",
+      "vrv",
+      "dieu hoa trung tam",
+      "multi v 5",
+      "lỗi cảm biến nhiệt độ bộ tản nhiệt bo quạt"
+    ],
+    "sources": [
+      {
+        "title": "LG – MULTI V 5 Outdoor Unit Service Manual",
+        "url": "https://media.us.lg.com/m/2c812e38277ba4c2/original/SM_MULTI-V-5-Outdoor-Unit-Service-Manual_06_21_24-pdf.pdf"
+      }
+    ]
+  }
+]

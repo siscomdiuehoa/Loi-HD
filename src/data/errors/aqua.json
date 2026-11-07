@@ -1,0 +1,648 @@
+[
+  {
+    "id": "aqua_e1",
+    "code": "E1",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi cảm biến nhiệt độ phòng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e1",
+      "aqua",
+      "lỗi cảm biến nhiệt độ phòng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_e2",
+    "code": "E2",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi cảm biến bộ trao đổi nhiệt dàn lạnh",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e2",
+      "aqua",
+      "lỗi cảm biến bộ trao đổi nhiệt dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_e4",
+    "code": "E4",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi mạch điều khiển dàn lạnh",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e4",
+      "aqua",
+      "lỗi mạch điều khiển dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_e14",
+    "code": "E14",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi mô tơ quạt dàn lạnh",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e14",
+      "aqua",
+      "lỗi mô tơ quạt dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_e7",
+    "code": "E7",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi kết nối giữa dàn nóng và dàn lạnh",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e7",
+      "aqua",
+      "lỗi kết nối giữa dàn nóng và dàn lạnh"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f1",
+    "code": "F1",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi mạch mô đun dàn nóng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f1",
+      "aqua",
+      "lỗi mạch mô đun dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f2",
+    "code": "F2",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Máy nén quá dòng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f2",
+      "aqua",
+      "máy nén quá dòng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f3",
+    "code": "F3",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi kết nối mạch mô đun với bo chính dàn nóng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f3",
+      "aqua",
+      "lỗi kết nối mạch mô đun với bo chính dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f4",
+    "code": "F4",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Bảo vệ quá nhiệt ngõ ra",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f4",
+      "aqua",
+      "bảo vệ quá nhiệt ngõ ra"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f6",
+    "code": "F6",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi cảm biến nhiệt độ môi trường dàn nóng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f6",
+      "aqua",
+      "lỗi cảm biến nhiệt độ môi trường dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f7",
+    "code": "F7",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi cảm biến nhiệt ngõ vào dàn nóng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f7",
+      "aqua",
+      "lỗi cảm biến nhiệt ngõ vào dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f8",
+    "code": "F8",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi mô tơ quạt dàn nóng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f8",
+      "aqua",
+      "lỗi mô tơ quạt dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f11",
+    "code": "F11",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi máy nén",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f11",
+      "aqua",
+      "lỗi máy nén"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f12",
+    "code": "F12",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi bo điều khiển dàn nóng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f12",
+      "aqua",
+      "lỗi bo điều khiển dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f18",
+    "code": "F18",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Điện áp nguồn quá cao hoặc quá thấp",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f18",
+      "aqua",
+      "điện áp nguồn quá cao hoặc quá thấp"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f21",
+    "code": "F21",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi cảm biến nhiệt xả tuyết",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f21",
+      "aqua",
+      "lỗi cảm biến nhiệt xả tuyết"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  },
+  {
+    "id": "aqua_f25",
+    "code": "F25",
+    "brandId": "aqua",
+    "brandName": "AQUA",
+    "title": "Lỗi cảm biến nhiệt ngõ ra dàn nóng",
+    "description": "Thông tin áp dụng cho Inverter (tham khảo); mã và cách hiển thị có thể thay đổi theo model và đời máy. Đối chiếu tài liệu của đúng thiết bị.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần kiểm tra để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Xác nhận mã và model",
+        "detail": "Ghi lại mã hiển thị, mã model và điều kiện xảy ra lỗi; đối chiếu tài liệu của đúng máy."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra bộ phận liên quan",
+        "detail": "Công việc kiểm tra và sửa chữa điện, mạch hoặc môi chất do kỹ thuật viên có chuyên môn thực hiện theo hướng dẫn hãng."
+      }
+    ],
+    "modelTypes": [
+      "Inverter (tham khảo)"
+    ],
+    "tags": [
+      "f25",
+      "aqua",
+      "lỗi cảm biến nhiệt ngõ ra dàn nóng"
+    ],
+    "sources": [
+      {
+        "title": "HC – Bảng mã máy lạnh AQUA",
+        "url": "https://hc.com.vn/ords/nnews/ma-loi-may-lanh-aqua"
+      }
+    ]
+  }
+]

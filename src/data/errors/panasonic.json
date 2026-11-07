@@ -1,0 +1,3759 @@
+[
+  {
+    "id": "pana_e2",
+    "code": "E2",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Sự cố cảm biến báo mức thoát nước",
+    "description": "Sự cố cảm biến báo mức thoát nước (Khắc phục: Kiểm tra cảm biến phao nước, bơm thoát nước, thông tắc ống.)",
+    "severity": "warning",
+    "causes": [
+      "Sự cố cảm biến báo mức thoát nước"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Phao nước chống tràn & Bơm thoát nước ngưng"
+    ],
+    "tags": [
+      "e2",
+      "sự",
+      "cố",
+      "cảm",
+      "biến",
+      "báo",
+      "mức",
+      "thoát",
+      "nước",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "phao",
+      "bơm",
+      "thông",
+      "tắc",
+      "ống",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma"
+    ]
+  },
+  {
+    "id": "pana_e3",
+    "code": "E3",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến nhiệt trong phòng gặp vấn đề",
+    "description": "Cảm biến nhiệt trong phòng gặp vấn đề (Khắc phục: Kiểm tra hoặc thay thế cảm biến nhiệt độ phòng (Thermistor).)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt trong phòng gặp vấn đề"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Thermistor ~15kΩ/20kΩ)"
+    ],
+    "tags": [
+      "e3",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "trong",
+      "phòng",
+      "gặp",
+      "vấn",
+      "đề",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "hoặc",
+      "thay",
+      "thế",
+      "độ",
+      "thermistor",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma"
+    ]
+  },
+  {
+    "id": "pana_e4",
+    "code": "E4",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến ống trong nhà bị lỗi",
+    "description": "Cảm biến ống trong nhà bị lỗi (Khắc phục: Kiểm tra hoặc thay thế cảm biến ống đồng dàn lạnh.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến ống trong nhà bị lỗi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Indoor Coil Sensor)"
+    ],
+    "tags": [
+      "e4",
+      "cảm",
+      "biến",
+      "ống",
+      "trong",
+      "nhà",
+      "bị",
+      "lỗi",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "hoặc",
+      "thay",
+      "thế",
+      "đồng",
+      "dàn",
+      "lạnh",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma"
+    ]
+  },
+  {
+    "id": "pana_e5",
+    "code": "E5",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi do điều khiển từ xa",
+    "description": "Lỗi do điều khiển từ xa (Khắc phục: Kiểm tra tín hiệu remote, mắt nhận hồng ngoại trên dàn lạnh.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi do điều khiển từ xa"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra tín hiệu remote, mắt nhận hồng ngoại trên dàn lạnh",
+        "detail": "Thao tác chẩn đoán theo quy trình kỹ thuật Panasonic: Kiểm tra tín hiệu remote, mắt nhận hồng ngoại trên dàn lạnh"
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Bo mạch vi xử lý điều khiển Panasonic"
+    ],
+    "tags": [
+      "e5",
+      "lỗi",
+      "do",
+      "điều",
+      "khiển",
+      "từ",
+      "xa",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "tín",
+      "hiệu",
+      "remote",
+      "mắt",
+      "nhận",
+      "hồng",
+      "ngoại",
+      "trên",
+      "dàn",
+      "lạnh",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_e6",
+    "code": "E6",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Dây truyền tín hiệu giữa dàn nóng-lạnh bị lỗi",
+    "description": "Dây truyền tín hiệu giữa dàn nóng-lạnh bị lỗi (Khắc phục: Kiểm tra đường truyền tín hiệu, bo mạch cấp tín hiệu.)",
+    "severity": "warning",
+    "causes": [
+      "Dây truyền tín hiệu giữa dàn nóng-lạnh bị lỗi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền tín hiệu kết nối 1-2-3",
+        "detail": "Đo thông mạch và kiểm tra siết chặt vít cọc đấu dây giữa mặt lạnh và cục nóng. Đảm bảo dây số 3 không bị đứt ngầm hoặc chạm mass."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động DC tại cọc số 2 và số 3",
+        "detail": "Dùng đồng hồ đo thang DC (0 - 50V). Nếu điện áp dao động liên tục từ 15V đến 35V thì đường truyền tín hiệu bình thường; nếu điện áp đứng yên 0V hoặc treo 40-50V cố định thì bo mạch có vấn đề."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra khối truyền thông quang (Opto) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện Opto PC817, điện trở phân áp và nguồn cấp 5V/12V trên bo dàn lạnh và bo dàn nóng."
+      },
+      {
+        "step": 4,
+        "action": "Reset hệ thống và nạp lại cấu hình",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút, sau đó cấp điện khởi động lại máy."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ngoài trời (Outdoor Temp Sensor)",
+      "Mạch giao tiếp truyền thông Opto PC817"
+    ],
+    "tags": [
+      "e6",
+      "dây",
+      "truyền",
+      "tín",
+      "hiệu",
+      "giữa",
+      "dàn",
+      "nóng",
+      "lạnh",
+      "bị",
+      "lỗi",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "đường",
+      "bo",
+      "mạch",
+      "cấp",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_e9",
+    "code": "E9",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cánh đảo gió (Louver) bất thường",
+    "description": "Cánh đảo gió (Louver) bất thường (Khắc phục: Kiểm tra mô tơ đảo gió Swing, các lẫy cơ khí vỡ/kẹt.)",
+    "severity": "warning",
+    "causes": [
+      "Cánh đảo gió (Louver) bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra mô tơ đảo gió Swing, các lẫy cơ khí vỡ/kẹt",
+        "detail": "Thao tác chẩn đoán theo quy trình kỹ thuật Panasonic: Kiểm tra mô tơ đảo gió Swing, các lẫy cơ khí vỡ/kẹt"
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Bo mạch vi xử lý điều khiển Panasonic"
+    ],
+    "tags": [
+      "e9",
+      "cánh",
+      "đảo",
+      "gió",
+      "louver",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "mô",
+      "tơ",
+      "swing",
+      "các",
+      "lẫy",
+      "cơ",
+      "khí",
+      "vỡ",
+      "kẹt",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_e10",
+    "code": "E10",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến bức xạ gặp vấn đề",
+    "description": "Cảm biến bức xạ gặp vấn đề (Khắc phục: Kiểm tra module cảm biến hoặc bo mạch tương ứng.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến bức xạ gặp vấn đề"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Cảm biến bức xạ nhiệt"
+    ],
+    "tags": [
+      "e10",
+      "cảm",
+      "biến",
+      "bức",
+      "xạ",
+      "gặp",
+      "vấn",
+      "đề",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "module",
+      "hoặc",
+      "bo",
+      "mạch",
+      "tương",
+      "ứng",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma"
+    ]
+  },
+  {
+    "id": "pana_e11",
+    "code": "E11",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Độ ẩm trong phòng tăng hoặc giảm bất thường",
+    "description": "Độ ẩm trong phòng tăng hoặc giảm bất thường (Khắc phục: Kiểm tra cảm biến độ ẩm trên dàn lạnh.)",
+    "severity": "warning",
+    "causes": [
+      "Độ ẩm trong phòng tăng hoặc giảm bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Thermistor ~15kΩ/20kΩ)",
+      "Cảm biến độ ẩm không khí"
+    ],
+    "tags": [
+      "e11",
+      "độ",
+      "ẩm",
+      "trong",
+      "phòng",
+      "tăng",
+      "hoặc",
+      "giảm",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "cảm",
+      "biến",
+      "trên",
+      "dàn",
+      "lạnh",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma"
+    ]
+  },
+  {
+    "id": "pana_e13",
+    "code": "E13",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Dòng, điện áp, pha mở, contactor, máy nén gặp trục trặc",
+    "description": "Dòng, điện áp, pha mở, contactor, máy nén gặp trục trặc (Khắc phục: Kiểm tra tổng thể nguồn điện 3 pha/1 pha cấp cho máy nén, contactor.)",
+    "severity": "critical",
+    "causes": [
+      "Dòng, điện áp, pha mở, contactor, máy nén gặp trục trặc"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "e13",
+      "dòng",
+      "điện",
+      "áp",
+      "pha",
+      "mở",
+      "contactor",
+      "máy",
+      "nén",
+      "gặp",
+      "trục",
+      "trặc",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "tổng",
+      "thể",
+      "nguồn",
+      "cấp",
+      "cho",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_e15",
+    "code": "E15",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi bất thường cắt/giảm áp lực cao",
+    "description": "Lỗi bất thường cắt/giảm áp lực cao (Khắc phục: Tắc nghẽn trao đổi nhiệt, quạt dàn nóng lỗi, hoặc áp suất gas quá cao.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi bất thường cắt/giảm áp lực cao"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học cánh quạt và lồng quạt",
+        "detail": "Dùng tay quay nhẹ cánh quạt kiểm tra có bị kẹt dị vật, vướng cọ xát hoặc bó cứng bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp cấp và xung hồi tiếp Hall (Quạt DC/AC)",
+        "detail": "Kiểm tra nguồn cấp 300V DC (Vm), 15V (Vcc), điện áp điều khiển tốc độ 0-6V (Vsp) và tín hiệu xung quay Hall (FG)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển trên bo",
+        "detail": "Nếu cuộn dây quạt bị đứt/chập hoặc hỏng IC Hall, thay thế motor quạt Panasonic chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Cảm biến / Công tắc áp suất cao (Pressure Sensor)"
+    ],
+    "tags": [
+      "e15",
+      "lỗi",
+      "bất",
+      "thường",
+      "cắt",
+      "giảm",
+      "áp",
+      "lực",
+      "cao",
+      "khắc",
+      "phục",
+      "tắc",
+      "nghẽn",
+      "trao",
+      "đổi",
+      "nhiệt",
+      "quạt",
+      "dàn",
+      "nóng",
+      "hoặc",
+      "suất",
+      "gas",
+      "quá",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv"
+    ]
+  },
+  {
+    "id": "pana_e16",
+    "code": "E16",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Điện áp cung cấp gặp bất thường",
+    "description": "Điện áp cung cấp gặp bất thường (Khắc phục: Kiểm tra nguồn điện cấp cho dàn ngoài trời, bo mạch cấp nguồn.)",
+    "severity": "critical",
+    "causes": [
+      "Điện áp cung cấp gặp bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra nguồn điện cấp cho dàn ngoài trời, bo mạch cấp nguồn",
+        "detail": "Thao tác chẩn đoán theo quy trình kỹ thuật Panasonic: Kiểm tra nguồn điện cấp cho dàn ngoài trời, bo mạch cấp nguồn"
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Bo mạch vi xử lý điều khiển Panasonic"
+    ],
+    "tags": [
+      "e16",
+      "điện",
+      "áp",
+      "cung",
+      "cấp",
+      "gặp",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "nguồn",
+      "cho",
+      "dàn",
+      "ngoài",
+      "trời",
+      "bo",
+      "mạch",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma"
+    ]
+  },
+  {
+    "id": "pana_e17",
+    "code": "E17",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến nhiệt bên ngoài gặp vấn đề",
+    "description": "Cảm biến nhiệt bên ngoài gặp vấn đề (Khắc phục: Kiểm tra hoặc thay thế cảm biến nhiệt dàn nóng ngoài trời.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt bên ngoài gặp vấn đề"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ngoài trời (Outdoor Temp Sensor)"
+    ],
+    "tags": [
+      "e17",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "bên",
+      "ngoài",
+      "gặp",
+      "vấn",
+      "đề",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "hoặc",
+      "thay",
+      "thế",
+      "dàn",
+      "nóng",
+      "trời",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_e18",
+    "code": "E18",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến ống ngoài trời / tản nhiệt có vấn đề",
+    "description": "Cảm biến ống ngoài trời / tản nhiệt có vấn đề (Khắc phục: Kiểm tra cảm biến gắn trên ống đồng dàn nóng hở/lỗi.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến ống ngoài trời / tản nhiệt có vấn đề"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor tản nhiệt cánh nhôm dàn nóng (Heatsink Sensor)"
+    ],
+    "tags": [
+      "e18",
+      "cảm",
+      "biến",
+      "ống",
+      "ngoài",
+      "trời",
+      "tản",
+      "nhiệt",
+      "có",
+      "vấn",
+      "đề",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "gắn",
+      "trên",
+      "đồng",
+      "dàn",
+      "nóng",
+      "hở",
+      "lỗi",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv"
+    ]
+  },
+  {
+    "id": "pana_f11",
+    "code": "F11",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Hỏng công tắc điều chỉnh van 4 ngả",
+    "description": "Hỏng công tắc điều chỉnh van 4 ngả (Khắc phục: Kiểm tra cuộn dây van 4 ngả (trên dòng máy 2 chiều).)",
+    "severity": "critical",
+    "causes": [
+      "Hỏng công tắc điều chỉnh van 4 ngả"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn coil van đảo chiều 4 ngả",
+        "detail": "Đo điện trở cuộn dây coil van 4 ngả (thường khoảng 1.5kΩ - 2.5kΩ). Kiểm tra điện áp cấp 220VAC từ bo mạch."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra lõi trượt cơ khí van 4 ngả",
+        "detail": "Kiểm tra van có bị kẹt cơ không đảo chiều được giữa chế độ sưởi và làm lạnh không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cuộn dây coil hoặc thay cụm van 4 ngả",
+        "detail": "Tiến hành thay thế cuộn coil hoặc xả gas thay thế cụm van nếu kẹt van bên trong."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Bo mạch vi xử lý điều khiển Panasonic"
+    ],
+    "tags": [
+      "f11",
+      "hỏng",
+      "công",
+      "tắc",
+      "điều",
+      "chỉnh",
+      "van",
+      "ngả",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "cuộn",
+      "dây",
+      "trên",
+      "dòng",
+      "máy",
+      "chiều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "panasonic"
+    ]
+  },
+  {
+    "id": "pana_f16",
+    "code": "F16",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến áp suất đầu vào/đầu ra máy nén",
+    "description": "Lỗi cảm biến áp suất đầu vào/đầu ra máy nén (Khắc phục: Kiểm tra cảm biến áp suất và hệ thống dây điện bảo vệ.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi cảm biến áp suất đầu vào/đầu ra máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Cảm biến / Công tắc áp suất cao (Pressure Sensor)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f16",
+      "lỗi",
+      "cảm",
+      "biến",
+      "áp",
+      "suất",
+      "đầu",
+      "vào",
+      "ra",
+      "máy",
+      "nén",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "và",
+      "hệ",
+      "thống",
+      "dây",
+      "điện",
+      "bảo",
+      "vệ",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv"
+    ]
+  },
+  {
+    "id": "pana_f90",
+    "code": "F90",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi trên mạch PFC ra máy nén",
+    "description": "Lỗi trên mạch PFC ra máy nén (Khắc phục: Kiểm tra mạch điện tử PFC, liên hệ thợ có chuyên môn điện tử.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi trên mạch PFC ra máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f90",
+      "lỗi",
+      "trên",
+      "mạch",
+      "pfc",
+      "ra",
+      "máy",
+      "nén",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "điện",
+      "tử",
+      "liên",
+      "hệ",
+      "thợ",
+      "có",
+      "chuyên",
+      "môn",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_f91",
+    "code": "F91",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Dòng tải máy nén quá thấp",
+    "description": "Dòng tải máy nén quá thấp (Khắc phục: Kiểm tra van tiết lưu, lọc khí, hệ thống gas xem có bị tắc nghẽn/thiếu gas không.)",
+    "severity": "critical",
+    "causes": [
+      "Dòng tải máy nén quá thấp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f91",
+      "dòng",
+      "tải",
+      "máy",
+      "nén",
+      "quá",
+      "thấp",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "van",
+      "tiết",
+      "lưu",
+      "lọc",
+      "khí",
+      "hệ",
+      "thống",
+      "gas",
+      "xem",
+      "có",
+      "bị",
+      "tắc",
+      "nghẽn",
+      "thiếu",
+      "không",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "sky",
+      "series"
+    ]
+  },
+  {
+    "id": "pana_f93",
+    "code": "F93",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi tốc độ quay của máy nén (Block)",
+    "description": "Lỗi tốc độ quay của máy nén (Block) (Khắc phục: Kiểm tra Block máy nén, bo mạch dàn nóng điều khiển biến tần Inverter.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi tốc độ quay của máy nén (Block)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f93",
+      "lỗi",
+      "tốc",
+      "độ",
+      "quay",
+      "của",
+      "máy",
+      "nén",
+      "block",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "bo",
+      "mạch",
+      "dàn",
+      "nóng",
+      "điều",
+      "khiển",
+      "biến",
+      "tần",
+      "inverter",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_f94",
+    "code": "F94",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi nghẹt đầu đẩy máy nén",
+    "description": "Lỗi nghẹt đầu đẩy máy nén (Khắc phục: Kiểm tra hệ thống bị nghẹt, tắc ẩm hoặc tắc bẩn, gập ống đồng.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi nghẹt đầu đẩy máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f94",
+      "lỗi",
+      "nghẹt",
+      "đầu",
+      "đẩy",
+      "máy",
+      "nén",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "hệ",
+      "thống",
+      "bị",
+      "tắc",
+      "ẩm",
+      "hoặc",
+      "bẩn",
+      "gập",
+      "ống",
+      "đồng",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana"
+    ]
+  },
+  {
+    "id": "pana_f95",
+    "code": "F95",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Nhiệt độ dàn ngoài trời quá cao",
+    "description": "Nhiệt độ dàn ngoài trời quá cao (Khắc phục: Kiểm tra quạt dàn nóng, vệ sinh dàn nóng tản nhiệt, vị trí lắp đặt.)",
+    "severity": "critical",
+    "causes": [
+      "Nhiệt độ dàn ngoài trời quá cao"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học cánh quạt và lồng quạt",
+        "detail": "Dùng tay quay nhẹ cánh quạt kiểm tra có bị kẹt dị vật, vướng cọ xát hoặc bó cứng bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp cấp và xung hồi tiếp Hall (Quạt DC/AC)",
+        "detail": "Kiểm tra nguồn cấp 300V DC (Vm), 15V (Vcc), điện áp điều khiển tốc độ 0-6V (Vsp) và tín hiệu xung quay Hall (FG)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển trên bo",
+        "detail": "Nếu cuộn dây quạt bị đứt/chập hoặc hỏng IC Hall, thay thế motor quạt Panasonic chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ngoài trời (Outdoor Temp Sensor)"
+    ],
+    "tags": [
+      "f95",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "ngoài",
+      "trời",
+      "quá",
+      "cao",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "quạt",
+      "nóng",
+      "vệ",
+      "sinh",
+      "tản",
+      "vị",
+      "trí",
+      "lắp",
+      "đặt",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana"
+    ]
+  },
+  {
+    "id": "pana_f96",
+    "code": "F96",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Bảo vệ quá nhiệt bộ Transistor công suất máy nén (IPM)",
+    "description": "Bảo vệ quá nhiệt bộ Transistor công suất máy nén (IPM) (Khắc phục: Kiểm tra tản nhiệt bo mạch Inverter, kiểm tra IC công suất IPM.)",
+    "severity": "critical",
+    "causes": [
+      "Bảo vệ quá nhiệt bộ Transistor công suất máy nén (IPM)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f96",
+      "bảo",
+      "vệ",
+      "quá",
+      "nhiệt",
+      "bộ",
+      "transistor",
+      "công",
+      "suất",
+      "máy",
+      "nén",
+      "ipm",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "tản",
+      "bo",
+      "mạch",
+      "inverter",
+      "ic",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_f97",
+    "code": "F97",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Nhiệt độ máy nén quá cao",
+    "description": "Nhiệt độ máy nén quá cao (Khắc phục: Thiếu gas trầm trọng, hoặc quạt dàn nóng không chạy. Kiểm tra máy nén.)",
+    "severity": "critical",
+    "causes": [
+      "Nhiệt độ máy nén quá cao"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học cánh quạt và lồng quạt",
+        "detail": "Dùng tay quay nhẹ cánh quạt kiểm tra có bị kẹt dị vật, vướng cọ xát hoặc bó cứng bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp cấp và xung hồi tiếp Hall (Quạt DC/AC)",
+        "detail": "Kiểm tra nguồn cấp 300V DC (Vm), 15V (Vcc), điện áp điều khiển tốc độ 0-6V (Vsp) và tín hiệu xung quay Hall (FG)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển trên bo",
+        "detail": "Nếu cuộn dây quạt bị đứt/chập hoặc hỏng IC Hall, thay thế motor quạt Panasonic chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f97",
+      "nhiệt",
+      "độ",
+      "máy",
+      "nén",
+      "quá",
+      "cao",
+      "khắc",
+      "phục",
+      "thiếu",
+      "gas",
+      "trầm",
+      "trọng",
+      "hoặc",
+      "quạt",
+      "dàn",
+      "nóng",
+      "không",
+      "chạy",
+      "kiểm",
+      "tra",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana"
+    ]
+  },
+  {
+    "id": "pana_f98",
+    "code": "F98",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Dòng tải máy nén quá cao",
+    "description": "Dòng tải máy nén quá cao (Khắc phục: Kiểm tra quá tải gas, block kẹt cơ, nguồn cấp không ổn định.)",
+    "severity": "critical",
+    "causes": [
+      "Dòng tải máy nén quá cao"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f98",
+      "dòng",
+      "tải",
+      "máy",
+      "nén",
+      "quá",
+      "cao",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "gas",
+      "block",
+      "kẹt",
+      "cơ",
+      "nguồn",
+      "cấp",
+      "không",
+      "ổn",
+      "định",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_f99",
+    "code": "F99",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Xung DC ra máy nén quá cao",
+    "description": "Xung DC ra máy nén quá cao (Khắc phục: Lỗi bo mạch dàn nóng điều khiển biến tần hoặc máy nén bị chập cuộn dây.)",
+    "severity": "critical",
+    "causes": [
+      "Xung DC ra máy nén quá cao"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "f99",
+      "xung",
+      "dc",
+      "ra",
+      "máy",
+      "nén",
+      "quá",
+      "cao",
+      "khắc",
+      "phục",
+      "lỗi",
+      "bo",
+      "mạch",
+      "dàn",
+      "nóng",
+      "điều",
+      "khiển",
+      "biến",
+      "tần",
+      "hoặc",
+      "bị",
+      "chập",
+      "cuộn",
+      "dây",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi"
+    ]
+  },
+  {
+    "id": "pana_h00",
+    "code": "H00",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Bình thường, không có lỗi",
+    "description": "Bình thường, không có lỗi",
+    "severity": "info",
+    "causes": [
+      "Bình thường, không có lỗi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Trạng thái hoạt động bình thường",
+        "detail": "Hệ thống máy lạnh không phát hiện mã lỗi nào. Máy hoạt động ở trạng thái ổn định."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Bo mạch vi xử lý điều khiển Panasonic"
+    ],
+    "tags": [
+      "h00",
+      "bình",
+      "thường",
+      "không",
+      "có",
+      "lỗi",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "panasonic",
+      "h00",
+      "panasonic h00",
+      "mã lỗi h00"
+    ]
+  },
+  {
+    "id": "pana_h11",
+    "code": "H11",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi mất kết nối thông tin dàn nóng/dàn lạnh",
+    "description": "Lỗi mất kết nối thông tin dàn nóng/dàn lạnh (Khắc phục: Kiểm tra đường truyền tín hiệu, cáp kết nối. Cài đặt lại dữ liệu dàn lạnh.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi mất kết nối thông tin dàn nóng/dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền tín hiệu kết nối 1-2-3",
+        "detail": "Đo thông mạch và kiểm tra siết chặt vít cọc đấu dây giữa mặt lạnh và cục nóng. Đảm bảo dây số 3 không bị đứt ngầm hoặc chạm mass."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động DC tại cọc số 2 và số 3",
+        "detail": "Dùng đồng hồ đo thang DC (0 - 50V). Nếu điện áp dao động liên tục từ 15V đến 35V thì đường truyền tín hiệu bình thường; nếu điện áp đứng yên 0V hoặc treo 40-50V cố định thì bo mạch có vấn đề."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra khối truyền thông quang (Opto) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện Opto PC817, điện trở phân áp và nguồn cấp 5V/12V trên bo dàn lạnh và bo dàn nóng."
+      },
+      {
+        "step": 4,
+        "action": "Reset hệ thống và nạp lại cấu hình",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút, sau đó cấp điện khởi động lại máy."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Indoor Coil Sensor)",
+      "Sensor nhiệt độ ngoài trời (Outdoor Temp Sensor)",
+      "Mạch giao tiếp truyền thông Opto PC817"
+    ],
+    "tags": [
+      "h11",
+      "lỗi",
+      "mất",
+      "kết",
+      "nối",
+      "thông",
+      "tin",
+      "dàn",
+      "nóng",
+      "lạnh",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "đường",
+      "truyền",
+      "tín",
+      "hiệu",
+      "cáp",
+      "cài",
+      "đặt",
+      "lại",
+      "dữ",
+      "liệu",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero"
+    ]
+  },
+  {
+    "id": "pana_h12",
+    "code": "H12",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Dàn lạnh lỗi kết nối công suất với dàn nóng",
+    "description": "Dàn lạnh lỗi kết nối công suất với dàn nóng (Khắc phục: Kiểm tra và điều chỉnh công suất dàn nóng và lạnh cho tương thích.)",
+    "severity": "warning",
+    "causes": [
+      "Dàn lạnh lỗi kết nối công suất với dàn nóng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra và điều chỉnh công suất dàn nóng và lạnh cho tương thích",
+        "detail": "Thao tác chẩn đoán theo quy trình kỹ thuật Panasonic: Kiểm tra và điều chỉnh công suất dàn nóng và lạnh cho tương thích"
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Indoor Coil Sensor)",
+      "Sensor nhiệt độ ngoài trời (Outdoor Temp Sensor)",
+      "Mạch giao tiếp truyền thông Opto PC817"
+    ],
+    "tags": [
+      "h12",
+      "dàn",
+      "lạnh",
+      "lỗi",
+      "kết",
+      "nối",
+      "công",
+      "suất",
+      "với",
+      "nóng",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "và",
+      "điều",
+      "chỉnh",
+      "cho",
+      "tương",
+      "thích",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_h14",
+    "code": "H14",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến nhiệt độ phòng",
+    "description": "Lỗi cảm biến nhiệt độ phòng (Khắc phục: Kiểm tra giắc cắm, đo điện trở cảm biến, thay bo mạch nếu cần.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi cảm biến nhiệt độ phòng"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ phòng (Room Thermistor ~15kΩ/20kΩ)"
+    ],
+    "tags": [
+      "h14",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "phòng",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "giắc",
+      "cắm",
+      "đo",
+      "điện",
+      "trở",
+      "thay",
+      "bo",
+      "mạch",
+      "nếu",
+      "cần",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana"
+    ]
+  },
+  {
+    "id": "pana_h15",
+    "code": "H15",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến nhiệt độ máy nén",
+    "description": "Lỗi cảm biến nhiệt độ máy nén (Khắc phục: Kiểm tra cảm biến nhiệt máy nén. Sửa chữa hoặc thay thế.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi cảm biến nhiệt độ máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "h15",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "máy",
+      "nén",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "sửa",
+      "chữa",
+      "hoặc",
+      "thay",
+      "thế",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi"
+    ]
+  },
+  {
+    "id": "pana_h16",
+    "code": "H16",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Dòng tải máy nén quá thấp",
+    "description": "Dòng tải máy nén quá thấp (Khắc phục: Kiểm tra Block máy nén, thiếu gas. Liên hệ thợ sửa chuyên nghiệp.)",
+    "severity": "critical",
+    "causes": [
+      "Dòng tải máy nén quá thấp"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cuộn dây máy nén và đo cách điện",
+        "detail": "Rút giắc máy nén, đo điện trở 3 cuộn UV, VW, WU phải cân bằng nhau (khoảng 0.8 - 2.5Ω) và đo điện trở cách điện cuộn dây với vỏ máy (> 10MΩ)."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra khối công suất IPM & mạch PFC trên bo dàn nóng",
+        "detail": "Dùng thang đo Diode kiểm tra 6 nhánh van công suất IC IPM. Kiểm tra lớp keo tản nhiệt, quạt làm mát và mạch nâng áp PFC."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra áp suất gas và tải làm việc",
+        "detail": "Gắn đồng hồ đo áp suất hút/đẩy. Đảm bảo gas đủ chuẩn, van tiết lưu mở bình thường, không bị nghẹt tắc ẩm hay tắc dầu."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "h16",
+      "dòng",
+      "tải",
+      "máy",
+      "nén",
+      "quá",
+      "thấp",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "block",
+      "thiếu",
+      "gas",
+      "liên",
+      "hệ",
+      "thợ",
+      "sửa",
+      "chuyên",
+      "nghiệp",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_h19",
+    "code": "H19",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi quạt dàn lạnh",
+    "description": "Lỗi quạt dàn lạnh (Khắc phục: Kiểm tra mô tơ quạt của dàn lạnh. Thay thế nếu hỏng.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi quạt dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học cánh quạt và lồng quạt",
+        "detail": "Dùng tay quay nhẹ cánh quạt kiểm tra có bị kẹt dị vật, vướng cọ xát hoặc bó cứng bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp cấp và xung hồi tiếp Hall (Quạt DC/AC)",
+        "detail": "Kiểm tra nguồn cấp 300V DC (Vm), 15V (Vcc), điện áp điều khiển tốc độ 0-6V (Vsp) và tín hiệu xung quay Hall (FG)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển trên bo",
+        "detail": "Nếu cuộn dây quạt bị đứt/chập hoặc hỏng IC Hall, thay thế motor quạt Panasonic chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Indoor Coil Sensor)",
+      "Motor quạt DC / AC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "h19",
+      "lỗi",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "mô",
+      "tơ",
+      "của",
+      "thay",
+      "thế",
+      "nếu",
+      "hỏng",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "panasonic"
+    ]
+  },
+  {
+    "id": "pana_h23",
+    "code": "H23",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến nhiệt độ dàn lạnh",
+    "description": "Lỗi cảm biến nhiệt độ dàn lạnh (Khắc phục: Kiểm tra cảm biến nhiệt độ dàn lạnh, bo mạch. Tiến hành thay thế nếu cần.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi cảm biến nhiệt độ dàn lạnh"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Indoor Coil Sensor)"
+    ],
+    "tags": [
+      "h23",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "lạnh",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "bo",
+      "mạch",
+      "tiến",
+      "hành",
+      "thay",
+      "thế",
+      "nếu",
+      "cần",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_h24",
+    "code": "H24",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến nhiệt độ dàn số 2 (nếu có)",
+    "description": "Lỗi cảm biến nhiệt độ dàn số 2 (nếu có) (Khắc phục: Kiểm tra cảm biến nhiệt độ dàn số 2. Tiến hành sửa chữa/thay thế.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi cảm biến nhiệt độ dàn số 2 (nếu có)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Indoor Coil Sensor)"
+    ],
+    "tags": [
+      "h24",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "số",
+      "nếu",
+      "có",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "tiến",
+      "hành",
+      "sửa",
+      "chữa",
+      "thay",
+      "thế",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_h25",
+    "code": "H25",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Nanoe-G bất thường",
+    "description": "Nanoe-G bất thường (Khắc phục: Kiểm tra e-ion lỗi, kiểm tra mạch tạo ion. Liên hệ thợ.)",
+    "severity": "warning",
+    "causes": [
+      "Nanoe-G bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Vệ sinh và kiểm tra đầu phát ion Nanoe-G / Nanoe-X",
+        "detail": "Vệ sinh bụi bẩn bám trên kim phát ion Nanoe bằng tăm bông sạch, kiểm tra chân tiếp xúc."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra điện áp cấp cho module phát Nanoe",
+        "detail": "Đo điện áp cấp nguồn từ bo mạch chính tới cụm phát Nanoe."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế module phát ion hoặc sửa mạch cao áp",
+        "detail": "Nếu mạch phát ion bị ẩm chập hoặc hỏng bộ kích cao áp, tiến hành thay thế module Nanoe chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Module phát ion Nanoe-G / Nanoe-X"
+    ],
+    "tags": [
+      "h25",
+      "nanoe",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "ion",
+      "lỗi",
+      "mạch",
+      "tạo",
+      "liên",
+      "hệ",
+      "thợ",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "panasonic",
+      "h25",
+      "panasonic h25"
+    ]
+  },
+  {
+    "id": "pana_h26",
+    "code": "H26",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Nanoe-X bất thường",
+    "description": "Nanoe-X bất thường (Khắc phục: Kiểm tra module Nanoe-X, liên hệ với thợ sửa máy lạnh chuyên nghiệp.)",
+    "severity": "warning",
+    "causes": [
+      "Nanoe-X bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Vệ sinh và kiểm tra đầu phát ion Nanoe-G / Nanoe-X",
+        "detail": "Vệ sinh bụi bẩn bám trên kim phát ion Nanoe bằng tăm bông sạch, kiểm tra chân tiếp xúc."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra điện áp cấp cho module phát Nanoe",
+        "detail": "Đo điện áp cấp nguồn từ bo mạch chính tới cụm phát Nanoe."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế module phát ion hoặc sửa mạch cao áp",
+        "detail": "Nếu mạch phát ion bị ẩm chập hoặc hỏng bộ kích cao áp, tiến hành thay thế module Nanoe chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Module phát ion Nanoe-G / Nanoe-X"
+    ],
+    "tags": [
+      "h26",
+      "nanoe",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "module",
+      "liên",
+      "hệ",
+      "với",
+      "thợ",
+      "sửa",
+      "máy",
+      "lạnh",
+      "chuyên",
+      "nghiệp",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi"
+    ]
+  },
+  {
+    "id": "pana_h27",
+    "code": "H27",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến nhiệt độ ngoài trời",
+    "description": "Lỗi cảm biến nhiệt độ ngoài trời (Khắc phục: Kiểm tra giá trị cảm biến dàn nóng, rắc cắm lỏng hay hỏng.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi cảm biến nhiệt độ ngoài trời"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ngoài trời (Outdoor Temp Sensor)"
+    ],
+    "tags": [
+      "h27",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "ngoài",
+      "trời",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "giá",
+      "trị",
+      "dàn",
+      "nóng",
+      "rắc",
+      "cắm",
+      "lỏng",
+      "hay",
+      "hỏng",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana"
+    ]
+  },
+  {
+    "id": "pana_h28",
+    "code": "H28",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến nhiệt độ dàn ngoài trời bất thường",
+    "description": "Lỗi cảm biến nhiệt độ dàn ngoài trời bất thường (Khắc phục: Kiểm tra cảm biến nhiệt độ của dàn nóng. Sửa chữa hoặc thay thế.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi cảm biến nhiệt độ dàn ngoài trời bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ngoài trời (Outdoor Temp Sensor)"
+    ],
+    "tags": [
+      "h28",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "dàn",
+      "ngoài",
+      "trời",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "của",
+      "nóng",
+      "sửa",
+      "chữa",
+      "hoặc",
+      "thay",
+      "thế",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana"
+    ]
+  },
+  {
+    "id": "pana_h30",
+    "code": "H30",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến nhiệt độ đầu đẩy của máy nén",
+    "description": "Lỗi cảm biến nhiệt độ đầu đẩy của máy nén (Khắc phục: Kiểm tra máy nén và đường ống cảm biến đầu đẩy. Sửa chữa/thay thế.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi cảm biến nhiệt độ đầu đẩy của máy nén"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ đầu đẩy máy nén (Discharge Sensor ~50kΩ)",
+      "Khối công suất biến tần IPM & Máy nén Inverter"
+    ],
+    "tags": [
+      "h30",
+      "lỗi",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "đầu",
+      "đẩy",
+      "của",
+      "máy",
+      "nén",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "và",
+      "đường",
+      "ống",
+      "sửa",
+      "chữa",
+      "thay",
+      "thế",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv"
+    ]
+  },
+  {
+    "id": "pana_h33",
+    "code": "H33",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi kết nối khối trong nhà và ngoài trời",
+    "description": "Lỗi kết nối khối trong nhà và ngoài trời (Khắc phục: Kiểm tra đường truyền tín hiệu, cáp kết nối, nguồn giữa dàn nóng/lạnh.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi kết nối khối trong nhà và ngoài trời"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền tín hiệu kết nối 1-2-3",
+        "detail": "Đo thông mạch và kiểm tra siết chặt vít cọc đấu dây giữa mặt lạnh và cục nóng. Đảm bảo dây số 3 không bị đứt ngầm hoặc chạm mass."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động DC tại cọc số 2 và số 3",
+        "detail": "Dùng đồng hồ đo thang DC (0 - 50V). Nếu điện áp dao động liên tục từ 15V đến 35V thì đường truyền tín hiệu bình thường; nếu điện áp đứng yên 0V hoặc treo 40-50V cố định thì bo mạch có vấn đề."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra khối truyền thông quang (Opto) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện Opto PC817, điện trở phân áp và nguồn cấp 5V/12V trên bo dàn lạnh và bo dàn nóng."
+      },
+      {
+        "step": 4,
+        "action": "Reset hệ thống và nạp lại cấu hình",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút, sau đó cấp điện khởi động lại máy."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Mạch giao tiếp truyền thông Opto PC817"
+    ],
+    "tags": [
+      "h33",
+      "lỗi",
+      "kết",
+      "nối",
+      "khối",
+      "trong",
+      "nhà",
+      "và",
+      "ngoài",
+      "trời",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "đường",
+      "truyền",
+      "tín",
+      "hiệu",
+      "cáp",
+      "nguồn",
+      "giữa",
+      "dàn",
+      "nóng",
+      "lạnh",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero"
+    ]
+  },
+  {
+    "id": "pana_h34",
+    "code": "H34",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến nhiệt độ bộ làm mát khối ngoài trời lỗi",
+    "description": "Cảm biến nhiệt độ bộ làm mát khối ngoài trời lỗi (Khắc phục: Kiểm tra cảm biến tản nhiệt dàn nóng. Tiến hành sửa chữa, thay thế.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến nhiệt độ bộ làm mát khối ngoài trời lỗi"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor tản nhiệt cánh nhôm dàn nóng (Heatsink Sensor)"
+    ],
+    "tags": [
+      "h34",
+      "cảm",
+      "biến",
+      "nhiệt",
+      "độ",
+      "bộ",
+      "làm",
+      "mát",
+      "khối",
+      "ngoài",
+      "trời",
+      "lỗi",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "tản",
+      "dàn",
+      "nóng",
+      "tiến",
+      "hành",
+      "sửa",
+      "chữa",
+      "thay",
+      "thế",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series"
+    ]
+  },
+  {
+    "id": "pana_h35",
+    "code": "H35",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Đường nước ngưng bị dốc ngược",
+    "description": "Đường nước ngưng bị dốc ngược (Khắc phục: Kiểm tra hệ thống thoát nước, lắp đặt lại độ dốc máng/ống nước.)",
+    "severity": "warning",
+    "causes": [
+      "Đường nước ngưng bị dốc ngược"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra độ dốc đường ống thoát nước ngưng",
+        "detail": "Đảm bảo đường ống nước xả có độ dốc xuôi thoát nước tốt, không bị dốc ngược hoặc võng tạo bẫy nước."
+      },
+      {
+        "step": 2,
+        "action": "Vệ sinh thông tắc máng nước và ống xả",
+        "detail": "Vệ sinh màng nhầy rêu bẩn đọng trong máng và dùng bơm áp lực thổi thông đường ống xả."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra bơm nước ngưng & phao báo tràn",
+        "detail": "Kiểm tra tiếp điểm công tắc phao và thử cấp điện kiểm tra motor bơm thoát nước."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Phao nước chống tràn & Bơm thoát nước ngưng"
+    ],
+    "tags": [
+      "h35",
+      "đường",
+      "nước",
+      "ngưng",
+      "bị",
+      "dốc",
+      "ngược",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "hệ",
+      "thống",
+      "thoát",
+      "lắp",
+      "đặt",
+      "lại",
+      "độ",
+      "máng",
+      "ống",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu"
+    ]
+  },
+  {
+    "id": "pana_h36",
+    "code": "H36",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến đường gas bất thường",
+    "description": "Cảm biến đường gas bất thường (Khắc phục: Kiểm tra cảm biến đường ống gas, dây dẫn tín hiệu, rắc cắm.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến đường gas bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor ống gas / ống lỏng dàn nóng"
+    ],
+    "tags": [
+      "h36",
+      "cảm",
+      "biến",
+      "đường",
+      "gas",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "ống",
+      "dây",
+      "dẫn",
+      "tín",
+      "hiệu",
+      "rắc",
+      "cắm",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi"
+    ]
+  },
+  {
+    "id": "pana_h37",
+    "code": "H37",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến đường lỏng bất thường",
+    "description": "Cảm biến đường lỏng bất thường (Khắc phục: Kiểm tra cảm biến đường ống lỏng, dây dẫn tín hiệu.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến đường lỏng bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor ống gas / ống lỏng dàn nóng"
+    ],
+    "tags": [
+      "h37",
+      "cảm",
+      "biến",
+      "đường",
+      "lỏng",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "ống",
+      "dây",
+      "dẫn",
+      "tín",
+      "hiệu",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "panasonic",
+      "h37"
+    ]
+  },
+  {
+    "id": "pana_h38",
+    "code": "H38",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Khối trong nhà và ngoài trời không đồng bộ",
+    "description": "Khối trong nhà và ngoài trời không đồng bộ (Khắc phục: Kiểm tra lại cài đặt, reset lại hệ thống dàn nóng và lạnh.)",
+    "severity": "critical",
+    "causes": [
+      "Khối trong nhà và ngoài trời không đồng bộ"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra đường truyền tín hiệu kết nối 1-2-3",
+        "detail": "Đo thông mạch và kiểm tra siết chặt vít cọc đấu dây giữa mặt lạnh và cục nóng. Đảm bảo dây số 3 không bị đứt ngầm hoặc chạm mass."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp dao động DC tại cọc số 2 và số 3",
+        "detail": "Dùng đồng hồ đo thang DC (0 - 50V). Nếu điện áp dao động liên tục từ 15V đến 35V thì đường truyền tín hiệu bình thường; nếu điện áp đứng yên 0V hoặc treo 40-50V cố định thì bo mạch có vấn đề."
+      },
+      {
+        "step": 3,
+        "action": "Kiểm tra khối truyền thông quang (Opto) trên bo mạch",
+        "detail": "Kiểm tra các linh kiện Opto PC817, điện trở phân áp và nguồn cấp 5V/12V trên bo dàn lạnh và bo dàn nóng."
+      },
+      {
+        "step": 4,
+        "action": "Reset hệ thống và nạp lại cấu hình",
+        "detail": "Ngắt Aptomat nguồn 3-5 phút, sau đó cấp điện khởi động lại máy."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Mạch giao tiếp truyền thông Opto PC817"
+    ],
+    "tags": [
+      "h38",
+      "khối",
+      "trong",
+      "nhà",
+      "và",
+      "ngoài",
+      "trời",
+      "không",
+      "đồng",
+      "bộ",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "lại",
+      "cài",
+      "đặt",
+      "reset",
+      "hệ",
+      "thống",
+      "dàn",
+      "nóng",
+      "lạnh",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi"
+    ]
+  },
+  {
+    "id": "pana_h58",
+    "code": "H58",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi mạch Patrol",
+    "description": "Lỗi mạch Patrol (Khắc phục: Kiểm tra hệ thống mạch điện tử Patrol, mạch cảm biến khí.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi mạch Patrol"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Bo mạch vi xử lý điều khiển Panasonic"
+    ],
+    "tags": [
+      "h58",
+      "lỗi",
+      "mạch",
+      "patrol",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "hệ",
+      "thống",
+      "điện",
+      "tử",
+      "cảm",
+      "biến",
+      "khí",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "panasonic",
+      "h58"
+    ]
+  },
+  {
+    "id": "pana_h59",
+    "code": "H59",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến Econavi bất thường",
+    "description": "Cảm biến Econavi bất thường (Khắc phục: Kiểm tra mắt thần/module Econavi trên dàn lạnh (đối với model có Econavi).)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến Econavi bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Cảm biến chuyển động Econavi"
+    ],
+    "tags": [
+      "h59",
+      "cảm",
+      "biến",
+      "econavi",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "mắt",
+      "thần",
+      "module",
+      "trên",
+      "dàn",
+      "lạnh",
+      "đối",
+      "với",
+      "model",
+      "có",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_h64",
+    "code": "H64",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi cảm biến áp suất cao bất thường",
+    "description": "Lỗi cảm biến áp suất cao bất thường (Khắc phục: Kiểm tra cảm biến áp suất, rắc cắm lỏng, hoặc hệ thống gas lỗi.)",
+    "severity": "critical",
+    "causes": [
+      "Lỗi cảm biến áp suất cao bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Cảm biến / Công tắc áp suất cao (Pressure Sensor)"
+    ],
+    "tags": [
+      "h64",
+      "lỗi",
+      "cảm",
+      "biến",
+      "áp",
+      "suất",
+      "cao",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "rắc",
+      "cắm",
+      "lỏng",
+      "hoặc",
+      "hệ",
+      "thống",
+      "gas",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_h70",
+    "code": "H70",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Cảm biến ánh sáng bất thường",
+    "description": "Cảm biến ánh sáng bất thường (Khắc phục: Kiểm tra cảm biến ánh sáng hoặc bo mạch tiếp nhận.)",
+    "severity": "warning",
+    "causes": [
+      "Cảm biến ánh sáng bất thường"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Rút jack và đo trị số điện trở cảm biến (Sensor)",
+        "detail": "Dùng đồng hồ VOM đo thang Ohm ở nhiệt độ 25°C. Cảm biến phòng/dàn lạnh Panasonic chuẩn ~15kΩ hoặc 20kΩ, cảm biến dàn nóng ~5kΩ/20kΩ, cảm biến đầu máy nén ~50kΩ."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra tình trạng dây dẫn và tiếp xúc giắc cắm",
+        "detail": "Kiểm tra xem giắc cắm trên bo mạch có bị oxy hóa, ẩm ướt, lỏng chân hoặc bị chuột cắn đứt dây ngầm hay không."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế cảm biến đúng chuẩn Panasonic",
+        "detail": "Nếu trị số điện trở đo được sai lệch quá 10% so với bảng thông số kỹ thuật tiêu chuẩn, tiến hành thay thế cảm biến mới."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Cảm biến ánh sáng mặt trời (Sunlight Sensor)"
+    ],
+    "tags": [
+      "h70",
+      "cảm",
+      "biến",
+      "ánh",
+      "sáng",
+      "bất",
+      "thường",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "hoặc",
+      "bo",
+      "mạch",
+      "tiếp",
+      "nhận",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa",
+      "ma",
+      "loi",
+      "panasonic",
+      "h70"
+    ]
+  },
+  {
+    "id": "pana_h97",
+    "code": "H97",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Lỗi quạt khối ngoài trời",
+    "description": "Lỗi quạt khối ngoài trời (Khắc phục: Kiểm tra motor quạt dàn nóng, kẹt cánh quạt, hoặc bo cấp nguồn quạt.)",
+    "severity": "warning",
+    "causes": [
+      "Lỗi quạt khối ngoài trời"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học cánh quạt và lồng quạt",
+        "detail": "Dùng tay quay nhẹ cánh quạt kiểm tra có bị kẹt dị vật, vướng cọ xát hoặc bó cứng bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp cấp và xung hồi tiếp Hall (Quạt DC/AC)",
+        "detail": "Kiểm tra nguồn cấp 300V DC (Vm), 15V (Vcc), điện áp điều khiển tốc độ 0-6V (Vsp) và tín hiệu xung quay Hall (FG)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển trên bo",
+        "detail": "Nếu cuộn dây quạt bị đứt/chập hoặc hỏng IC Hall, thay thế motor quạt Panasonic chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Motor quạt DC / AC & Mạch hồi tiếp Hall Sensor"
+    ],
+    "tags": [
+      "h97",
+      "lỗi",
+      "quạt",
+      "khối",
+      "ngoài",
+      "trời",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "motor",
+      "dàn",
+      "nóng",
+      "kẹt",
+      "cánh",
+      "hoặc",
+      "bo",
+      "cấp",
+      "nguồn",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi",
+      "fsv",
+      "pana",
+      "dieu",
+      "hoa"
+    ]
+  },
+  {
+    "id": "pana_h98",
+    "code": "H98",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Nhiệt độ khối trong nhà tăng bất thường (chế độ Heat)",
+    "description": "Nhiệt độ khối trong nhà tăng bất thường (chế độ Heat) (Khắc phục: Kiểm tra nghẹt gas, quạt dàn lạnh hỏng không tản nhiệt được.)",
+    "severity": "warning",
+    "causes": [
+      "Nhiệt độ khối trong nhà tăng bất thường (chế độ Heat)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học cánh quạt và lồng quạt",
+        "detail": "Dùng tay quay nhẹ cánh quạt kiểm tra có bị kẹt dị vật, vướng cọ xát hoặc bó cứng bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp cấp và xung hồi tiếp Hall (Quạt DC/AC)",
+        "detail": "Kiểm tra nguồn cấp 300V DC (Vm), 15V (Vcc), điện áp điều khiển tốc độ 0-6V (Vsp) và tín hiệu xung quay Hall (FG)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển trên bo",
+        "detail": "Nếu cuộn dây quạt bị đứt/chập hoặc hỏng IC Hall, thay thế motor quạt Panasonic chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Bo mạch vi xử lý điều khiển Panasonic"
+    ],
+    "tags": [
+      "h98",
+      "nhiệt",
+      "độ",
+      "khối",
+      "trong",
+      "nhà",
+      "tăng",
+      "bất",
+      "thường",
+      "chế",
+      "heat",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "nghẹt",
+      "gas",
+      "quạt",
+      "dàn",
+      "lạnh",
+      "hỏng",
+      "không",
+      "tản",
+      "được",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "dòng",
+      "sky",
+      "series",
+      "aero",
+      "multi"
+    ]
+  },
+  {
+    "id": "pana_h99",
+    "code": "H99",
+    "brandId": "panasonic",
+    "brandName": "Panasonic",
+    "title": "Dàn lạnh bị giảm nhiệt độ thấp (đóng băng)",
+    "description": "Dàn lạnh bị giảm nhiệt độ thấp (đóng băng) (Khắc phục: Kiểm tra rò rỉ gas, vệ sinh quạt dàn lạnh và lưới lọc bảo trì định kỳ.)",
+    "severity": "warning",
+    "causes": [
+      "Dàn lạnh bị giảm nhiệt độ thấp (đóng băng)"
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Kiểm tra cơ học cánh quạt và lồng quạt",
+        "detail": "Dùng tay quay nhẹ cánh quạt kiểm tra có bị kẹt dị vật, vướng cọ xát hoặc bó cứng bạc đạn không."
+      },
+      {
+        "step": 2,
+        "action": "Đo điện áp cấp và xung hồi tiếp Hall (Quạt DC/AC)",
+        "detail": "Kiểm tra nguồn cấp 300V DC (Vm), 15V (Vcc), điện áp điều khiển tốc độ 0-6V (Vsp) và tín hiệu xung quay Hall (FG)."
+      },
+      {
+        "step": 3,
+        "action": "Thay thế motor quạt hoặc sửa mạch điều khiển trên bo",
+        "detail": "Nếu cuộn dây quạt bị đứt/chập hoặc hỏng IC Hall, thay thế motor quạt Panasonic chính hãng."
+      }
+    ],
+    "modelTypes": [
+      "Điều hòa Treo Tường Panasonic Inverter & Thường",
+      "Dòng Sky Series & Aero Series",
+      "Multi & FSV Panasonic"
+    ],
+    "relatedSensors": [
+      "Sensor nhiệt độ ống đồng dàn lạnh (Indoor Coil Sensor)"
+    ],
+    "tags": [
+      "h99",
+      "dàn",
+      "lạnh",
+      "bị",
+      "giảm",
+      "nhiệt",
+      "độ",
+      "thấp",
+      "đóng",
+      "băng",
+      "khắc",
+      "phục",
+      "kiểm",
+      "tra",
+      "rò",
+      "rỉ",
+      "gas",
+      "vệ",
+      "sinh",
+      "quạt",
+      "và",
+      "lưới",
+      "lọc",
+      "bảo",
+      "trì",
+      "định",
+      "kỳ",
+      "điều",
+      "hòa",
+      "treo",
+      "tường",
+      "panasonic",
+      "inverter",
+      "thường",
+      "dòng"
+    ]
+  }
+]
