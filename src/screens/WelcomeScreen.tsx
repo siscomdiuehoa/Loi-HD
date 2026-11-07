@@ -4,10 +4,10 @@ import { ArrowRight, ShieldCheck, WifiOff } from 'lucide-react';
 export const WelcomeScreen: React.FC<{ onContinue: () => void }> = ({ onContinue }) => (
   <div className="welcome-screen">
     <div className="welcome-content">
-      <div className="welcome-brand"><img src="/app-icon-clear.png" alt="" /><span>SISCOM · HVAC</span></div>
+      <div className="welcome-brand"><img src="/app-icon-clear.png" alt="" /><span>Mã lỗi điều hòa</span></div>
       <div><p className="section-kicker">TRỢ LÝ KỸ THUẬT ĐIỀU HÒA</p><h1>Tra cứu nhanh.<br /><span>Sửa chữa tự tin.</span></h1><p className="welcome-copy">Mã lỗi, nguyên nhân và hướng kiểm tra cho công việc mỗi ngày.</p></div>
       <div className="welcome-panel liquid-glass">
-        <h2>Chào mừng anh trở lại</h2><p>Đăng nhập để kết nối tài khoản của anh.</p>
+        <h2>Chào mừng bạn trở lại</h2><p>Đăng nhập để kết nối tài khoản.</p>
         <button type="button" className="welcome-provider" disabled><span className="provider-google">G</span> Tiếp tục với Google <span className="provider-soon">Sắp có</span></button>
         <button type="button" className="welcome-provider" disabled><span className="provider-apple">●</span> Tiếp tục với Apple <span className="provider-soon">Sắp có</span></button>
         <p className="welcome-note">Đăng nhập Google và Apple chưa được kết nối.</p>
