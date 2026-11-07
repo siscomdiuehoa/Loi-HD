@@ -4,7 +4,7 @@ import { ArrowRight, ShieldCheck, WifiOff } from 'lucide-react';
 export const WelcomeScreen: React.FC<{ onContinue: () => void }> = ({ onContinue }) => (
   <div className="welcome-screen">
     <div className="welcome-content">
-      <div className="welcome-brand"><img src="/app-icon-concept.png" alt="" /><span>SISCOM · HVAC</span></div>
+      <div className="welcome-brand"><img src="/app-icon-clear.png" alt="" /><span>SISCOM · HVAC</span></div>
       <div><p className="section-kicker">TRỢ LÝ KỸ THUẬT ĐIỀU HÒA</p><h1>Tra cứu nhanh.<br /><span>Sửa chữa tự tin.</span></h1><p className="welcome-copy">Mã lỗi, nguyên nhân và hướng kiểm tra cho công việc mỗi ngày.</p></div>
       <div className="welcome-panel liquid-glass">
         <h2>Chào mừng anh trở lại</h2><p>Đăng nhập để kết nối tài khoản của anh.</p>

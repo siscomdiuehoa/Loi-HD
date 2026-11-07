@@ -274,3 +274,12 @@ nav .liquid-glass { border-radius:28px; }
 .welcome-guest {width:100%;min-height:48px;display:flex;align-items:center;justify-content:center;gap:10px;border-radius:16px;background:linear-gradient(110deg,#078fcd,#3459c4);color:#fff;font-size:13px;font-weight:800;box-shadow:0 8px 18px rgba(20,101,182,.24)}
 .welcome-benefits {display:flex;justify-content:center;gap:20px;flex-wrap:wrap;color:#4f7187;font-size:11px;font-weight:700}.welcome-benefits span {display:flex;align-items:center;gap:6px}.dark .welcome-benefits {color:#c8e2ef}.welcome-credit {text-align:center;color:#688297;font-size:10px}.dark .welcome-credit {color:#b3cad9}
 .settings-page {max-width:448px;margin:auto;padding:max(20px,env(safe-area-inset-top)) 20px 30px}.settings-top {display:flex;align-items:center;gap:13px;margin-bottom:28px}.settings-back {width:44px;height:44px;display:grid;place-items:center}.settings-label {font-size:10px;letter-spacing:.12em;font-weight:800;color:#1689bd;margin:24px 0 10px}.settings-card {border-radius:25px;padding:4px 14px}.settings-row {width:100%;display:flex;align-items:center;gap:12px;text-align:left;padding:14px 0;color:#19384f}.dark .settings-row {color:#edfaff}.settings-row+.settings-row {border-top:1px solid rgba(100,135,160,.16)}.settings-row>span:nth-child(2) {flex:1;min-width:0}.settings-row strong,.settings-row small {display:block}.settings-row strong {font-size:13px}.settings-row small {font-size:11px;line-height:1.4;color:#647f90;margin-top:3px}.dark .settings-row small {color:#b4cad9}.settings-icon {width:40px;height:40px;border-radius:14px;background:rgba(54,169,224,.14);display:grid;place-items:center;color:#1689bd;flex-shrink:0}
+.settings-back { border-radius:14px; }
+.header-app-icon, .welcome-brand img { background:transparent; }
+.developer-card { padding:18px; }
+.developer-logo { display:block; max-width:160px; width:55%; height:48px; object-fit:contain; object-position:left center; }
+.developer-label { margin-top:12px; color:#1689bd; font-size:10px; letter-spacing:.1em; font-weight:800; }
+.developer-name { margin-top:5px; color:#19384f; font-weight:750; font-size:13px; line-height:1.45; }
+.dark .developer-name {color:#edfaff;}
+.developer-link {display:inline-flex;align-items:center;gap:6px;margin-top:12px;color:#087fb4;font-size:12px;font-weight:800;}
+.dark .developer-link {color:#a5e8ff;}
