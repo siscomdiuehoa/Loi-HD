@@ -283,3 +283,5 @@ nav .liquid-glass { border-radius:28px; }
 .dark .developer-name {color:#edfaff;}
 .developer-link {display:inline-flex;align-items:center;gap:6px;margin-top:12px;color:#087fb4;font-size:12px;font-weight:800;}
 .dark .developer-link {color:#a5e8ff;}
+.welcome-provider:not(:disabled) { opacity:1; cursor:pointer; color:#173751; }
+.dark .welcome-provider:not(:disabled) { color:#f3fbff; }
