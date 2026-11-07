@@ -150,5 +150,2657 @@
         "url": "https://www.samsung.com/vn/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
       }
     ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e101",
+    "code": "E101",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Dàn lạnh không nhận được tín hiệu",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e101",
+      "samsung",
+      "dàn lạnh không nhận được tín hiệu",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e102",
+    "code": "E102",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Dàn nóng không nhận được tín hiệu",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e102",
+      "samsung",
+      "dàn nóng không nhận được tín hiệu",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e121",
+    "code": "E121",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ phòng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e121",
+      "samsung",
+      "lỗi cảm biến nhiệt độ phòng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e122",
+    "code": "E122",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ ống dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e122",
+      "samsung",
+      "lỗi cảm biến nhiệt độ ống dàn lạnh",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e123",
+    "code": "E123",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ ống dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e123",
+      "samsung",
+      "lỗi cảm biến nhiệt độ ống dàn lạnh",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e128",
+    "code": "E128",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ ống dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e128",
+      "samsung",
+      "lỗi cảm biến nhiệt độ ống dàn lạnh",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e130",
+    "code": "E130",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến liên quan môi chất lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e130",
+      "samsung",
+      "lỗi cảm biến liên quan môi chất lạnh",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e154",
+    "code": "E154",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi quạt hoặc tín hiệu quạt dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e154",
+      "samsung",
+      "lỗi quạt hoặc tín hiệu quạt dàn lạnh",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e161",
+    "code": "E161",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi đồng bộ dàn lạnh và dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e161",
+      "samsung",
+      "lỗi đồng bộ dàn lạnh và dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e162",
+    "code": "E162",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi bo mạch chính",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e162",
+      "samsung",
+      "lỗi bo mạch chính",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e163",
+    "code": "E163",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi thiết lập tùy chọn",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e163",
+      "samsung",
+      "lỗi thiết lập tùy chọn",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e185",
+    "code": "E185",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cáp nguồn hoặc cáp tín hiệu",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e185",
+      "samsung",
+      "lỗi cáp nguồn hoặc cáp tín hiệu",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e201",
+    "code": "E201",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Dàn lạnh không phù hợp",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e201",
+      "samsung",
+      "dàn lạnh không phù hợp",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e202",
+    "code": "E202",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Dàn nóng không nhận được tín hiệu",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e202",
+      "samsung",
+      "dàn nóng không nhận được tín hiệu",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e203",
+    "code": "E203",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi tín hiệu giữa các bo dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e203",
+      "samsung",
+      "lỗi tín hiệu giữa các bo dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e221",
+    "code": "E221",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến không khí dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e221",
+      "samsung",
+      "lỗi cảm biến không khí dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e237",
+    "code": "E237",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến ống dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e237",
+      "samsung",
+      "lỗi cảm biến ống dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e246",
+    "code": "E246",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến ống dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e246",
+      "samsung",
+      "lỗi cảm biến ống dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e251",
+    "code": "E251",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến máy nén",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e251",
+      "samsung",
+      "lỗi cảm biến máy nén",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e259",
+    "code": "E259",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e259",
+      "samsung",
+      "lỗi dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e260",
+    "code": "E260",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến máy nén",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e260",
+      "samsung",
+      "lỗi cảm biến máy nén",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e261",
+    "code": "E261",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến máy nén",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e261",
+      "samsung",
+      "lỗi cảm biến máy nén",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e320",
+    "code": "E320",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt máy nén",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e320",
+      "samsung",
+      "lỗi cảm biến nhiệt máy nén",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e401",
+    "code": "E401",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ nhiệt độ bộ trao đổi nhiệt dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e401",
+      "samsung",
+      "bảo vệ nhiệt độ bộ trao đổi nhiệt dàn lạnh",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e404",
+    "code": "E404",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ quá tải dàn nóng khi sưởi",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e404",
+      "samsung",
+      "bảo vệ quá tải dàn nóng khi sưởi",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e416",
+    "code": "E416",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ nhiệt độ đường đẩy cao",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e416",
+      "samsung",
+      "bảo vệ nhiệt độ đường đẩy cao",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e419",
+    "code": "E419",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi mở van tiết lưu điện tử dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e419",
+      "samsung",
+      "lỗi mở van tiết lưu điện tử dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e422",
+    "code": "E422",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi đóng van tiết lưu điện tử dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e422",
+      "samsung",
+      "lỗi đóng van tiết lưu điện tử dàn nóng",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e440",
+    "code": "E440",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Giới hạn nhiệt độ ngoài trời trong chế độ sưởi",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e440",
+      "samsung",
+      "giới hạn nhiệt độ ngoài trời trong chế độ sưởi",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e441",
+    "code": "E441",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Giới hạn nhiệt độ trong chế độ làm lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e441",
+      "samsung",
+      "giới hạn nhiệt độ trong chế độ làm lạnh",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e460",
+    "code": "E460",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Sai kết nối dây truyền thông hoặc dây nguồn",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e460",
+      "samsung",
+      "sai kết nối dây truyền thông hoặc dây nguồn",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e461",
+    "code": "E461",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Máy nén inverter không khởi động",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e461",
+      "samsung",
+      "máy nén inverter không khởi động",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e462",
+    "code": "E462",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ giới hạn dòng đầu vào máy nén",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e462",
+      "samsung",
+      "bảo vệ giới hạn dòng đầu vào máy nén",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e463",
+    "code": "E463",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ nhiệt độ máy nén",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e463",
+      "samsung",
+      "bảo vệ nhiệt độ máy nén",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e464",
+    "code": "E464",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ quá dòng mạch công suất",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e464",
+      "samsung",
+      "bảo vệ quá dòng mạch công suất",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e465",
+    "code": "E465",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ quá tải dòng điện",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e465",
+      "samsung",
+      "bảo vệ quá tải dòng điện",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e466",
+    "code": "E466",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bất thường điện áp DC link",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e466",
+      "samsung",
+      "bất thường điện áp dc link",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e467",
+    "code": "E467",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bất thường quay máy nén",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e467",
+      "samsung",
+      "bất thường quay máy nén",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e468",
+    "code": "E468",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến dòng điện",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e468",
+      "samsung",
+      "lỗi cảm biến dòng điện",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e469",
+    "code": "E469",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến điện áp DC link",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e469",
+      "samsung",
+      "lỗi cảm biến điện áp dc link",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e470",
+    "code": "E470",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bảo vệ quá tải hệ thống",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e470",
+      "samsung",
+      "bảo vệ quá tải hệ thống",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e471",
+    "code": "E471",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi bo mạch điều khiển",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e471",
+      "samsung",
+      "lỗi bo mạch điều khiển",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e472",
+    "code": "E472",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi mạch phát hiện điểm qua không nguồn AC",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e472",
+      "samsung",
+      "lỗi mạch phát hiện điểm qua không nguồn ac",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_inverter_e554",
+    "code": "E554",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Bất thường môi chất lạnh theo tự chẩn đoán",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung inverter. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Inverter (tham khảo)"
+    ],
+    "tags": [
+      "e554",
+      "samsung",
+      "bất thường môi chất lạnh theo tự chẩn đoán",
+      "inverter"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_e1",
+    "code": "E1",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ phòng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "e1",
+      "samsung",
+      "lỗi cảm biến nhiệt độ phòng",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_e2",
+    "code": "E2",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "e2",
+      "samsung",
+      "lỗi cảm biến nhiệt độ dàn lạnh",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_e3",
+    "code": "E3",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi mô tơ hoặc tín hiệu quạt dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "e3",
+      "samsung",
+      "lỗi mô tơ hoặc tín hiệu quạt dàn lạnh",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_e6",
+    "code": "E6",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi bo điều khiển",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "e6",
+      "samsung",
+      "lỗi bo điều khiển",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_e1",
+    "code": "Er-E1",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ phòng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-e1",
+      "samsung",
+      "lỗi cảm biến nhiệt độ phòng",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_e5",
+    "code": "Er-E5",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-e5",
+      "samsung",
+      "lỗi cảm biến nhiệt độ dàn lạnh",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_e6",
+    "code": "Er-E6",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-e6",
+      "samsung",
+      "lỗi cảm biến nhiệt độ",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_e3_01",
+    "code": "E3-01",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi mô tơ hoặc tín hiệu quạt dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "e3-01",
+      "samsung",
+      "lỗi mô tơ hoặc tín hiệu quạt dàn lạnh",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_01",
+    "code": "Er-01",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi tín hiệu giữa dàn nóng và dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-01",
+      "samsung",
+      "lỗi tín hiệu giữa dàn nóng và dàn lạnh",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_05",
+    "code": "Er-05",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ dàn lạnh",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-05",
+      "samsung",
+      "lỗi cảm biến nhiệt độ dàn lạnh",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_06",
+    "code": "Er-06",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi bo điều khiển",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-06",
+      "samsung",
+      "lỗi bo điều khiển",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_10",
+    "code": "Er-10",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi máy nén hoặc bo điều khiển",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-10",
+      "samsung",
+      "lỗi máy nén hoặc bo điều khiển",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_11",
+    "code": "Er-11",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Dòng điện tăng bất thường",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-11",
+      "samsung",
+      "dòng điện tăng bất thường",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_12",
+    "code": "Er-12",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Nhiệt độ tăng bất thường",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-12",
+      "samsung",
+      "nhiệt độ tăng bất thường",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_13",
+    "code": "Er-13",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Nhiệt độ tăng bất thường",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-13",
+      "samsung",
+      "nhiệt độ tăng bất thường",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_14",
+    "code": "Er-14",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi bo inverter dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-14",
+      "samsung",
+      "lỗi bo inverter dàn nóng",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_15",
+    "code": "Er-15",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi hệ thống giải nhiệt dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-15",
+      "samsung",
+      "lỗi hệ thống giải nhiệt dàn nóng",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_17",
+    "code": "Er-17",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi linh kiện trên bo inverter dàn nóng",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-17",
+      "samsung",
+      "lỗi linh kiện trên bo inverter dàn nóng",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_31",
+    "code": "Er-31",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ ngoài trời",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-31",
+      "samsung",
+      "lỗi cảm biến nhiệt độ ngoài trời",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_32",
+    "code": "Er-32",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ gió xả",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-32",
+      "samsung",
+      "lỗi cảm biến nhiệt độ gió xả",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_33",
+    "code": "Er-33",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ gió xả",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-33",
+      "samsung",
+      "lỗi cảm biến nhiệt độ gió xả",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_36",
+    "code": "Er-36",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ bộ tản nhiệt bo",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-36",
+      "samsung",
+      "lỗi cảm biến nhiệt độ bộ tản nhiệt bo",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_37",
+    "code": "Er-37",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi cảm biến nhiệt độ bộ tản nhiệt bo",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-37",
+      "samsung",
+      "lỗi cảm biến nhiệt độ bộ tản nhiệt bo",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
+  },
+  {
+    "id": "samsung_dmx_may_thuong_er_38",
+    "code": "Er-38",
+    "brandId": "samsung",
+    "brandName": "Samsung",
+    "title": "Lỗi điện áp cảm biến",
+    "description": "Theo bảng tham khảo Điện máy XANH cho một số dòng Samsung máy thường. Ý nghĩa mã có thể khác theo model; đối chiếu tài liệu kỹ thuật của thiết bị trước khi xử lý.",
+    "severity": "warning",
+    "causes": [
+      "Bất thường ở bộ phận hoặc kết nối liên quan; cần chẩn đoán theo model để xác định nguyên nhân."
+    ],
+    "solutions": [
+      {
+        "step": 1,
+        "action": "Ghi lại mã và model",
+        "detail": "Kiểm tra chính xác ký tự trên màn hình và đối chiếu tài liệu cho model tương ứng."
+      },
+      {
+        "step": 2,
+        "action": "Kiểm tra và xử lý theo tài liệu hãng",
+        "detail": "Kỹ thuật viên có chuyên môn kiểm tra hệ thống, nguồn điện và các bộ phận liên quan."
+      }
+    ],
+    "modelTypes": [
+      "Samsung Máy thường (tham khảo)"
+    ],
+    "tags": [
+      "er-38",
+      "samsung",
+      "lỗi điện áp cảm biến",
+      "máy thường"
+    ],
+    "sources": [
+      {
+        "title": "Điện máy XANH – Bảng mã lỗi máy lạnh Samsung",
+        "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/tong-hop-bang-ma-loi-may-lanh-samsung-1584477"
+      }
+    ]
   }
 ]
