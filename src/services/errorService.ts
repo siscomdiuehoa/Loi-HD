@@ -10,7 +10,6 @@ import lgErrors from '../data/errors/lg.json';
 import casperErrors from '../data/errors/casper.json';
 import greeErrors from '../data/errors/gree.json';
 import reetechErrors from '../data/errors/reetech.json';
-import saiverErrors from '../data/errors/saiver.json';
 import toshibaErrors from '../data/errors/toshiba.json';
 import aquaErrors from '../data/errors/aqua.json';
 import samsungErrors from '../data/errors/samsung.json';
@@ -34,7 +33,6 @@ class ErrorService {
       ...(casperErrors as ErrorCode[]),
       ...(greeErrors as ErrorCode[]),
       ...(reetechErrors as ErrorCode[]),
-      ...(saiverErrors as ErrorCode[]),
       ...(toshibaErrors as ErrorCode[]),
       ...(aquaErrors as ErrorCode[]),
       ...(samsungErrors as ErrorCode[]),

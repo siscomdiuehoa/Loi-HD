@@ -141,20 +141,6 @@
     ]
   },
   {
-    "id": "saiver",
-    "name": "Saiver",
-    "code": "saiver",
-    "tagline": "AHU & Chiller",
-    "logo": "",
-    "accentColor": "#38BDF8",
-    "badgeBg": "#FFFFFF",
-    "badgeText": "#004098",
-    "totalCodes": 1,
-    "popularCodes": [
-      "E01"
-    ]
-  },
-  {
     "id": "toshiba",
     "name": "Toshiba",
     "code": "toshiba",
