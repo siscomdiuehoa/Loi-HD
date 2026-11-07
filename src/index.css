@@ -251,8 +251,8 @@ nav .liquid-glass { border-radius:28px; }
 
 /* Compact brand tiles with transparent logo artwork */
 .brand-card { padding:10px 12px; }
-.brand-logo-frame { height:48px; background:transparent; border:0; border-radius:0; box-shadow:none; }
-.brand-logo-frame img { height:48px; width:min(100%, 144px); }
+.brand-logo-frame { height:30px; background:transparent; border:0; border-radius:0; box-shadow:none; }
+.brand-logo-frame img { height:30px; width:min(100%, 144px); }
 .brand-info { padding:8px 2px 7px; }
 .brand-card-footer { padding-top:7px; }
 #search-section { padding-top:8px; }
