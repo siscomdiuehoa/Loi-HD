@@ -52,7 +52,7 @@ export function App() {
 
     switch (activeTab) {
       case 'settings':
-        return <SettingsScreen onBack={() => setActiveTab('home')} />;
+        return <SettingsScreen onBack={() => setActiveTab('home')} onWelcome={() => { localStorage.removeItem('hvac_guest_entered'); setHasEntered(false); setActiveTab('home'); }} />;
       case 'sensor':
         return <LiquidSensorScreen />;
       case 'bookmarks':
