@@ -5,7 +5,7 @@ import { LiquidSearchBar } from '../components/liquid/LiquidSearchBar';
 import { LiquidBrandGrid } from '../components/liquid/LiquidBrandGrid';
 import { LiquidErrorCard } from '../components/liquid/LiquidErrorCard';
 import { useErrorStore } from '../store/useErrorStore';
-import { ArrowUpRight, Search, Wind } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 interface Props { onSelectBrand?: (brand: Brand) => void }
 export const LiquidHomeScreen: React.FC<Props> = ({ onSelectBrand }) => {
@@ -13,13 +13,6 @@ export const LiquidHomeScreen: React.FC<Props> = ({ onSelectBrand }) => {
   return <div className="min-h-full">
     <LiquidHeader />
     <div className="px-5 pb-10 space-y-7 max-w-md mx-auto w-full">
-      <section className="home-hero">
-        <div className="hero-orbit"><Wind size={64} strokeWidth={1.2} /></div>
-        <span className="hero-eyebrow"><span className="online-dot" /> TRỢ LÝ KỸ THUẬT HVAC</span>
-        <h2>Tra đúng mã lỗi.<br /><span>Sửa chữa tự tin.</span></h2>
-        <p>Thông tin bạn cần, ngay trong túi.</p>
-        <div className="hero-footer"><span>{brands.length} hãng điều hòa</span><span>•</span><span>Tra cứu không cần mạng</span><ArrowUpRight size={17} /></div>
-      </section>
       <section className="space-y-3" id="search-section">
         <div><p className="section-kicker">TÌM KIẾM NHANH</p><h2 className="section-title">Bạn đang gặp lỗi gì?</h2></div>
         <LiquidSearchBar />

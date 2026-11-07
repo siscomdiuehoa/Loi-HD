@@ -191,7 +191,7 @@
     "name": "Samsung",
     "code": "samsung",
     "tagline": "Một số dòng máy lạnh Samsung",
-    "logo": "",
+    "logo": "/logos/normalized/samsung.png",
     "accentColor": "#1428a0",
     "badgeBg": "#FFFFFF",
     "badgeText": "#1428a0",
