@@ -63,14 +63,14 @@ export function App() {
   const getCanvasBackground = () => {
     switch (bgGradient) {
       case 'gemini-sky':
-        return 'linear-gradient(180deg, #FFFFFF 0%, #F4F9FF 35%, #E2EEFE 70%, #BFE0FF 100%)';
+        return 'radial-gradient(ellipse at 12% 15%, #a2e7eb 0%, transparent 42%), radial-gradient(ellipse at 90% 35%, #b8a5f3 0%, transparent 44%), radial-gradient(ellipse at 45% 90%, #86c9ed 0%, transparent 45%), #d9edfa';
       case 'pure-white':
         return 'linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 50%, #EDF2F7 100%)';
       case 'aurora':
-        return 'radial-gradient(circle at 50% 0%, #064e3b 0%, #0f172a 50%, #020617 100%)';
+        return 'radial-gradient(ellipse at 5% 15%, #177d80 0%, transparent 45%), radial-gradient(ellipse at 90% 30%, #593c91 0%, transparent 48%), radial-gradient(ellipse at 45% 90%, #155f98 0%, transparent 45%), #07162e';
       case 'midnight-deep':
       default:
-        return 'radial-gradient(circle at 50% 0%, #0d1b33 0%, #080e1d 50%, #030712 100%)';
+        return 'radial-gradient(ellipse at 10% 20%, #116c80 0%, transparent 45%), radial-gradient(ellipse at 90% 40%, #483177 0%, transparent 48%), radial-gradient(ellipse at 50% 90%, #174c84 0%, transparent 45%), #07162e';
     }
   };
 
@@ -101,8 +101,8 @@ export function App() {
       <div
         className={`w-full max-w-md h-[100dvh] sm:h-[94vh] sm:rounded-[42px] relative flex flex-col overflow-hidden transition-all duration-300 z-10 ${
           isDarkMode
-            ? 'bg-[#080e1c]/80 backdrop-blur-3xl sm:border-[8px] sm:border-slate-800/80 shadow-[0_25px_60px_rgba(0,0,0,0.8)]'
-            : 'bg-white/75 backdrop-blur-3xl sm:border-[8px] sm:border-white/80 shadow-[0_25px_60px_rgba(2,132,199,0.14)] ring-1 ring-white/70'
+            ? 'bg-[#0b1b35]/45 backdrop-blur-xl sm:border-[6px] sm:border-white/20 shadow-[0_25px_70px_rgba(0,0,0,0.4)]'
+            : 'bg-white/30 backdrop-blur-xl sm:border-[6px] sm:border-white/50 shadow-[0_25px_70px_rgba(28,78,125,0.25)] ring-1 ring-white/60'
         }`}
       >
         {/* Active Screen Content */}
