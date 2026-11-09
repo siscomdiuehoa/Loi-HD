@@ -48,3 +48,57 @@ workflows:
             build/ios/Loi-HD-simulator.zip
     artifacts:
       - build/ios/Loi-HD-simulator.zip
+
+  ios-appstore:
+    name: Tra ma loi dieu hoa - signed App Store IPA
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      node: 22
+      xcode: latest
+      ios_signing:
+        provisioning_profiles:
+          - TRA_MA_LOI_DIEU_HOA_APPSTORE_2026
+        certificates:
+          - SISCOM_APPSTORE_DISTRIBUTION
+      vars:
+        PUPPETEER_SKIP_DOWNLOAD: "true"
+    scripts:
+      - name: Install locked dependencies
+        script: |
+          set -euo pipefail
+          npm ci
+      - name: Build web application
+        script: |
+          set -euo pipefail
+          npm run build
+      - name: Prepare Capacitor iOS project
+        script: |
+          set -euo pipefail
+          CAP_VERSION=$(node -p "require('./node_modules/@capacitor/core/package.json').version")
+          npm install --no-save --package-lock=false "@capacitor/ios@$CAP_VERSION"
+          if [ ! -d ios/App ]; then
+            npx --no-install cap add ios
+          fi
+          npx --no-install cap sync ios
+      - name: Configure App Store signing
+        script: |
+          set -euo pipefail
+          xcode-project use-profiles \
+            --project ios/App/App.xcodeproj \
+            --archive-method app-store
+      - name: Build signed IPA
+        script: |
+          set -euo pipefail
+          if [ -d ios/App/App.xcworkspace ]; then
+            xcode-project build-ipa \
+              --workspace "$CM_BUILD_DIR/ios/App/App.xcworkspace" \
+              --scheme App
+          else
+            xcode-project build-ipa \
+              --project "$CM_BUILD_DIR/ios/App/App.xcodeproj" \
+              --scheme App
+          fi
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
