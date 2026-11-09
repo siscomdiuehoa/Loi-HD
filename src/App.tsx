@@ -10,13 +10,15 @@ import { LiquidThemeModal } from './components/liquid/LiquidThemeModal';
 import { useThemeStore } from './store/useThemeStore';
 import { WelcomeScreen } from './screens/WelcomeScreen';
 import { SettingsScreen } from './screens/SettingsScreen';
-import { observeUser, signOutUser } from './services/authService';
-import type { User } from 'firebase/auth';
+import { observeUser, signOutUser, type Account } from './services/authService';
 
 export function App() {
   const [hasEntered, setHasEntered] = useState(() => localStorage.getItem('hvac_guest_entered') === 'yes');
-  const [user, setUser] = useState<User | null>(null);
-  useEffect(() => observeUser((current) => { setUser(current); if (current) setHasEntered(true); }), []);
+  const [user, setUser] = useState<Account | null>(null);
+  const [authReady, setAuthReady] = useState(false);
+  const [signOutError, setSignOutError] = useState('');
+  const [signingOut, setSigningOut] = useState(false);
+  useEffect(() => observeUser((current) => { setUser(current); if (current) setHasEntered(true); setAuthReady(true); }), []);
   const [activeTab, setActiveTab] = useState<LiquidTab>('home');
   const [selectedBrand, setSelectedBrand] = useState<Brand | null>(null);
   const { themeMode, bgGradient, isDarkMode, setThemeMode } = useThemeStore();
@@ -56,7 +58,7 @@ export function App() {
 
     switch (activeTab) {
       case 'settings':
-        return <SettingsScreen userEmail={user?.email || undefined} onSignOut={async () => { await signOutUser(); localStorage.removeItem('hvac_guest_entered'); setUser(null); setHasEntered(false); setActiveTab('home'); }} onBack={() => setActiveTab('home')} onWelcome={() => { localStorage.removeItem('hvac_guest_entered'); setHasEntered(false); setActiveTab('home'); }} />;
+        return <SettingsScreen userEmail={user ? user.email || user.displayName || 'Tài khoản' : undefined} signingOut={signingOut} signOutError={signOutError} onSignOut={async () => { setSigningOut(true); setSignOutError(''); try { await signOutUser(); localStorage.removeItem('hvac_guest_entered'); setHasEntered(false); setActiveTab('home'); } catch { setSignOutError('Không thể đăng xuất. Vui lòng thử lại.'); } finally { setSigningOut(false); } }} onBack={() => setActiveTab('home')} onWelcome={() => { setHasEntered(false); setActiveTab('home'); }} />;
       case 'sensor':
         return <LiquidSensorScreen />;
       case 'bookmarks':
@@ -114,7 +116,7 @@ export function App() {
             : 'bg-white/30 backdrop-blur-xl sm:border-[6px] sm:border-white/50 shadow-[0_25px_70px_rgba(28,78,125,0.25)] ring-1 ring-white/60'
         }`}
       >
-        {!hasEntered ? <WelcomeScreen onSignedIn={() => setHasEntered(true)} onContinue={() => { localStorage.setItem('hvac_guest_entered', 'yes'); setHasEntered(true); }} /> : <>
+        {!authReady ? <div className="welcome-screen" role="status">Đang khôi phục phiên đăng nhập...</div> : !hasEntered ? <WelcomeScreen onSignedIn={() => setHasEntered(true)} onContinue={() => { localStorage.setItem('hvac_guest_entered', 'yes'); setHasEntered(true); }} /> : <>
         {/* Active Screen Content */}
         <main className="flex-1 overflow-y-auto no-scrollbar">
           {renderActiveScreen()}
@@ -139,5 +141,3 @@ export function App() {
 }
 
 export default App;
-
-

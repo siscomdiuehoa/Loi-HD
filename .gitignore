@@ -8,3 +8,4 @@ dist/
 *.aab
 *.apk
 .DS_Store
+ios/App/App/GoogleService-Info.plist

@@ -4,6 +4,7 @@ const config: CapacitorConfig = {
   appId: 'com.phong.tramaloidieuhoa',
   appName: 'Tra mã lỗi điều hòa',
   webDir: 'dist',
+  plugins: { FirebaseAuthentication: { providers: ['apple.com'] } },
   server: {
     androidScheme: 'https'
   },

@@ -1,0 +1,42 @@
+workflows:
+  ios-signed:
+    name: iOS - bản ký cho TestFlight
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      node: 22
+      xcode: latest
+      groups:
+        - firebase_ios
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.phong.tramaloidieuhoa
+      vars:
+        PUPPETEER_SKIP_DOWNLOAD: 'true'
+        VITE_ENABLE_APPLE_SIGN_IN: 'true'
+    scripts:
+      - name: Cài thư viện và kiểm tra
+        script: |
+          npm ci
+          npm run lint
+          npm run build
+      - name: Chuẩn bị cấu hình Firebase
+        script: |
+          set -eu
+          test -n "${GOOGLE_SERVICE_INFO_BASE64:-}" || { echo 'Thiếu biến GOOGLE_SERVICE_INFO_BASE64 trong nhóm firebase_ios.'; exit 1; }
+          printf '%s' "$GOOGLE_SERVICE_INFO_BASE64" | base64 --decode > ios/App/App/GoogleService-Info.plist
+          /usr/libexec/PlistBuddy -c 'Print :BUNDLE_ID' ios/App/App/GoogleService-Info.plist | grep -Fx 'com.phong.tramaloidieuhoa' >/dev/null
+          /usr/libexec/PlistBuddy -c 'Print :PROJECT_ID' ios/App/App/GoogleService-Info.plist | grep -Fx 'tra-ma-loi-dieu-hoa-siscom' >/dev/null
+      - name: Đồng bộ dự án iOS
+        script: npx cap sync ios
+      - name: Áp dụng cấu hình ký
+        script: |
+          cd ios/App
+          xcode-project use-profiles
+      - name: Tạo tệp IPA
+        script: |
+          cd ios/App
+          xcode-project build-ipa --project App.xcodeproj --scheme App
+    artifacts:
+      - ios/App/build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
