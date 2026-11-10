@@ -10,7 +10,7 @@ import { LiquidThemeModal } from './components/liquid/LiquidThemeModal';
 import { useThemeStore } from './store/useThemeStore';
 import { WelcomeScreen } from './screens/WelcomeScreen';
 import { SettingsScreen } from './screens/SettingsScreen';
-import { observeUser, signOutUser, type Account } from './services/authService';
+import { deleteAccount as deleteUserAccount, observeUser, signOutUser, type Account } from './services/authService';
 
 export function App() {
   const [hasEntered, setHasEntered] = useState(() => localStorage.getItem('hvac_guest_entered') === 'yes');
@@ -18,6 +18,8 @@ export function App() {
   const [authReady, setAuthReady] = useState(false);
   const [signOutError, setSignOutError] = useState('');
   const [signingOut, setSigningOut] = useState(false);
+  const [deleteAccountError, setDeleteAccountError] = useState('');
+  const [deletingAccount, setDeletingAccount] = useState(false);
   useEffect(() => observeUser((current) => { setUser(current); if (current) setHasEntered(true); setAuthReady(true); }), []);
   const [activeTab, setActiveTab] = useState<LiquidTab>('home');
   const [selectedBrand, setSelectedBrand] = useState<Brand | null>(null);
@@ -58,7 +60,7 @@ export function App() {
 
     switch (activeTab) {
       case 'settings':
-        return <SettingsScreen userEmail={user ? user.email || user.displayName || 'Tài khoản' : undefined} signingOut={signingOut} signOutError={signOutError} onSignOut={async () => { setSigningOut(true); setSignOutError(''); try { await signOutUser(); localStorage.removeItem('hvac_guest_entered'); setHasEntered(false); setActiveTab('home'); } catch { setSignOutError('Không thể đăng xuất. Vui lòng thử lại.'); } finally { setSigningOut(false); } }} onBack={() => setActiveTab('home')} onWelcome={() => { setHasEntered(false); setActiveTab('home'); }} />;
+        return <SettingsScreen userEmail={user ? user.email || user.displayName || 'Tài khoản' : undefined} signingOut={signingOut} signOutError={signOutError} deletingAccount={deletingAccount} deleteAccountError={deleteAccountError} onDeleteAccount={async () => { if (!window.confirm('Xóa vĩnh viễn tài khoản đăng nhập này? Bạn sẽ phải đăng nhập lại nếu muốn dùng tài khoản.')) return; setDeletingAccount(true); setDeleteAccountError(''); try { await deleteUserAccount(); localStorage.removeItem('hvac_guest_entered'); setHasEntered(false); setUser(null); setActiveTab('home'); } catch { setDeleteAccountError('Không thể xóa tài khoản. Hãy đăng nhập lại rồi thử lại.'); } finally { setDeletingAccount(false); } }} onSignOut={async () => { setSigningOut(true); setSignOutError(''); try { await signOutUser(); localStorage.removeItem('hvac_guest_entered'); setHasEntered(false); setActiveTab('home'); } catch { setSignOutError('Không thể đăng xuất. Vui lòng thử lại.'); } finally { setSigningOut(false); } }} onBack={() => setActiveTab('home')} onWelcome={() => { setHasEntered(false); setActiveTab('home'); }} />;
       case 'sensor':
         return <LiquidSensorScreen />;
       case 'bookmarks':

@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, deleteUser as deleteWebUser } from 'firebase/auth';
 import { Capacitor } from '@capacitor/core';
 import { FirebaseAuthentication } from '@capacitor-firebase/authentication';
 
@@ -42,3 +42,26 @@ export async function signInApple(): Promise<void> {
   await FirebaseAuthentication.signInWithApple();
 }
 export async function signOutUser(): Promise<void> { if (appleAvailable) await FirebaseAuthentication.signOut(); else if (auth) await signOut(auth); }
+
+export async function deleteAccount(): Promise<void> {
+  if (appleAvailable) {
+    const { user } = await FirebaseAuthentication.getCurrentUser();
+    if (!user) throw new Error('Không tìm thấy tài khoản đang đăng nhập.');
+
+    const providerIds = user.providerData.map((provider) => provider.providerId);
+    if (providerIds.includes('apple.com')) {
+      const result = await FirebaseAuthentication.signInWithApple();
+      const accessToken = result.credential?.accessToken;
+      if (!accessToken) throw new Error('Không lấy được mã Apple để thu hồi quyền truy cập.');
+      await FirebaseAuthentication.revokeAccessToken({ token: accessToken });
+    } else if (providerIds.includes('google.com')) {
+      await FirebaseAuthentication.signInWithGoogle();
+    }
+
+    await FirebaseAuthentication.deleteUser();
+    return;
+  }
+
+  if (!auth?.currentUser) throw new Error('Không tìm thấy tài khoản đang đăng nhập.');
+  await deleteWebUser(auth.currentUser);
+}
