@@ -84,7 +84,7 @@ export const LiquidSearchBar: React.FC = () => {
             value={searchQuery}
             onChange={handleInputChange}
             placeholder="Tìm kiếm mã lỗi, triệu chứng, linh kiện..."
-            className="w-full bg-transparent text-slate-900 dark:text-white placeholder-slate-400 font-semibold text-sm focus:outline-none tracking-wide"
+            className="w-full bg-transparent text-slate-900 dark:text-white placeholder-slate-400 font-semibold text-base focus:outline-none tracking-wide"
           />
 
           {/* Action Icons */}
