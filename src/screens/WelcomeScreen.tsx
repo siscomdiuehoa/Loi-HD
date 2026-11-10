@@ -24,9 +24,9 @@ export const WelcomeScreen: React.FC<{ onContinue: () => void; onSignedIn: () =>
       <div><p className="section-kicker">TRỢ LÝ KỸ THUẬT ĐIỀU HÒA</p><h1>Tra cứu nhanh.<br /><span>Sửa chữa tự tin.</span></h1><p className="welcome-copy">Mã lỗi, nguyên nhân và hướng kiểm tra cho công việc mỗi ngày.</p></div>
       <div className="welcome-panel liquid-glass">
         <h2>Chào mừng bạn trở lại</h2><p>Đăng nhập để kết nối tài khoản.</p>
-        <button type="button" className="welcome-provider" disabled={!googleAvailable || busy} onClick={handleGoogle}><img className="provider-google" src="/google-logo.png" alt="" /> {busy ? "Đang kết nối..." : "Tiếp tục với Google"}{!googleAvailable && <span className="provider-soon">Chưa khả dụng</span>}</button>
-        <button type="button" className="welcome-provider" disabled={!appleAvailable || busy} onClick={handleApple}><img className="provider-apple" src="/apple-logo.png" alt="" /> {busy ? 'Đang kết nối...' : 'Tiếp tục với Apple'} {!appleAvailable && <span className="provider-soon">Chưa khả dụng</span>}</button>
-        <p className="welcome-note" role="status">{error || (!appleAvailable && !googleAvailable ? 'Đăng nhập trên thiết bị này đang được thiết lập.' : '')}</p>
+        {googleAvailable && <button type="button" className="welcome-provider" disabled={busy} onClick={handleGoogle}><img className="provider-google" src="/google-logo.png" alt="" /> {busy ? "Đang kết nối..." : "Tiếp tục với Google"}</button>}
+        {appleAvailable && <button type="button" className="welcome-provider" disabled={busy} onClick={handleApple}><img className="provider-apple" src="/apple-logo.png" alt="" /> {busy ? 'Đang kết nối...' : 'Tiếp tục với Apple'}</button>}
+        <p className="welcome-note" role="status" aria-live="polite">{error || (!appleAvailable && !googleAvailable ? 'Đăng nhập chưa được bật trên phiên bản này. Anh vẫn có thể tiếp tục không cần tài khoản.' : '')}</p>
         <div className="welcome-divider"><span>hoặc</span></div>
         <button type="button" className="welcome-guest" onClick={onContinue}>Tiếp tục không đăng nhập <ArrowRight size={17} /></button>
       </div>
@@ -36,3 +36,4 @@ export const WelcomeScreen: React.FC<{ onContinue: () => void; onSignedIn: () =>
   </div>
 );
 };
+
