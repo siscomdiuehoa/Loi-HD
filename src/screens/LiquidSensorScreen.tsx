@@ -117,7 +117,7 @@ export const LiquidSensorScreen: React.FC = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Tìm theo tên hãng (Gree, Pana, Daikin, Midea, Mitsu...)"
-          className="w-full liquid-glass rounded-full sm:rounded-2xl px-4 py-3 pl-10 text-xs font-semibold text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-sky-500"
+          className="w-full liquid-glass rounded-full sm:rounded-2xl px-4 py-3 pl-10 text-base font-semibold text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-sky-500"
         />
         <Search className="w-4 h-4 text-sky-600 dark:text-cyan-400 absolute left-3.5 top-3.5" />
       </div>
