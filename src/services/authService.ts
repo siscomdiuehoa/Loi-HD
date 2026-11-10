@@ -5,6 +5,7 @@ import { FirebaseAuthentication } from '@capacitor-firebase/authentication';
 
 export type Account = { email: string | null; displayName: string | null };
 export const appleAvailable = Capacitor.getPlatform() === 'ios' && import.meta.env.VITE_ENABLE_APPLE_SIGN_IN === 'true';
+const isNativeIos = Capacitor.getPlatform() === 'ios';
 
 const config = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -12,8 +13,11 @@ const config = {
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
-export const googleAvailable = !Capacitor.isNativePlatform() && Object.values(config).every(Boolean);
-const auth = googleAvailable ? getAuth(initializeApp(config)) : null;
+const webGoogleAvailable = !Capacitor.isNativePlatform() && Object.values(config).every(Boolean);
+export const googleAvailable = isNativeIos
+  ? import.meta.env.VITE_ENABLE_GOOGLE_SIGN_IN === 'true'
+  : webGoogleAvailable;
+const auth = webGoogleAvailable ? getAuth(initializeApp(config)) : null;
 export function observeUser(callback: (user: Account | null) => void): () => void {
   if (appleAvailable) {
     let disposed = false;
@@ -26,6 +30,10 @@ export function observeUser(callback: (user: Account | null) => void): () => voi
   return onAuthStateChanged(auth, callback, () => callback(null));
 }
 export async function signInGoogle(): Promise<void> {
+  if (isNativeIos && googleAvailable) {
+    await FirebaseAuthentication.signInWithGoogle();
+    return;
+  }
   if (!auth) throw new Error('Đăng nhập Google chưa được cấu hình cho thiết bị này.');
   await signInWithPopup(auth, new GoogleAuthProvider());
 }

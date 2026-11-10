@@ -16,6 +16,7 @@ workflows:
       vars:
         PUPPETEER_SKIP_DOWNLOAD: 'true'
         VITE_ENABLE_APPLE_SIGN_IN: 'true'
+        VITE_ENABLE_GOOGLE_SIGN_IN: 'true'
     scripts:
       - name: Cài thư viện và kiểm tra
         script: |
@@ -31,6 +32,18 @@ workflows:
           /usr/libexec/PlistBuddy -c 'Print :PROJECT_ID' ios/App/App/GoogleService-Info.plist | grep -Fx 'tra-ma-loi-dieu-hoa-siscom' >/dev/null
       - name: Đồng bộ dự án iOS
         script: npx cap sync ios
+      - name: Cấu hình callback Google iOS
+        script: |
+          set -eu
+          REVERSED_CLIENT_ID=$(/usr/libexec/PlistBuddy -c 'Print :REVERSED_CLIENT_ID' ios/App/App/GoogleService-Info.plist)
+          if /usr/libexec/PlistBuddy -c 'Print :CFBundleURLTypes' ios/App/App/Info.plist >/dev/null 2>&1; then
+            echo 'Info.plist đã có URL types; không tự ghi đè cấu hình hiện có.'
+            exit 1
+          fi
+          /usr/libexec/PlistBuddy -c 'Add :CFBundleURLTypes array' ios/App/App/Info.plist
+          /usr/libexec/PlistBuddy -c 'Add :CFBundleURLTypes:0 dict' ios/App/App/Info.plist
+          /usr/libexec/PlistBuddy -c 'Add :CFBundleURLTypes:0:CFBundleURLSchemes array' ios/App/App/Info.plist
+          /usr/libexec/PlistBuddy -c "Add :CFBundleURLTypes:0:CFBundleURLSchemes:0 string $REVERSED_CLIENT_ID" ios/App/App/Info.plist
       - name: Áp dụng cấu hình ký
         script: |
           cd ios/App
