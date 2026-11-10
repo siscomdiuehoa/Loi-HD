@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import type { Brand } from '../../models/Brand';
 import { useErrorStore } from '../../store/useErrorStore';
 import { triggerHaptic } from '../../utils/haptics';
+import { showManufacturerLogos } from '../../utils/brandLogos';
 
 interface BrandCardProps {
   brand: Brand;
@@ -10,6 +11,7 @@ interface BrandCardProps {
 export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
   const { selectedBrandId, setSelectedBrand } = useErrorStore();
   const isSelected = selectedBrandId.toLowerCase() === brand.id.toLowerCase();
+  const [imageError, setImageError] = useState(false);
 
   const handleCardClick = () => {
     triggerHaptic('light');
@@ -26,8 +28,27 @@ export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
           : 'bg-[#1E293B] hover:bg-slate-800/90 border-slate-700/60 shadow-[0_6px_16px_rgba(0,0,0,0.3)] hover:shadow-[0_8px_20px_rgba(0,0,0,0.4)]'
       }`}
     >
-      {/* Brand name and selection state; manufacturer artwork is intentionally omitted. */}
+      {/* 1. Top Row: Official Brand Logo in a small white bounding box */}
       <div className="flex items-center justify-between w-full mb-2">
+        {showManufacturerLogos && <div className="h-10 px-2 min-w-[42px] rounded-xl bg-white flex items-center justify-center p-1 shadow-sm flex-shrink-0">
+          {brand.logo && !imageError ? (
+            <img
+              src={brand.logo}
+              alt={brand.name}
+              className="max-h-7 max-w-[80px] object-contain"
+              onError={() => setImageError(true)}
+            />
+          ) : (
+            <span
+              className="font-black text-xs tracking-tight select-none"
+              style={{ color: brand.badgeText || '#004098' }}
+            >
+              {brand.name.substring(0, 3).toUpperCase()}
+            </span>
+          )}
+        </div>}
+
+        {/* Selected Indicator Pill */}
         {isSelected && (
           <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-cyan-400 text-slate-950 shadow-sm animate-in fade-in">
             Đang lọc

@@ -1,4 +1,5 @@
 import React from 'react';
+import { showManufacturerLogos } from '../../utils/brandLogos';
 import {
   Menu,
   Home,
@@ -99,7 +100,12 @@ export const Win11Sidebar: React.FC<Win11SidebarProps> = ({
                   <div className="absolute left-0 w-1 h-4 bg-fluent-blue rounded-r-full" />
                 )}
                 <div className="flex items-center">
-                  <span aria-hidden="true" className="w-4 flex-shrink-0 text-center text-[10px] text-slate-400">•</span>
+                  {showManufacturerLogos && <div
+                    className="w-4 h-4 rounded flex items-center justify-center text-[9px] font-bold flex-shrink-0"
+                    style={{ backgroundColor: brand.badgeBg, color: brand.badgeText }}
+                  >
+                    {brand.name.substring(0, 1)}
+                  </div>}
                   {isExpanded && <span className="ml-3 truncate">{brand.name}</span>}
                 </div>
                 {isExpanded && (

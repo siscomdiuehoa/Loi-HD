@@ -5,6 +5,7 @@ import { errorService } from '../services/errorService';
 import { LiquidErrorCard } from '../components/liquid/LiquidErrorCard';
 import { ArrowLeft, Search, X, Layers, AlertCircle, SlidersHorizontal, Building2, ExternalLink } from 'lucide-react';
 import { triggerHaptic } from '../utils/haptics';
+import { showManufacturerLogos } from '../utils/brandLogos';
 
 interface LiquidBrandDetailScreenProps {
   brand: Brand;
@@ -17,6 +18,9 @@ export const LiquidBrandDetailScreen: React.FC<LiquidBrandDetailScreenProps> = (
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [imageError, setImageError] = useState(false);
+
+  const isGree = brand.id.toLowerCase() === 'gree';
 
   // Get all errors for this specific brand
   const brandErrors: ErrorCode[] = useMemo(() => {
@@ -82,7 +86,7 @@ export const LiquidBrandDetailScreen: React.FC<LiquidBrandDetailScreenProps> = (
             <span className="text-xs font-black">Các hãng</span>
           </button>
 
-          {/* Brand name only; manufacturer artwork is intentionally omitted. */}
+          {/* Brand Info & Logo Plinth */}
           <div className="flex items-center space-x-2.5">
             <div className="text-right">
               <h1 className="text-sm font-black text-slate-900 dark:text-white leading-tight drop-shadow-sm">
@@ -93,6 +97,25 @@ export const LiquidBrandDetailScreen: React.FC<LiquidBrandDetailScreenProps> = (
               </span>
             </div>
 
+            {showManufacturerLogos && <div className="h-10 px-2.5 min-w-[48px] rounded-xl bg-white flex items-center justify-center p-1 shadow-sm border border-white/80 overflow-hidden">
+              {brand.logo && !imageError ? (
+                <img
+                  src={brand.logo}
+                  alt={brand.name}
+                  className={`max-h-7 max-w-[80px] object-contain transition-transform duration-200 ${
+                    isGree ? 'scale-125' : 'scale-100'
+                  }`}
+                  onError={() => setImageError(true)}
+                />
+              ) : (
+                <span
+                  className="font-black text-xs"
+                  style={{ color: brand.badgeText || '#004098' }}
+                >
+                  {brand.name.substring(0, 3).toUpperCase()}
+                </span>
+              )}
+            </div>}
           </div>
         </div>
       </div>
@@ -107,7 +130,7 @@ export const LiquidBrandDetailScreen: React.FC<LiquidBrandDetailScreenProps> = (
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder={`Tìm mã lỗi trong ${brand.name} (vd: ${brand.popularCodes.join(', ')})...`}
-            className="w-full bg-transparent text-slate-900 dark:text-white placeholder-slate-400 font-semibold text-base focus:outline-none tracking-wide"
+            className="w-full bg-transparent text-slate-900 dark:text-white placeholder-slate-400 font-semibold text-xs sm:text-sm focus:outline-none tracking-wide"
             autoFocus
           />
 

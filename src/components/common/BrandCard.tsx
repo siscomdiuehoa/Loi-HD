@@ -2,6 +2,7 @@ import React from 'react';
 import type { Brand } from '../../models/Brand';
 import { useErrorStore } from '../../store/useErrorStore';
 import { ChevronRight, Cpu } from 'lucide-react';
+import { showManufacturerLogos } from '../../utils/brandLogos';
 
 interface BrandCardProps {
   brand: Brand;
@@ -20,8 +21,27 @@ export const BrandCard: React.FC<BrandCardProps> = ({ brand }) => {
           : 'bg-white/80 dark:bg-slate-800/80 backdrop-blur-md hover:bg-white dark:hover:bg-slate-800 border border-slate-200/80 dark:border-slate-700/80 shadow-card-elevated hover:shadow-glass-hover'
       }`}
     >
-      {/* Name-only brand listing; no manufacturer artwork. */}
+      {/* Top row: Brand Badge & Total Codes */}
       <div className="flex items-center justify-between mb-2.5">
+        {showManufacturerLogos && <div
+          className="h-9 px-2 min-w-[40px] rounded-xl bg-white flex items-center justify-center shadow-sm border border-slate-200/80 overflow-hidden"
+        >
+          {brand.logo ? (
+            <img
+              src={brand.logo}
+              alt={brand.name}
+              className="max-h-7 max-w-[70px] object-contain"
+            />
+          ) : (
+            <span
+              className="font-bold text-xs"
+              style={{ color: brand.badgeText || '#004098' }}
+            >
+              {brand.name.substring(0, 2).toUpperCase()}
+            </span>
+          )}
+        </div>}
+
         <span
           className={`text-[11px] font-semibold px-2 py-0.5 rounded-full ${
             isSelected

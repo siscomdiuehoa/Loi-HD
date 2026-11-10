@@ -3,6 +3,7 @@ import type { Brand } from '../../models/Brand';
 import { useErrorStore } from '../../store/useErrorStore';
 import { ChevronRight, Cpu } from 'lucide-react';
 import { triggerHaptic } from '../../utils/haptics';
+import { showManufacturerLogos } from '../../utils/brandLogos';
 
 export const Win11BrandGrid: React.FC = () => {
   const { brands, selectedBrandId, setSelectedBrand } = useErrorStore();
@@ -24,8 +25,27 @@ export const Win11BrandGrid: React.FC = () => {
                 : 'bg-white/80 dark:bg-slate-800/80 hover:bg-white dark:hover:bg-slate-800 border-black/[0.06] dark:border-white/[0.08] shadow-win11-card hover:shadow-win11-card-hover'
             }`}
           >
-            {/* Header: Brand name and code count */}
+            {/* Header: Brand Icon & Code Count */}
             <div className="flex items-center justify-between mb-2">
+              {showManufacturerLogos && <div
+                className="h-8 px-2 min-w-[36px] rounded-lg bg-white flex items-center justify-center shadow-sm border border-black/[0.06] overflow-hidden"
+              >
+                {brand.logo ? (
+                  <img
+                    src={brand.logo}
+                    alt={brand.name}
+                    className="max-h-6 max-w-[65px] object-contain"
+                  />
+                ) : (
+                  <span
+                    className="font-bold text-xs"
+                    style={{ color: brand.badgeText || '#004098' }}
+                  >
+                    {brand.name.substring(0, 2).toUpperCase()}
+                  </span>
+                )}
+              </div>}
+
               <span
                 className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${
                   isSelected

@@ -30,6 +30,8 @@ workflows:
           printf '%s' "$GOOGLE_SERVICE_INFO_BASE64" | base64 --decode > ios/App/App/GoogleService-Info.plist
           /usr/libexec/PlistBuddy -c 'Print :BUNDLE_ID' ios/App/App/GoogleService-Info.plist | grep -Fx 'com.phong.tramaloidieuhoa' >/dev/null
           /usr/libexec/PlistBuddy -c 'Print :PROJECT_ID' ios/App/App/GoogleService-Info.plist | grep -Fx 'tra-ma-loi-dieu-hoa-siscom' >/dev/null
+      - name: Loại ảnh logo hãng khỏi gói iOS
+        script: find dist/logos -type f ! -name 'logo-app.png' -delete
       - name: Đồng bộ dự án iOS
         script: npx cap sync ios
       - name: Cấu hình callback Google iOS
