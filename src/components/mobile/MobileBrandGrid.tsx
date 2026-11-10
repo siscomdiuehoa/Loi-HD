@@ -24,18 +24,8 @@ export const MobileBrandGrid: React.FC = () => {
                 : 'bg-white dark:bg-slate-800/90 hover:bg-slate-50 dark:hover:bg-slate-800 border border-slate-200/80 dark:border-slate-700/80 shadow-sm'
             }`}
           >
-            {/* Top row: Logo badge & Count */}
+            {/* Brand count; brand identity is shown as text below. */}
             <div className="flex items-center justify-between mb-2">
-              <div
-                className="w-8 h-8 rounded-xl flex items-center justify-center font-extrabold text-xs shadow-sm"
-                style={{
-                  backgroundColor: isSelected ? 'rgba(255, 255, 255, 0.2)' : brand.badgeBg,
-                  color: isSelected ? '#ffffff' : brand.badgeText,
-                }}
-              >
-                {brand.name.substring(0, 2).toUpperCase()}
-              </div>
-
               <span
                 className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
                   isSelected
